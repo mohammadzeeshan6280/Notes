@@ -1,0 +1,61 @@
+Joomla Overview		Chapter 1
+1. Joomla Features
+(i) User Manager
+(ii) Content Manager
+(iii) Banner Manager
+(iv) Template Manager
+(v) Media Manager
+(vi) Contact Manager
+(vii) Menu Manager
+
+2. Joomla Advantage
+(i) Open Source
+(ii) Easy to install
+(iii) WYSIWYG Editor
+(iv) Compatibility with broswers
+(v) Flexible Templates
+(vi) Menu creation tool
+(vii) SEO
+
+3. Joomla Disadvantages
+(i) Layout Options
+(ii) Paid Plugins
+(iii) Compatiblity of Plugins
+
+Joomla vs WordPress			Chapter 2
+(i) Popularity
+(ii) Ease
+(iii) Supported Databases
+(iv) Templates & Extensions
+(v) Multilingual Website
+
+Joomla Architecture			Chapter 3
+			Components
+Database ---> Joomla Farework 	Modules		----> Template ----> Web Browser
+			Plugins
+
+Joomla Installation			Chapter 4
+1. Joomla Installation Components
+(I) Install XAMPP
+(i) MySQL
+(ii) Apache
+(iii) PHP
+(II) Joomla
+
+Joomla Website First Page		Chapter 5
+(i) goto administrator Panel ----> http://localhost/AnsariCoder/administrator 
+(ii) goto Website Panel ---> http://localhost/AnsariCoder
+
+Joomla Login Logout			Chapter 6
+(i) Login
+uername : admin
+password : admin@123
+
+Joomla Control Panel			Chapter 7
+
+Joomla Toolbar			Chapter 8
+
+
+
+
+

@@ -1,0 +1,183 @@
+----- REST API POSTMAN ------
+Postman is an interactive and automatic tool for verifying the APIs
+of your project.
+Postman is a Google Chrome app for interacting with HTTP APIs.
+
+It presents you with a friendly GUI for constructing requests and reading responses. It
+works on the backend, and makes sure that each API is working as intended
+
+----- What is REST API in Hindi? Introduction To RESTFul API -------
+REST API => "REpresentational State Transfer" Application Programming Interface
+1. It is a software that allows two applications to communicate with each other over the internet and through
+various devices. Every time you access an app like Facebook for check the weather on your smartphone, an API is used
+
+2. A RESTful API is an architectural style for an application program interface {API} that uses HTTP
+requests to access and use data. REST is not a programming language.
+
+API
+REST + API = RESTFUL API
+
+	Request
+Client	------------->	Server
+
+Client	<--------------	Server
+	Response
+
+           GET / POST
+           PUT/ DELETE
+Client -----------------> {RESTful ... API} ------> Server
+          <----------------	
+             JSON/ XML
+		
+HTTP Verb	Path		Action	Used for
+GET		/photos		index	display a list of all photos
+GET	           /photos/new		new	return an HTML form for creating a new photo
+POST		/photos		create	create a new photo
+GET		/photos/:id		show	display a specific photo
+GET	          /photos/:id/edit		edit	return an HTML form for editing a photo
+PATCH/PUT	/photos/:id		update	update a specific photo
+DELETE		/photos/:id		destroy	delete a specific photo
+
+	http://thapatechnical.com/api/users
+			endpoints (resource)
+note :- /api is not mandatory
+What is important is the endpoint or the resource must be present
+
+CREATE			POST			/api/createUser	POST /api/users
+READ			GET			/api/readUsers	GET /api/users	
+UPDATE		PUT		PATCH		/api/updateUser	PATCH /api/users
+DELETE			DELETE			/api/deleteUsers	DELETE /api/users
+
+PUT => All Data Update
+PATCH => Single Data Update
+
+RESTFUL API
+http://thapatechnical.com/api/users/:id
+
+As per the REST (REpresesentational "State" Transfer) architecture, the server does not
+store any state, about the client session on the server.side, Statelessness means that every 
+HTTP request happens in complete isolation. When the client makes an HTTP request
+it includes all information necessary for the server to fulfill that request
+
+------ Create Your Own RESTFul API in Hindi ✌ Handling POST Request in REST API using NodeJS & MongoDB -------
+		REST API
+"REpresentational State Transfer" Application Programming Interface
+
+	http://thapatechnical.com/api/users
+CREATE			POST				POST /api/users
+READ			GET				GET /api/users	
+UPDATE		PUT		PATCH			PATCH /api/users
+DELETE			DELETE				DELETE /api/users
+
+(i) create folder
+(ii) npm init -y
+(iii) npm i express
+(iv) npm i mongoose
+(v) npm i validator
+(vi) create folder src
+(vi) create file :- type nul > filename
+
+
+-----  Build Your Own REST API using Async-Await with Nodejs Express and MongoDB  ------
+
+
+----- Build RESTFul API ✌ Handling Get Request in REST API using NodeJS & MongoDB ------
+
+----- Build RESTFul API ✌ Handling DELETE Request in REST API using NodeJS & MongoDB ------
+
+----- Build RESTFul API ✌ Handling PUT❓ PATCH Request in REST API using NodeJS & MongoDB -----
+
+
+
+
+------- Introduction to Build REST API with Node, Express, Mongo & Mongoose ---------
+
+------ create Server with Express JS -------
+const express = require("express")
+const app = express()
+const port = process.env.PORT || 3000;
+
+app.get("/", (req,res) => {
+    res.send("Hi, I am live server")
+})
+
+const start = async () => {
+    try{
+        app.listen(port, () => {
+            console.log(`Listening on the server ${port}`)
+        })
+    } catch (error){
+        console.log(error)
+    }
+}
+
+start();
+
+------- Setup Routes & Controllers using Express Routers -------
+file:- app.js
+const express = require("express")
+const app = express()
+const port = process.env.PORT || 3000;
+
+const productsRoute = require("./routers/products")
+
+app.get("/", (req, res) => {
+    res.send("Hi, I am live server")
+})
+
+// middleware or to set router
+app.use("/api/products", productsRoute)
+
+const start = async () => {
+    try{
+        app.listen(port, () => {
+            console.log(`Listening on the server ${port}`)
+        })
+    } catch (error){
+        console.log(error)
+    }
+}
+
+start();
+
+Folder/file routers/products.js
+const express = require("express")
+const router = express.Router();
+
+const {getAllProducts, getAllProductsTesting} = require("../controllers/products")
+
+
+router.route("/").get(getAllProducts);
+router.route("/testing").get(getAllProductsTesting);
+
+module.exports = router;
+
+Folder/file controllers/products.js
+const getAllProducts = async (req, res) => {
+    res.status(200).json({msg : "I am getAllProducts"})
+};
+
+const getAllProductsTesting = async (req, res) => {
+res.status(200).json({msg : "I am getAllProductsTesting"});
+}
+
+module.exports = {getAllProducts, getAllProductsTesting}
+
+------- Testing API using Postman & Thunderbolt --------
+
+
+------- Introduction to MongoDB & Mongoose || Connect Backend to Database -------
+
+zeeshanansari347
+sI7nx28rcmZEnW1F
+mongodb+srv://zeeshanansari347:<password>@ansariapi.wbiujqk.mongodb.net/?retryWrites=true&w=majority
+
+-------- Secure Your Personal Data with DOTENV  ---------
+> npm i dotenv
+> type nul > .env
+
+
+
+
+
+

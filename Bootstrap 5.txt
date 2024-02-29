@@ -1,0 +1,2171 @@
+Bootstrap 5 : Overview		Chapter 1
+What is Bootstrap=>
+Quickly design and customize responsive mobile-first sites with Bootstrap. the
+world's, most popular front-end open source toolkit. Sass variables and mixins
+responsive grid system, extensive pre-built components, and powerful JavaScript
+plugins.
+
+In simple terms=>
+(i). Bootstrap is a giant collection of handy, resuable bits of code written in HTML,CSS, JavaScript.
+(ii). it's also a front-end development framework that enables developers & designers to quickly
+build fully responsive websites
+(iii). Bootstrap is completely free to use in personal and commercial projects.
+(iv). Bootstrap saves you from writing lots of CSS code.
+
+Bootstrap : Version History=>
+1. First version released: 2011 @ Twitter
+2. Total numbers of releases: 20+ releases
+i)  include 3 major re-writes (v2,v3 and v4)
+3. Current stable version:v5
+4. Latest version release:v5
+i)  Alpha version as of date : Aug 2020
+ii) Stable version as of date : May 2021
+
+Bootstrap What's new in V5		Chapter 2
+What's new in v5=>
+1. Major re-write of the entire framework
+2. Brand new look and feel
+3. Brand new logo
+4. New Typography
+5. No jQuery required anymore
+6. New CSS custom properties
+7. Dropping support for Internet Explore(v5)
+8. New Themes Colors
+9. Enhanced Grid
+i) Multiple changes including addition of xxl
+10. Offcanvas
+11. Bootstrap 5 has its own icon system
+
+Bootstrap 5 Installation		Chapter 3
+1. Style.css
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+2. JavaScript
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+Bootstrap Layouts and Grids System	Chapter 4
+Basic Terminology
+1. What is Responsive Design ?
+i) Responsive Web design is the approach that suggests that design and development should respond to
+   the user,s behaviour and environment based on screen size. platform and orientation
+ii) The practice consists of a mix of flexible grids and layouts, images and an inteligent use of CSS media queries.
+
+2. What is a Box Model ?
+i) In CSS, the term "Box Model" is used when talking about design and layout. The CSS box model is essentially 
+   box that wraps around every HTML element. it consists of: Margins, Borders, Padding, and the actual content
+
+3. Bootstap Container Layout
+i) Container are the most basic layout element in Bootstrap.
+ii) Containers are used to pad the content inside of them.
+iii) There are two container classes available:
+iv) The .Container class provides a responsive fixed width container
+v) The .Container-fluid class provides a full width container, spanning the entire
+    width of the viewport
+
+4. Container-Fluid
+i) Width is always 100%
+
+5. Container
+i) Dimensions of Fixed Container
+
+6. Container Layout
+		Extra small	Small	Medium	Large	X-Large	XX-Large
+		<576px		>576px	>768px	>992px	>1200px	>1400px
+.container		100%		540px	720px	960px	1140px	1320px
+.container-sm	100%		540px	720px	960px	1140px	1320px	
+.container-md	100%		100%	720px	960px	1140px	1320px
+.container-lg	100%		100%	100%	960px	1140px	1320px
+.container-xl	100%		100%	100%	100%	1140px	1320px	
+.container-xxl	100%		100%	100%	100%	100%	1320px	
+.container-fluid	100%		100%	100%	100%	100%	100%
+
+7. Bootstrap Grid Features
+i) Bootstrap's grid system allows up to 12 column across the page.
+ii) Rows
+iii) Columns
+iv) Supports various screen resolutions like xs, sm, md, lg, xl, xxl	
+
+8. Bootstrap : Grid
+i) one col 12 grid only
+ii)	col-12
+iii)	col-4	col-8
+iv)	col-4	col-4	col-4
+v)	col-3	col-3	col-3	col-3
+vi)	col-6	col-6	
+
+9. Bootstrap : Grid Options
+1) Bootstrap Grid Features
+i) Extra small (xs)
+ii) Small (sm)
+iii) Medium (md)
+iv) Large (lg)
+v) Extra  Large (xl)
+vi) Extra extra large (xxl)
+			  xs		 sm	   md	   lg	   xl	    xxl
+			<576px		>576px	>768px	>992px	>1200px	>1400px
+.Container(max-width)	None(auto)	540px  	  720px	  960px	  1140px	  1320px		
+Class prefix		.col-		.col-sm-	.col-md-	.col-lg-	.col-xl-	.col-xxl-	
+# of Column		12
+
+Bootstrap Grids and Cols	 	Chapter 5
+Bootstap : Structure?
+Bootstap Layout
+1. Container
+2. Row
+3. Col
+
+<div class = "container">
+     <div class = "row">
+	<div class = "col">A</div>	
+      </div>
+</div>
+
+Bootstrap : Grid
+i) one col 12 grid only
+ii)	col-12
+iii)	col-4	col-8
+iv)	col-4	col-4	col-4
+v)	col-3	col-3	col-3	col-3
+vi)	col-6	col-6
+
+Bootstrap Offset Class	 	Chapter 6
+Bootstap : Structure
+Bootstap Layout
+1. Container
+2. Row
+3. Col
+
+<div class = "container">
+     <div class = "row">
+	<div class = "col">A</div>
+      </div>
+</div>
+
+Bootstap : Offset Class
+(i) .offset-md-3
+<div class = "container">
+     <div class = "row">
+	<div class = "col-md-4 offset-md-3">A</div>	
+      </div>
+</div>
+Bootstrap : Offset Break Points
+Offset Class for different Break Points
+1. Extra Extra Large	offset-xxl-*				
+2. Extra Large	offset-xl-*   		
+3. Large		offset-lg-*		
+4. Medium		offset-md-*		
+5. Small		offset-sm-*	
+6. Extra Small
+		0 - 11 Numbers
+Note:- without responsive offset {offset-*} 1 -12 
+
+Bootstrap Order Classes	 	Chapter 7
+1. Bootstrap : Reordering
+(i)- .Order-first
+(ii)- .Order-last
+<div class="container">
+        <div class="row">
+             	<div class="col-1 order-last">Col 1</div>	 // orfer-last	// Last Postion
+            	<div class="col-2">Col 2</div>
+            	<div class="col-3 order-first">Col 3</div>	 // order-first	// First Postion
+	<div class="col-4">Col 4</div>
+        </div>
+</div>
+// Result
+<div class="container">
+        <div class="row">
+             	<div class="col-1">Col 3</div>	 // First Postion
+            	<div class="col-2">Col 2</div>
+            	<div class="col-3">Col 1</div>	 // Last Postion
+	<div class="col-4">Col 4</div>
+        </div>
+</div>
+
+2. Bootstrap : Order Classes
+First & Last Order Class for different Break Points
+		.order-first ,      .order-last
+1. Extra Extra Large	.order-xxl-first, .order-xxl-last
+1. Extra Large	.order-xl-first,  .order-xl-last     		 	
+2. Large		.order-lg-first,  .order-lg-last		
+3. Medium		.order-md-first, .order-md-last
+4. Small		.order-sm-first, .order-md-last
+5. Extra Small
+
+2. Reordering with Grid Numbers
+(i)- .Order-0
+(ii)- .Order-1
+(iii)- .Order-2
+<div class="container">
+        <div class="row">
+             	<div class="col-1 order-1">Col 1</div>	 // 2 Postion
+            	<div class="col-2 order-3">Col 2</div>	 // 4 Postion
+            	<div class="col-3 order-0">Col 3</div>	 // 1 Postion
+	<div class="col-4 order-2">Col 4</div>	 // 3 Postion
+        </div>
+</div>
+
+// Result
+<div class="container">
+        <div class="row">
+             	<div class="col-1">Col 2</div>		 // 2 Postion
+            	<div class="col-2">Col 4</div>		 // 4 Postion
+            	<div class="col-3">Col 1</div>		 // 1 Postion
+	<div class="col-4">Col 3</div>		 // 3 Postion
+        </div>
+</div>
+
+Reordering Classes for different Break Points
+First & Last Order Class For Different Break Points
+		.order-*
+1. Extra Extra Large	.order-xxl-*	
+1. Extra Large	.order-xl-* 		 	
+2. Large		.order-lg-*	
+3. Medium		.order-md-*
+4. Small		.order-sm-*
+5. Extra Small
+Note :- As order takes any integer value from 0 - 5
+
+Bootstrap Nesting Classes	 	Chapter 8
+What is Nesting
+<div class="container">
+        <div class="row">
+             <div class="col-md-8">
+	 <div class="row">
+	<div class="col-md-6">A</div>
+	<div class="col-md-6">B</div>
+	</div>
+	</div>
+            <div class="col-md-4">
+	<div class="row">
+	<div class="col-md-3">Hello</div>
+	</div>
+</div>
+       </div>
+</div>
+
+
+Bootstrap Margin Classes 		Chapter 9
+i) .m-auto	-->	center 	// 4 side auto
+ii) .mx-auto -->	left & right auto only
+iii) .ms-auto -->	right
+iv) .me-auto -->	end
+v) mx-
+vi) my-
+
+Margin Auto Classes for different Break Points
+1. Extra Extra Class	.m-xxl-auto	
+2. Extra Large	.m-xl-auto		 	Top		 	
+3. Large		.m-lg-auto		Left		Right
+4. Medium		.m-md-auto		Bottom	
+5. Small		.m-sm-auto	
+6. Extra Small
+
+Margin  Classes for different Sides	
+1. Margin		.m-*	0	0px	 	
+2. Margin-right	.ms-*	1	0.25rem
+3. Margin-left	.me-*	2	0.50rem
+4. Margin-top	.mt-*	3	1rem
+5. Margin-bottom	.mb-*	4	1.5rem
+		0 - 5	5	3rem
+
+Margin  Classes for different Break Points
+		Margin	Margin-right  Margin-left  Margin-top 	Margin-bottom
+1. Extra Extra Large	.m-xxl-n*	.ms-xxl-n*	     .me-xxl-n*       .mt-xxl-n*	.mb-xxl-n*		
+1. Extra Large	.m-xl-n*	.ms-xl-n*	     .me-xl-n*         .mt-xl-n*	.mb-xl-n*				 	
+2. Large		.m-lg-n*	.ms-lg-n*	     .me-lg-n*         .mt-lg-n*	.mb-lg-n*
+3. Medium		.m-md-n*	.ms-md-n*	     .me-md-n*       .mt-md-n*	.mb-md-n*
+4. Small		.m-sm-n*	.ms-sm-n*	     .me-sm-n*        .mt-sm-n*	.mb-sm-n*
+5. Extra Small
+			0 - 5
+
+Margin  Negative Margin for different Break Points
+		Margin	Margin-right  Margin-left  Margin-top  Margin-bottom
+1. Extra Extra Large	.m-xxl-*	.ms-xxl-*	     .me-xxl-*       .mt-xxl-*	.mb-xxl-*		
+1. Extra Large	.m-xl-*	.ms-xl-*	     .me-xl-*         .mt-xl-*	.mb-xl-*				 	
+2. Large		.m-lg-*	.ms-lg-*	     .me-lg-*         .mt-lg-*	.mb-lg-*
+3. Medium		.m-md-*	.ms-md-*	     .me-md-*        .mt-md-*	.mb-md*-
+4. Small		.m-sm-*	.ms-sm-*	     .me-sm-*         .mt-sm-*	.mb-sm-*
+5. Extra Small
+			0 - 5
+Note :- in CSS, margin properties can utilize negative values (padding cannot)
+	These negative margins are disabled by default but can be enabled in
+	Sass by setting Senable-nagative-margins:true.
+
+Bootstrap CSS Padding Classes		 Chapter 10
+Padding Classes
+<div class="container">
+        <div class="row">
+	<div class="col-md-4"></div>
+     </div>
+</div>
+padding-left : 15px; by default
+padding-right: 15px; by default
+
+Padding Classes for different Sides	
+1. Padding		.p-*	0	0px	 	
+2. Padding-right	.ps-*	1	0.25rem
+3. Padding-left	.pe-*	2	0.50rem
+4. Padding-top	.pt-*	3	1rem
+5. Padding-bottom	.pb-*	4	1.5rem
+		0 - 5	5	3rem
+
+Padding Classes for different Break Points
+		Padding	Padding-right  Padding-left  Padding-top  Padding-bottom
+1. Extra Extra Large	.p-xxl-*	 ps.xxl-*	     .pe-xxl-*       .pt-xxl-*	.pt-xxl-*
+2. Extra Large	.p-xl-*	.ps-xl-*	     .pe-xl-*         .pt-xl-*	.pb-xl-*				 	
+3. Large		.p-lg-*	.ps-lg-*	     .pe-lg-*	         .pt-lg-*	.pb-lg-*
+4. Medium		.p-md-*	.ps-md-*	     .pe-md-*       .pt-md-*	.pb-md-*
+5. Small		.p-sm-*	.ps-sm-*	     .pe-sm-	*       .pt-sm-*	.pb-sm-*
+6. Extra Small
+		0 - 5
+
+
+Bootstrap CSS Horizontal Alignment	 Chapter 11
+1- .justify-content-start
+2- .justify-content-end
+3- .justify-content-center
+4- .justify-content-between
+5- .justify-content-around
+6- .justify-content-evenly
+
+<div class="container">
+        <div class="row justify-content-center">
+	<div class="col-md-3">A</div>
+	<div class="col-md-3">B</div>
+	<div class="col-md-3">C</div>
+     </div>
+</div>
+
+// Result
+<div class="container">
+        <div class="row justify-content-end">
+	<div class="col-md-3">A</div>
+	<div class="col-md-3">B</div>
+	<div class="col-md-3">C</div>
+     </div>
+</div>
+
+Justify-Content Classes for different Break Points	
+		 Justify-Content-Start		 Justify-Content-End		 Justify-Content-Center	 Justify-Content-Between	 Justify-Content-Around	 Justify-Content-Evenly
+1. Extra Extra Large	.justify-content-xxl-start	.justify-content-xxl-end	.justify-content-xxl-center	.justify-content-xxl-between	.justify-content-xxl-around	.justify-content-xxl-evenly
+2. Extra Large	.justify-content-xl-start	.justify-content-xl-end	.justify-content-xl-center	.justify-content-xl-between	.justify-content-xl-around	.justify-content-xl-evenly		 	
+3. Large		.justify-content-lg-start	.justify-content-lg-end	.justify-content-lg-center	.justify-content-lg-between	.justify-content-lg-around	.justify-content-lg-evenly			
+4. Medium		.justify-content-md-start	.justify-content-md-end	.justify-content-md-center	.justify-content-md-between	.justify-content-md-around	.justify-content-md-evenly		
+5. Small		.justify-content-sm-start	.justify-content-sm-end	.justify-content-sm-center	.justify-content-sm-between	.justify-content-sm-around	.justify-content-sm-evenly			
+6. Extra Small
+
+Bootstrap CSS Vertical Alignment	 Chapter 12
+1- .align-items-start
+2- .align-items-end
+3- .align-items-center
+4- .align-items-baseline
+5- .align-items-stretch
+
+<div class="container">
+        <div class="row align-items-center">
+	<div class="col-md-3">A</div>
+	<div class="col-md-3">B</div>
+	<div class="col-md-3">C</div>
+	<div class="col-md-3">D</div>
+	<div class="col-md-3">E</div>
+     </div>
+</div>
+
+Align-items Classes for different Break Points	
+			Start		 End			 Center			 Baseline			 Stretch
+1. Extra Extra Large	.align-items-xxl-start		.align-items-xxl-end		.align-items-xxl-center	.align-items-xxl-baseline	.align-items-xxl-stretch
+2. Extra Large	.align-items-xl-start		.align-items-xl-end		.align-items-xl-center		.align-items-xl-baseline	.align-items-xl-stretch				 	
+3. Large		.align-items-lg-start		.align-items-lg-end		.align-items-lg-center		.align-items-lg-baseline	.align-items-lg-stretch					
+4. Medium		.align-items-md-start		.align-items-md-end		.align-items-md-center	.align-items-md-baseline	.align-items-md-stretch		
+5. Small		.align-items-sm-start		.align-items-sm-end		.align-items-sm-center	.align-items-sm-baseline	.align-items-sm-stretch		
+6. Extra Small
+
+Bootstrap CSS Vertical Align-Content Classes 		Chapter 13
+1- . align-content-start
+2-  align-content-end
+3-  align-content-center
+4-  align-content-between
+5-  align-content-around
+6-  align-content-stretch
+
+<div class="container">
+        <div class="row align-content-start">
+	<div class="col-md-3">A</div>
+	<div class="col-md-7">B</div>
+	<div class="col-md-5">C</div>
+	<div class="col-md-3">D</div>
+	<div class="col-md-2">E</div>
+     </div>
+</div>
+
+
+Align-Content Classes for different Break Points	
+			Start			End			Center			Between			Around			Stretch
+1. Extra Extra Large	.align-content-xxl-start	.align-content-xxl-end	.align-content-xxl-center	.align-content-xxl-between	.align-content-xxl-around	.align-content-xxl-stretch			
+2. Extra Large	.align-content-xl-start		.align-content-xl-end		.align-content-xl-center	.align-content-xl-between	.align-content-xl-around	.align-content-xl-stretch
+3. Large		.align-content-lg-start		.align-content-lg-end		.align-content-lg-center	.align-content-lg-between	.align-content-lg-around	.align-content-lg-stretch
+4. Medium		.align-content-md-start	.align-content-md-end	.align-content-md-center	.align-content-md-between	.align-content-md-around	.align-content-md-stretch
+5. Small		.align-content-sm-start	.align-content-sm-end		.align-content-sm-center	.align-content-sm-between	.align-content-sm-around	.align-content-sm-stretch
+6. Extra Small
+
+Bootstrap CSS Vertical Align-Self Classes	 Chapter 14
+1- .align-self-start
+2- .align-self-end
+3- .align-self-center
+4- .align-self-baseline
+5- .align-self-stretch
+6- .align-self-auto
+<div class="container">
+        <div class="row align-items-start">
+	<div class="col-md-2  align-self-start">A</div>
+	<div class="col-md-2 align-self-center">B</div>
+	<div class="col-md-2  align-self-end">C</div>
+     </div>
+</div>
+
+
+Align-Self Classes for different Break Points	
+		 Start			 End			 Center			 Baseline			 Stretch			  Auto
+1. Extra Extra Large	.align-self-xxl-start		.align-self-xxl-end		.align-self-xxl-center		.align-self-xxl-baseline	.align-self-xxl-stretch		.align-self-xxl-auto
+2. Extra Large	.align-self-xl-start		.align-self-xl-end		.align-self-xl-center		.align-self-xl-baseline		.align-self-xl-stretch		.align-self-xl-auto
+3. Large		.align-self-lg-start		.align-self-lg-end		.align-self-lg-center		.align-self-lg-baseline		.align-self-lg-stretch		.align-self-lg-auto
+4. Medium		.align-self-md-start		.align-self-md-end		.align-self-md-center		.align-self-md-baseline	.align-self-md-stretch		.align-self-md-auto
+5. Small		.align-self-sm-start		.align-self-sm-end		.align-self-sm-center		.align-self-sm-baseline	.align-self-sm-stretch		.align-self-sm-auto
+6. Extra Small
+
+Bootstrap CSS Flex Direction Classes	 Chapter 15
+Flex Direction Classes
+<div class="container">
+        <div class="row">
+	<div class="col-md-3">A</div>
+	<div class="col-md-3">B</div>
+	<div class="col-md-3">C</div>
+	<div class="col-md-3">D</div>
+	</div>
+</div>
+// Result
+<div class="container">
+        <div class="row">
+	<div class="col-md-3">D</div>
+	<div class="col-md-3">C</div>
+	<div class="col-md-3">B</div>
+	<div class="col-md-3">A</div>
+	</div>
+</div>
+1- .flex-row
+2- .flex-row-reverse
+3- .flex-column
+4- .flex-column-reverse
+
+1- .flex-wrap
+2- .flex-nowrap
+3- .flex-wrap-reverse 	
+			
+Flex Fill Class
+1- .flex-fill		// only col properties
+
+Flex Direction Classes for different Break Points	
+		 flex-row		 flex-row-reverse		 flex-column	 flex-column-reverse		 flex-wrap		 flex-nowrap	 flex-fill
+1. Extra Extra Large	.flex-xxl-row	.flex-xxl-row-reverse		.flex-xxl-column	.flex-xxl-column-reverse	.flex-xxl-wrap	.flex-xxl-nowrap	.flex-xxl-fill	
+1. Extra Large	.flex-xl-row	.flex-xl-row-reverse		.flex-xl-column	.flex-xl-column-reverse	.flex-xl-wrap	.flex-xl-nowrap	.flex-xl-fill	
+2. Large		.flex-lg-row	.flex-lg-row-reverse		.flex-lg-column	.flex-lg-column-reverse	.flex-lg-wrap	.flex-lg-nowrap	.flex-lg-fill		
+3. Medium		.flex-md-row	.flex-md-row-reverse		.flex-md-column	.flex-md-column-reverse	.flex-md-wrap	.flex-md-nowrap	.flex-md-fill
+4. Small		.flex-sm-row	.flex-sm-row-reverse		.flex-sm-column	.flex-sm-column-reverse	.flex-sm-wrap	.flex-sm-nowrap	.flex-sm-fill
+5. Extra Small
+
+Bootstrap Display Utilities Classes	 Chapter 16
+1. display : none;		.d-none
+2. display : inline;		.d-inline
+3. display : inline-block;	.d-inline-block
+4. display : block;		.d-block
+5. display : table;		.d-table
+6. display : table-cell;		.d-table-cell
+7. display : table-row;		.d-table-row
+8. display : flex;		.d-flex
+9. display : inline-flex;	.d-inline-flex
+10. display : grid;		.d-grid
+11. display : print-none;	.d-print-none
+12. display : print-inline;	.d-print-inline
+13. display : print-inline-block;	.d-print-inline-block
+14. display : print-block;	.d-print-block
+15. display : print-table;	.d-print-table
+16. display : print-table-cell;	.d-print-table-cell
+17. display : print-flex;	.d-print-flex
+18. display : print-inline-flex;	.d-print-inline-flex 
+
+Display Classes for different Break Points
+		Display : none	Display : flex	Display : inline-block		Display : Inline	Display : Block	Display : Inline-flex
+1. Extra Extra Large	.d-xxl-none	.d-xxl-flex		.d-xxl-inline-block		.d-xxl-inline	.d-xxl-block	.d-xxl-inline-flex			
+1. Extra Large	.d-xl-none 	.d-xl-flex		.d-xl-inline-block 		.d-xl-inline	.d-xl-block 	.d-xl-inline-flex	
+2. Large		.d-lg-none		.d-lg-flex 		.d-lg-inline-block 		.d-lg-inline	.d-lg-block 	.d-lg-inline-flex
+3. Medium		.d-md-none	.d-md-flex 	.d-md-inline-block		.d-md-inline	.d-md-block	.d-md-inline-flex
+4. Small		.d-sm-none	.d-sm-flex		.d-sm-inline-block		.d-sm-inline	.d-sm-block 	.d-sm-inline-flex
+5. Extra Small	.d-none		.d-flex
+
+Bootstrap CSS Float & Clearfix Class	 Chapter 17
+Float Classes
+1- .float-start	Left
+2- .float-end	Right
+3- .clearfix
+
+Float  Classes for different Break Points
+		 Float : end	 Float : start 	 Float : none 
+1. Extra Extra Large	.float-xxl-end	.float-xxl-start	.float-xxl-none		
+2. Extra Large	.float-xl-end	.float-xl-start	.float-xl-none     	   		 	
+3. Large		.float-lg-end	.float-lg-start	.float-lg-none	    
+4. Medium		.float-md-end	.float-md-start	.float-md-none     
+5. Small		.float-sm-end	.float-sm-start	.float-sm-none   
+6. Extra Small	.float-end		.float-start	 	.float-none
+
+Width Classes
+1. w-25		width 25%
+2. w-50		width 50%
+3. w-75		width 75%
+4. w-100	mw-100	width 100%
+5. w-auto		width auto
+
+Height Classes
+1. h-25		height 25%
+2. h-50		height 50%
+3. h-75		height 75%
+4. h-100	mh-100	height 100%
+5. h-auto		height auto
+
+Viewport Height & Width Classes
+Width=>
+1. vw-100
+2. min-vw-100
+
+Height=>
+1. vh-100
+2. min-vh-100
+
+<div class="container clearfix">
+        <div class="green w-25 h-100 float-start">
+            <h2>Div A</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, maiores!</p>
+        </div>
+        <div class="pink w-25 float-end">
+            <h2>Div A</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, maiores!</p>
+        </div>
+</div>
+
+Bootstrap CSS Position & Overflow 	Chapter 18
+1. position : relative;		.positon-relative
+2. position : absolute;		.positon-absolute
+3. position : static;		.positon-static
+4. position : fixed;		.positon-fixed
+5. position : sticky;		.positon-sticky
+
+I Bootstrap : Arrange Element Classes
+i.   top		For the vertical top position
+ii.  start		For the horizontal left position
+iii. bottom	 	For the vertical bottom position
+iv.  end		For the horizontal right position
+
+Where position is one of:
+i. 0 - for 0 edge position
+ii. 50 - for 50% edge position
+iii. 100 - for 100% edge position
+
+Position Classes
+1- .fixed-top
+2- .fixed-bottom
+3- .sticky-top
+
+Overflow Classes=>
+1-  .overflow-auto
+2- .overflow-hidden
+3- .overflow-visible
+4- .overflow-scroll
+
+Bootstrap Margin & Padding	 Video 19
+Padding Classes			
+1. Padding		.p-
+2. Padding-right	.pr-
+3. Padding-left	.pl-
+4. Padding-top	.pt-
+5. Paddding-bottom	.pb-
+		0 - 5 
+1. Y-axis
+2. X-asix
+
+Top & Bottom  Y-axis
+Left & Right X-axix
+padding-left : 15; // by default
+padding-right : 15; // by default
+
+
+Margin Classes
+1. Margin	 	.m-
+2. Margin right	.mr-
+3. Margin left	.ml-
+4. Margin top	.mt-
+5. Margin bottom	.mb-
+		0 - 5
+
+Padding & Margin Classes for Y-Axis & X-Axix
+Top & Bottom  Y-axis
+Left & Right X-axix
+1. Y-Axis Padding	.py-	0	0px
+2. X-Axis Padding	-px-	1	0.25rem
+		0 - 5	2	0.50rem
+1. Y-Axis Margin	.my-	3	1rem
+2. X-Axis Margin	-mx-	4	1.5rem
+		0 - 5	5	3rem
+
+No Padding & Margin Class
+1-.col	padding-left : 15;	padding-right : 15;
+2-.row	margin-left : 15;	margin-right : 15;
+3- .no-gutters	padding & margin --> 0
+
+Padding & Margin for different Break Points
+		Padding Y		Padding X		  Margin Y		 Margin X 	
+1. Extra Large	.py-xl-		.px-xl-		 .my-xl-		  .mx-xl-				 	
+2. Large		.py-lg-		.px-lg-		 .my-lg-		  .mx-lg-
+3. Medium		.py-md-		.px-md-		 .my-md-		  .mx-md-	
+4. Small		.py-sm-		.px-sm-		 .my-sm- 		  .mx-sm-	
+5. Extra Small
+		0 - 5
+
+Negative Margin for different Break Points
+		Margin Y		 Margin X 	
+1. Extra Large	.my-xl-n		 .mx-xl-n				 	
+2. Large		.my-lg-n		 .mx-lg-n
+3. Medium		.my-md-n		 .mx-md-n	
+4. Small		.my-sm-n 		 .mx-sm-n	
+5. Extra Small	.my-n		 .mx-n
+		0 - 5
+
+Bootstrap Color & Background Color	 Chapter 19
+(I). Background-Color Classes
+1- .bg-primary
+2- .bg-secondary
+3- .bg-success
+4- .bg-danger
+5- .bg-warning
+6- .bg-info
+7- .bg-light
+8-  .bg-dark
+9-  .bg-body
+10-  .bg-white
+11-  .bg-transparent
+
+(II). Background-Color Classes
+1- .bg-primary .bg-gradient
+2- .bg-secondary .bg-gradient
+3- .bg-success .bg-gradient
+4- .bg-danger .bg-gradient
+5- .bg-warning .bg-gradient
+6- .bg-info .bg-gradient
+7- .bg-light .bg-gradient
+8-  .bg-dark .bg-gradient
+9-  .bg-body .bg-gradient
+10-  .bg-white .bg-gradient
+11-  .bg-transparent .bg-gradient
+
+(III). Background-Opacity Classes
+(i)- .bg-opacity-75
+(ii)- .bg-opacity-50
+(ii)- .bg-opacity-25
+(iv)- .bg-opacity-10
+
+i. This is default success background
+ii. This is 75% opacity success background
+iii. This is 50% opacity success background
+iv. This is 25% opacity success background
+v. This is 10% opacity success background
+
+(IV). Color Classes
+1- .text-primary
+2- .text-secondary
+3- .text-success
+4- .text-danger
+5- .text-warning
+6- .text-info
+7- .text-light
+8-  .text-dark
+9-  .text-body
+10- .text-muted
+11- .text-white
+12- .text-black-50
+13. .text-white-50
+11-  .text-transparent
+
+(V). Colors-Opacity Classes
+(i)- .text-opacity-75
+(ii)- .text-opacity-50
+(ii)- .text-opacity-25
+
+i. This is default primary text
+ii. This is 75% opacity primary text
+iii. This is 50% opacity primary text
+iv. This is 25% opacity primary text
+
+
+Bootstrap Text Alignment Classes	 Chapter 20
+i. Text Alignment
+1. text-align : left	.text-start
+2. text-align : center	.text-center
+3. text-align : right	.text-end
+
+Text Align Classes Break Points
+		 Text Start		 Text Left		Text Center
+1. Extra Extra Large	.text-xxl-start	 .text-xxl-end 	.text-xxl-center	
+2. Extra Large	.text-xl-start	 .text-xl-end 	.text-xl-center	
+3. Large		.text-lg-start	 .text-lg-end 	.text-lg-center
+4. Medium		.text-md-start	 .text-md-end 	.text-md-center
+5. Small		.text-sm-start	 .text-sm-end 	.text-sm-center
+6. Extra Small	.text-start		 .text-end 		.text-center
+
+ii. Text Transform Classes
+1. text-transform : lowercase;	.text-lowercase
+2. text-transform : uppercase;	.text-uppercase
+3. text-transform : capitalize;	.text-capitalize
+
+iii. Text Wrapping & Overflow Classes
+1- .white-space : normal;		.text-wrap
+2- .white-space : nowrap;		.text-nowrap
+3- .word-wrap : break-word;		.text-break
+4- .word-break : break-word;		.text-break
+
+iv. FontSize Classes
+1. font-size : 2.5rem		.fs-1	2.5rem	40px
+2. font-size : 2rem		.fs-2	2rem	32px
+3. font-size : 1.75rem		.fs-3	1.75rem	28px
+4. font-size : 1.50rem		.fs-4	1.50rem	24px
+5. font-size : 1.25rem		.fs-5	1.25rem	20px
+6. font-size : 1rem		.fs-6	1rem	16px
+
+v. Font Weight Classes
+1. font-weight : 700;		.fw-bold
+2. font-weight : bolder;	.fw-bolder
+3. font-weight : 400;		.fw-normal
+4. font-weight : 300;		.fw-light
+5. font-style : italic;		.fst-italic
+6. font-style : normal;		.fst-normal
+
+vi. Line Height Classes
+1. line-height : 1;		.lh-1;
+2. line-height : 1.25;		.lh-sm;
+3. line-height : 1.5;		.lh-base;
+4. line-height : 2;		.lh-1g;
+
+vii. Text Decoration Classes
+1. text-decoration : underline;	------>	.text-decoration-underline
+2. text-decoration : line-through;	 ------>	.text-decoration-line-through
+3. text-decoration : none;	-------->	.text-decoration-none
+
+-------Bootstrap Typography Classes------	 	Chapter 21
+i) Text Headings Classes
+1. h1 Bootstrap heading	.display-1
+2. h2 Bootstrap heading	.display-2
+3. h3 Bootstrap heading	.display-3
+4. h4 Bootstrap heading	.display-4
+5. h5 Bootstrap heading	.display-5
+6. h6 Bootstrap heading	.display-6
+7. Paragraph		.lead
+<div class = "lead"> This is para </div> 
+
+ii) List Style Classes
+1. List-1		List-1
+2. List-2		List-2
+3. List-3		List-3
+4. List-4		List-4
+
+Bullet remove 	.list-unstyled
+1. List-1	2. List-2	3. List-3	4. List-4
+<ul> .list-inline
+<li> .list-inline-item		// Inline
+<li> .list-inline-item		// Inline
+
+iii) Block Quote Classes
+" A well-known quote, contained
+     in a block quote element."
+
+<blockquote class = "blockquote">
+" A well-known quote, contained in a block quote element"
+<footer class= "blockquote-footer"> Ansari </footer>
+</blockquote>
+
+(iv)  User Select Classes
+1- .user-select-all
+2- .user-select-auto
+3- .user-select-none
+
+
+------Bootstrap Button Classes------	 Chapter 22
+1. Button Classes
+(i).  Primary 	.btn-primary
+(ii). Secondry	.btn-secondary
+(iii). Success	.btn-success
+(iv). Danger	.btn-danger
+(v).  Warning	.btn-warning
+(vi).   Info		.btn-info
+(vii).  Light	.btn-light
+(viii). Dark		.btn-dark
+(ix).   Link		.btn-link
+class = "btn"
+<button type="button"> Button </button>
+
+2. Button Tags
+<a class = "btn btn-primary" href="#" role="button">Button</a>
+<button class = "btn btn-primary" type="submit">Button</button>
+<input class = "btn btn-primary" type="button" value="input">
+<input class = "btn btn-primary" type="submit" value="Submit">
+<input class = "btn btn-primary" type="reset" value="Reset">
+
+3. Outline Button Class
+1- .btn-outline-primary
+2- .btn-outline-secondary
+3- .btn-outline-success
+4- .btn-outline-danger
+5- .btn-outline-warning
+6- .btn-outline-info
+7- .btn-outline-light
+8- .btn-outline-dark
+9- class="btn"
+
+4. Button Size Classes
+1. Button		.btn-lg		Class="btn"
+2. Button		 normal
+3. Button		.btn-sm
+<div class ="d-grid gap-2">
+	<a href="#" class="btn btn-primary">Button</a>
+	<a href="#" class="btn btn-primary">Button</a>
+</div>	
+
+5. Button Active & Disabled Classes
+1. Button
+2. Button		.disabled
+3. Button		.active
+
+Bootstrap Button Group Classes		 Chapter 23
+1. Button Group Classes
+(i) Left (ii) Middle (iii) Right 
+<div class="btn-group">
+<button class="btn btn-primary" type="submit">Left</button>
+<button class="btn btn-primary" type="submit">Middle</button>
+<button class="btn btn-primary" type="submit">Right</button>
+</div>
+
+2. Button Group Size Classes
+(i) .btn-group-lg (ii) .btn-group (iii) .btn-group-sm 
+<div class="btn-group">
+<button class="btn btn-primary btn-group-lg" type="submit">Left</button>
+<button class="btn btn-primary btn-group" type="submit">Middle</button>
+<button class="btn btn-primary btn-group-sm" type="submit">Right</button>
+</div>
+
+3. Button Group Toolbar Classes
+horizontal Button -> ex. 1 2 3 4
+class : btn-toolbar;
+<div class="btn-toolbar">
+<div class="btn-group">
+<button class="btn btn-primary" type="submit">1</button>
+</div>
+<div class="btn-group">
+<button class="btn btn-primary" type="submit">2</button>
+</div>
+</div>
+
+4. Button Group Vertical Classes
+ex.	button
+	button
+	button
+class : btn-group-vertical;
+<div class="btn-group-vertical">
+<button class="btn btn-primary" type="submit">1</button>
+<button class="btn btn-primary" type="submit">2</button>
+</div>
+
+5. Button Group Nesting Classes
+<div class="btn-group">
+<button  type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</button>
+<ul class="dropdown-menu" aria-labelledbdy="btnGroupDrop1">
+<li><a class="dropdown-item" href="#">Dropdown link </a></li>
+<li><a class="dropdown-item" href="#">Dropdown link </a></li>
+<ul>
+</div>
+
+-----Bootstrap List Group Classes------	 Chapter 24
+1. List Group Classes
+i) An item
+ii) A second item
+iii) A third item
+iv) A fouth item
+v) And a fifth one
+class : list-group-item;
+
+<ul class-"list-group">
+<li class="list-group-item">List 1</li>
+<li class="list-group-item">List 1</li>
+<li class="list-group-item">List 1</li>
+<li class="list-group-item">List 1</li>
+<li class="list-group-item">List 1</li>
+<li class="list-group-item">List 1</li>
+</ul>
+
+2. List Group Border Remove
+class : list-group-flush;
+<ul class-"list-group list-group-flush">
+<li class="list-group-item">List 1</li>
+<li class="list-group-item">List 1</li>
+<li class="list-group-item">List 1</li>
+<li class="list-group-item">List 1</li>
+<li class="list-group-item">List 1</li>
+<li class="list-group-item">List 1</li>
+</ul>
+
+3. List Active item Class
+class : active;
+<ul class-"list-group">
+<li class="list-group-item active">List 1</li>
+<li class="list-group-item">List 1</li>
+<li class="list-group-item">List 1</li>
+<li class="list-group-item">List 1</li>
+<li class="list-group-item">List 1</li>
+<li class="list-group-item">List 1</li>
+</ul>
+
+4. List Disabled item Class
+class : disabled;
+<ul class-"list-group">
+<li class="list-group-item disabled">List 1</li>
+<li class="list-group-item">List 1</li>
+<li class="list-group-item">List 1</li>
+<li class="list-group-item">List 1</li>
+<li class="list-group-item">List 1</li>
+<li class="list-group-item">List 1</li>
+</ul>
+
+5. List Link & Button Classes
+(i)- .list-group-item-action;
+<ul class-"list-group">
+<a href ="#" class="list-group-item list-group-item-action active">List 1</a>
+<a href ="#" class="list-group-item list-group-item-action">List 2</a>
+</ul>
+
+6.  List Link & Button Classes
+<ul class-"list-group">
+<button type="button" class="list-group-item list-group-item-action active">List 1</button>
+<button type="button" class="list-group-item list-group-item-action">List 2</button>
+</ul>
+
+7.  List Number Classes
+class : .list-group-numbered;
+<ol class-"list-group list-group-numbered">
+<li class="list-group-item">List 1</li>
+<li class="list-group-item">List 1</li>
+<li class="list-group-item">List 1</li>
+</ol>
+
+Bootstrap Table Classes		 Chapter 25
+1. Table Classes
+ <table class="table">
+</table>
+
+2. Table Variants Classes
+i- .table-primary
+ii- .table-secondary
+iii- .table-success
+iv- .table-danget
+v- .table-warning
+vi- .table-info
+v- .table-light
+vi- .table-dark
+
+<table class="table-primary"> </table>
+<tr class="table-success">A</tr>
+<tr>
+<td class="table-dark">B</td> 
+</tr>
+
+3. Accented Table Classes
+<table class="table table-striped">
+</table>
+
+4. Hoverable Row Classes
+<table class="table table-hover">
+</table>
+
+5. Active Table Classes
+<table class="table">
+<tr> 
+    <td class="table-active"> </td>
+ </tr>
+</table>
+
+6. Table Borders Classes
+<table class="table table-bordered">
+</table>
+
+7. Table Without Borders Classes
+<table class="table table-borderless">
+
+</table>
+
+8. Small Table Classes
+<table class="table table-sm">
+
+</table>
+
+9. Nesting Table Classes
+<table class="table table-striped">
+</table>
+
+10. Table Head Classes
+(i) .table-light	(ii) .table-dark
+<table class="table table-light">
+<thead class=" table-light">
+</thead>
+</table>
+
+11. Table Foot Classes
+<table class="table">
+<tfoot> </tfoot>
+</table>
+
+12. Table Caption Classes
+<table class="table">
+<caption> List of users </caption>
+<thead> </thead>
+</table>
+
+13. Table Captions Classes
+<table class="table caption-top">
+<caption> List of users </caption>
+<thead> </thead>
+</table>
+
+
+14. Responsive Table Captions Classes
+(i) .table-responsive
+(ii) .table-responsive-sm
+(iii) .table-responsive-md
+(iv) .table-responsive-lg
+(v) .table-responsive-xl
+(vi) .table-responsive-xxl
+
+<div class="table-responsive">
+<table class="table>
+<thead> </thead>
+</table>
+</div>
+
+Bootstrap Pagination & Breadcrumb Classes	 Chapter 26
+1. Pagination Classes
+exam. Previous 1 2 3 Next
+<nav>
+<ul class="pagination">
+<li class="page-item"><a href="#" class="page-link">Previous</a></li>
+<li class="page-item"><a href="#" class="page-link">1</a></li>
+<li class="page-item"><a href="#" class="page-link">2</a></li>
+<li class="page-item"><a href="#" class="page-link">Next</a></li>
+</ul>
+</nav>
+
+2. Pagination Active & Disabled Classes
+Previous 1 2 3 Next
+<nav>
+<ul class="pagination">
+<li class="page-item disabled"><a href="#" class="page-link">Previous</a></li>
+<li class="page-item"><a href="#" class="page-link">1</a></li>
+<li class="page-item active"><a href="#" class="page-link">2</a></li>
+<li class="page-item"><a href="#" class="page-link">Next</a></li>
+</ul>
+</nav>
+
+3. Pagination Sizes Classes
+Previous 1 2 3 Next
+(i)- .pagination-lg
+(ii)- .pagination-sm
+(iii)- .justify-content-center
+(iv)- .justify-content-end
+ 
+<nav>
+<ul class="pagination pagination-lg">
+<li class="page-item active"><a href="#" class="page-link">1</a></li>
+<li class="page-item"><a href="#" class="page-link">2</a></li>
+<li class="page-item"><a href="#" class="page-link">3</a></li>
+</ul>
+</nav>
+
+<nav>
+<ul class="pagination pagination-sm">
+<li class="page-item active"><a href="#" class="page-link">1</a></li>
+<li class="page-item"><a href="#" class="page-link">2</a></li>
+<li class="page-item"><a href="#" class="page-link">3</a></li>
+</ul>
+</nav>
+
+<nav>
+<ul class="pagination justify-content-center">
+<li class="page-item active"><a href="#" class="page-link">1</a></li>
+<li class="page-item"><a href="#" class="page-link">2</a></li>
+<li class="page-item"><a href="#" class="page-link">3</a></li>
+</ul>
+</nav>
+
+<nav>
+<ul class="pagination justify-content-end">
+<li class="page-item active"><a href="#" class="page-link">1</a></li>
+<li class="page-item"><a href="#" class="page-link">2</a></li>
+<li class="page-item"><a href="#" class="page-link">3</a></li>
+</ul>
+</nav>
+
+2. Breadcrumbs Classes=>
+<nav>
+<ol class="breadcrumb">
+<li class="breadcrumb-item"><a href="#" class="#">Home</a></li>
+<li class="breadcrumb-item"><a href="#" class="#">About</a></li>
+<li class="breadcrumb-item active"><a href="#" class="#">Contact us</a></li>
+</ol>
+</nav>
+
+Bootstrap Form Classes		 Chapter 27
+1. From Classes
+(i). Email Address
+<form>
+<div class="mb-3">
+<label for="email" class="form-level"> Email Address</label>
+<input type="email" class="form-control" placeholder=" " value=" ">
+</div>
+</form>
+
+2. Form Input Size Classes
+(i)- .form-control-lg
+(ii)- .form-control
+(iii)- .form-control-sm
+
+3. Form Disabled Classes
+(i)- .disabled
+(ii)- .readonly
+
+4. Form Readonly Classes
+<input type="text class="form-control-paintext"readonly/>
+
+5. Form File Input Classes
+
+6. Form Color Classes
+<label for="exampleColorinput" class="form-input">Color picker</label>
+<input type="color" calss="form-control form-control-color" 
+	id="exampleColorinput" value="#563d7c" title="Choose your color">
+
+7. Form DataList Classes
+<input class="form-control" list="datalistoptions" id="exampleDataList"/>
+<datalist id="datalistoptions">
+<option value="New Delhi">
+<option value="Mumbai">
+</datalist>
+
+8. Form Select Classes
+<select class="select-form">
+<option selected> Open this select menu </option>
+<option value="1"> </option>
+<option value="2"> </option>
+</select>
+
+Bootstrap Checks, Radios & Range Classes		 Chapter 28
+1. Form Checks Classes
+(i). Default Checkbox
+(ii). Checked checkbox
+
+<form>
+<div class="form-check">
+<input type="checkbox" class="form-check-input" id="flexCheckDefault"
+placeholder=" " value=" " checked>
+<label for="flexCheckDefault" class="form-check-label"> Checked checkbox </box>
+</div>
+</form>
+
+2. Indeterminate Classes
+(i).  Indeterminate checkbox
+<form>
+<div class="form-check">
+<input type="checkbox" class="form-check-input" id="flexCheckdeterminate"
+placeholder=" " value=" " checked>
+<label for="flexCheckdeterminate" class="form-check-label">Indeterminate checkbox </box>
+</div>
+</form>
+
+3. Checks Disabled Classes
+(i). Disabled checkbox
+(ii). Disabled checked checkbox
+<form>
+<div class="form-check">
+<input type="checkbox" class="form-check-input" id="flexCheckDefault"
+placeholder=" " value=" " disabled>
+
+<label for="flexCheckDefault" class="form-check-label">Disabled checked checkbox </box>
+</div>
+</form>
+
+4. Form Radios Classes
+(i). Default radio
+(ii). Default checked radio
+<form>
+<div class="form-check">
+<input type="radio" class="form-check-input" id="flexCheckDefault1"
+placeholder=" " value=" " checked>
+
+<label for="flexCheckDefault1" class="form-check-label">Default checked radio </box>
+</div>
+</form>
+
+5. Form Radios Disabled Classes
+(i). Default radio
+(ii). Default checked radio
+<form>
+<div class="form-check">
+<input type="radio" class="form-check-input" id="flexCheckDefault"
+placeholder=" " value=" " disabled>
+
+<label for="flexCheckDefault" class="form-check-label">Disabled checked radio </box>
+</div>
+</form>
+
+6. Form Switches Classes
+(i). Default switch checkbox input
+(ii). Checked switch checkbox input
+(iii). Disabled switch checkbox input
+(iv). Disabled checked switch checkbox input
+
+<form>
+<div class="form-switch">
+<input type="checkbox" class="form-check-input" id="flexSwitchCheckDefault"
+placeholder=" " value=" " disabled>
+
+<label for="flexSwitchCheckDefault" class="form-check-label">Default Switch </box>
+</div>
+</form>
+
+7. Form Range Classes
+<label for="customRange1" class="form-label">Example range </label>
+<input type="range" class="form-range" id="customRange1">
+
+8. Form Disabled Range Classes
+<label for="customRange1" class="form-label">Example range </label>
+<input type="range" class="form-range" id="customRange1" disabled>
+
+9. Form Min & Max Range Classes
+<label for="customRange1" class="form-label">Example range </label>
+<input type="range" class="form-range" id="customRange1" min="0" max="5">
+
+10. Form Steps Range Classes
+<label for="customRange1" class="form-label">Example range </label>
+<input type="range" class="form-range" id="customRange1" min="0" max="5" step="0.5">
+
+Bootstrap Input Group & Floating Labels Classes		 Chapter 29
+1. Input Group Classes
+<form>
+<div class="form-group mb-3">
+<span id="basic-addon1 class="input-group-text"> @ </span>
+<input type="text" class="form-control" placeholder="Username" value=" ">
+</div>
+</form>
+
+2. Input Size Classes
+(i)- .input-group-sm (small)
+(ii)- .input-group-lg (Large)
+
+3. Checkboxes and Radios
+<form
+<div class="form-group mb-3">
+<span class="input-group-text"> 
+<input type="text" class="form-check-input mt-0" value=" ">
+ </span>
+<input type="text" class="form-control" placeholder="Username" value=" ">
+</div>
+</form>
+
+4. Multiple Input Classes
+<form
+<div class="form-group">
+<span class="input-group-text"> First and last name </span>
+<input type="text" class="form-control" placeholder="First name" value=" ">
+<input type="text" class="form-control" placeholder="Last name" value=" ">
+</div>
+</form>
+
+5. Multiple Addons Classes
+<form
+<div class="form-group mb-3">
+
+<span class="input-group-text">$</span>
+<span class="input-group-text">0.00</span>
+<input type="text" class="form-control" value=" ">
+</div>
+</form>
+
+6. Button Addons Classes
+<form
+<div class="form-group mb-3">
+<button class="btn btn-outline-secondary" type="button" id="button-addon1">$</button>
+<input type="text" class="form-control" value=" ">
+</div>
+</form>
+
+7. Button Addons Classes
+<form
+<div class="form-group mb-3">
+<button class="btn btn-outline-secondary dropdown-toggle" type="button" id="button-addon1" data-bs-toggle="dropdown">$</button>
+<ul>
+<li><a href="#" class="dropdown-item">Action</a></li>
+</ul>
+<input type="text" class="form-control" value=" ">
+</div>
+</form>
+
+8. Floating Lables Classes
+<form
+<div class="form-floating mb-3">
+<input type="email" class="form-control" id="floatinginpt">
+<lable for="floatinginput">Email address</label>
+</div>
+<div class="form-floating">
+<input type="password" class="form-control" id="floatinginpt">
+<lable for="floatinginput">Password</label>
+</div>
+</form>
+
+Bootstrap Inline & Horizontal Form	 Chapter 30
+1. Form Grid Classes
+<div class="row">
+<div class="col">
+<input type="text" class="form-control" placeholder="First Name" value=" ">
+</div>
+<div class="col">
+<input type="text" class="form-control" placeholder="Last Name" value=" ">
+</div>
+</div>
+
+2. Form Gutters Classes
+<div class="row g-3">
+<div class="col">
+<input type="text" class="form-control" placeholder="First Name" value=" ">
+</div>
+<div class="col">
+<input type="text" class="form-control" placeholder="Last Name" value=" ">
+</div>
+</div>
+
+3. Horizontal Form Classes
+<form>
+<div class="row mb-3">
+<label for="inputEmail3" class="col-sm-2 col-form-label">Email </label>
+<div class="col-sm-10">
+<input type="email" class="form-control" id=inputEmail3>
+</div>
+</div>
+</form>
+
+4. Horizontal Form Label Classes
+(i)- .col-form-label-sm
+(ii)- .col-form-label-lg
+
+5.Column Sizing Classes
+<form> 
+<div class="row g-3>
+<div class="col-sm-7"
+<input type="text" class="from-control" placeholder="city">
+</div>
+<div class="col-sm"
+<input type="text" class="from-control" placeholder="city">
+</div>
+<div class="col-sm"
+<input type="text" class="from-control" placeholder="city">
+</div>
+</div>
+</form>
+
+6. Auto Sizing Classes
+<div class="row gx-3 align-items-center>
+<div class="col-auto"
+<input type="text" class="from-control" placeholder="Jane Doe">
+</div>
+
+<div class="col-auto"
+<input type="text" class="from-control" placeholder="Username">
+</div>
+</div>
+</form>
+
+7. Inline Forms Classes
+<div class="row-cols-lg-auto g-3 align-items-center>
+<div class="col-12"
+<input type="text" class="from-control" placeholder="Jane Doe">
+</div>
+
+<div class="col-auto"
+<input type="text" class="from-control" placeholder="Username">
+</div>
+</div>
+</form>
+
+Bootstrap Form Validation Classes	 Chapter 31
+1. Form Vaildation Classes
+xampp server this php file practicle
+
+Bootstrap Navs & Tabs Classes		 Chapter 32
+1. Bootstrap : Base Nav Classes
+<ul class="nav">
+<li class="nav-item">
+<a href="#" class="nav-link active">Active</a>
+</li>
+<li class="nav-item">
+<a href="#" class="nav-link">Link</a>
+</li>
+<li class="nav-item">
+<a href="#" class="nav-link disabled">Disabled</a>
+</li>
+</ul>
+
+2. Bootstrap : Base Nav Classes
+<nav class="nav">
+<a href="#" class="nav-link active" >Active</a>
+<a href="#" class="nav-link" >Link</a>
+<a href="#" class="nav-link"> Link</a>
+<a href="#" class="nav-link disabled">Disabled</a>
+</nav>
+
+3. Bootstrap : Horizontal Alignment Nav
+<nav class="nav justify-content-center">
+<a href="#" class="nav-link active" >Active</a>
+<a href="#" class="nav-link">Link</a>
+<a href="#" class="nav-link"> Link</a>
+<a href="#" class="nav-link disabled">Disabled</a>
+</nav>
+
+4. Bootstrap : Horizontal Alignment Nav
+<nav class="nav justify-content-end">
+<a href="#" class="nav-link active" >Active</a>
+<a href="#" class="nav-link">Link</a>
+<a href="#" class="nav-link"> Link</a>
+<a href="#" class="nav-link disabled">Disabled</a>
+</nav>
+
+5. Bootstrap : Vertical Alignment Nav
+<nav class="nav flex-column">
+<a href="#" class="nav-link active" >Active</a>
+<a href="#" class="nav-link">Link</a>
+<a href="#" class="nav-link"> Link</a>
+<a href="#" class="nav-link disabled">Disabled</a>
+</nav>
+
+6. Bootstrap : Tabs Classes
+<ul class="nav nav-tabs">
+<li class="nav-item">
+<a href="#" class="nav-link active">Active</a>
+</li>
+<li class="nav-item">
+<a href="#" class="nav-link">Link</a>
+</li>
+<li class="nav-item">
+<a href="#" class="nav-link">Link</a>
+</li>
+<li class="nav-item">
+<a href="#" class="nav-link disabled">Disabled</a>
+</li>
+</ul>
+
+7. Bootstrap : Pills Classes
+<ul class="nav nav-pills">
+<li class="nav-item">
+<a href="#" class="nav-link active">Active</a>
+</li>
+<li class="nav-item">
+<a href="#" class="nav-link">Link</a>
+</li>
+<li class="nav-item">
+<a href="#" class="nav-link">Link</a>
+</li>
+<li class="nav-item">
+<a href="#" class="nav-link disabled">Disabled</a>
+</li>
+</ul>
+
+8. Bootstrap : Fill & Justify Classes
+<ul class="nav nav-pills nav-fill">
+<li class="nav-item">
+<a href="#" class="nav-link active">Active</a>
+</li>
+<li class="nav-item">
+<a href="#" class="nav-link">Mush longer nav link</a>
+</li>
+<li class="nav-item">
+<a href="#" class="nav-link">Link</a>
+</li>
+<li class="nav-item">
+<a href="#" class="nav-link disabled">Disabled</a>
+</li>
+</ul>
+
+9. Bootstrap : Tabs & Dropdown Classes
+
+Bootstrap Navbar Classes		 Chapter 33
+1. Bootstrap : Navbar Classes
+(i) bootstrap.bundle.min.js
+(ii) popper.min.js
+(iii) bootstrap.min.js
+
+Navbar Fixed
+(i)- .fixed-top
+(ii)- .fixed-bottom
+(iii)- .sticky-top
+(iv)- .sticky-bottom
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-light" data-bs-theme="dark">
+<div class="container-fluid">
+<a class="navbar-brand">Navbar</a>
+<button class="navbar-toggle-brand" type="button" data-bs-toggle="collapse"
+data-bs-target="#navbarContent"></button>
+<div class="collapse navbar-collapse" id="navbarContent">
+<ul class="navbar-nav"></a>
+</div>
+</div>
+</nav>
+
+Bootstrap Image & Iframe Classes		Chapter 34
+1. Bootstrap : Responsive Images
+(i)- .img-fluid
+<img src="..."class="img-fluid" alt="">
+
+2. Bootstrap : Images Thumbnails
+(i)- .img-thumbnail
+<img src="..."class="img-thumbnail" alt="">
+
+2. Bootstrap : Aligning Images Classes
+(i)- .float-start
+(ii)- .float-end
+(iii)- .mx-auto
+(iv)- .text-center
+<img src="..."class="float-start" alt="">
+<img src="..."class="float-end" alt="">
+<img src="..."class="mx-auto d-block" alt=" ">
+
+<div class="text-center">
+<img src="..." class=" " alt="...">
+</div>
+
+3. Bootstrap : Ratio Iframe Classes
+(i)- .ratio-1x1
+(ii)- .ratio-4x3
+(iii)- .ratio-16x9
+(i)- .ratio-21x9
+<div class="ratio ratio-16x9">
+<iframe src=" " title="Your Title" allowfullscreen></iframe>
+</div>
+
+4. Bootstrap : Custom Ratio Classes
+<div class="ratio" style="--bs-aspect-ratio:50%;">
+<iframe src=" " title="Your Title" allowfullscreen></iframe>
+</div>
+
+Bootstrap Border & Shadow Classes	Chapter 35
+1. Bootstrap : Additive Border Classes
+(i)- .border
+(ii)- .border-top
+(iii)- .border-end
+(iv)- .border-bottom
+(v)- .border-start
+(vi)- .border-end
+<span class="border"></span>
+
+2. Bootstrap : Subtractive Border Classes
+(i)- .border-0
+(ii)- .border-top-0
+(iii)- .border-end-0
+(iv)- .border-bottom-0
+(v)- .border-start-0
+(vi)- .border-end-0
+<span class="border-0"></span>
+
+3. Bootstrap : Border Color Classes
+<span class="border border-primary"></span>
+(i)- .border-primary
+(ii)- .border-secondary
+(iii)- .border-success
+(iv)- .border-danger
+(v)- .border-warning
+(vi)- .border-info
+(vii)- .border-light
+(viii)- .border-dark
+(ix)- .border-white
+
+4. Bootstrap : Border Width Classes
+(i)- .border-1
+(ii)- .border-2
+(iii)- .border-3
+(iv)- .border-4
+(v)- .border-5
+<span class="border border-1"></span>
+
+5. Bootstrap : Border Radius Classes
+(i)- .rounded
+(ii)- .rounded-top
+(iii)- .rounded-end
+(iv)- .rounded-bottom
+(v)- .rounded-start
+(vi)- .rounded-circle
+(vii)- .rounded-pill
+<img src="" class="rounded" alt="">
+
+6. Bootstrap : Border Radius Size Classes
+(i)- .rounded-0
+(ii)- .rounded-1
+(iii)- .rounded-2
+(iv)- .rounded-3
+<img src="" class="rounded-0" alt="">
+
+7. Bootstrap : Shadow Classes
+(i)- .shadow
+(ii)- .shadow-none
+(iii)- .shadow-sm
+(iv)- .shadow-lg
+
+<div class="shadow-none p-3 mb-5 bg-light rounded">No Shadow</div>
+
+Bootstrap Card Classes		Chapter 36
+1. Bootstrap : Card Images Classes
+(i)- .card
+(ii)- .card-img-top
+(iii)- .card-img-bottom
+(iv)- .card-body
+(v)- .card-title
+(vi)- .card-text 
+(vii)- .btn .btn-primary
+
+2. Bootstrap : Card Without Image Classes
+(i)- .card
+(ii)- .card-body
+(iii)- .card-title
+(vi)- .card-subtitle
+(v)- .card-link
+
+3. Bootstrap : Image Classes
+(i)- .card
+(ii)- .card-img-top
+(iii)- .card-img-bottom
+(iv)- .card-body
+(v)- .card-text
+
+4. Bootstrap : Card Header List Classes
+(i)- .card
+(ii)- .card-header
+(iii)- .list-group
+(iv)- .list-group-item
+(v)- .list-group-flush
+
+5. Bootstrap : Card Footer List Classes
+(i)- .card
+(ii)- .list-group
+(iii)- .list-group-flush
+(iv)- .list-group-item
+(v)- .card-footer
+
+
+
+Bootstrap Card Group Classes		Chapter 37
+1. Bootstrap Card Group Classes
+(i)- .card-group
+
+2. Bootstrap Card-Footer Group Classes
+(i)- .card-footer
+
+3. Bootstrap Card Column
+(i)- .row-cols-auto
+(ii)- .row-cols-1
+(iii)- .row-cols-sm-2
+(iv)- .row-cols-md-3
+         1 to 6
+
+3. Bootstrap Card Height Classes
+(i). h-100
+
+
+Bootstrap Media Object Classes		Chapter 38
+1. Bootstrap Media Object Classes
+<div class="d-flex">
+<div class="flex-shrink-0">
+<img src="..." alt="...">
+</div>
+<div class="flex-grow-1 ms-3">
+
+</div>
+</div>
+
+Bootstrap Badges Classes		Chapter 39
+Example heading New
+Example heading New
+Example heading New
+Example heading New
+Example heading New
+Example heading New
+1. Bootstrap : Heading Badges Classes
+<h1 Example heading <span class="badge bg-secondary"> New </span></h1>
+
+2. Bootstrap : Button Badges Classes
+<button type="button" class="btn btn-primary">
+Notification <span class="badge bg-secondary"> 4 </span>
+</button>
+
+3. Bootstrap : Positioned Badges Classes
+<button type="button" class="btn btn-primary position-relative">
+Notifications
+<span class="badge bg-danger position-absolute top-0 start-100 translate-middle rounded-pill"> 99 + </span>
+</button>
+
+4. Bootstrap : Background Badges Classes
+(i)- .bg-primary
+(ii)- .bg-success
+(iii)- .bg-danger
+(iv)- .bg-warning
+(v)- .bg-info
+(vi)- .bg-light
+(vii)- .bg-dark
+<span class="badge bg-primary"> Primary </span>
+
+5. Bootstrap : Pill Badges Classes
+(i)- .bg-primary
+(ii)- .bg-success
+(iii)- .bg-danger
+(iv)- .bg-warning
+(v)- .bg-info
+(vi)- .bg-light
+(vii)- .bg-dark
+<span class="badge rounded-pill bg-primary"> Primary </span>
+
+Bootstrap Progress Bar Classes		Chapter 40
+1. Bootstrap : Progress Classes
+<div class="progress">
+</div class="progress-bar" style="width:25%"></div>
+</div>
+
+2. Bootstrap : Labels Progress Classes
+<div class="progress">
+</div class="progress-bar" style="width:25%">25%</div>
+</div>
+
+3. Bootstrap : Height Progress Classes
+<div class="progress" style="height:20%;">
+</div class="progress-bar" style="width:25%">25%</div>
+</div>
+
+4. Bootstrap : Background Progress
+<div class="progress">
+</div class="progress-bar bg-success" style="width:25%"></div>
+</div>
+
+5. Bootstrap : Multiple Bars Progress
+<div class="progress">
+<div class="progress-bar" style="width:15%"> </div>
+</div class="progress-bar bg-success" style="width:30%"></div>
+</div class="progress-bar bg-info" style="width:20%"></div>
+</div>
+
+6. Bootstrap : Striped Progress Classes
+<div class="progress">
+<div class="progress-bar progess-bar-striped" style="width:10%"> </div>
+</div>
+
+7. Bootstrap : Animated Stripes Progress
+<div class="progress">
+<div class="progress-bar progess-bar-striped progress-bar-animated" style="width:10%"> </div>
+</div>
+
+
+Bootstrap Spinners Classes		Chapter 41
+1. Bootstrap : Spinner Classes
+<div class="spinner-border">
+<span class="visually-hidden"> </span>
+</div>
+
+2. Bootstrap : Spinner Color Classes
+(i)- .text-primary
+(ii)- .text-success
+(iii)- .text-danger
+(iv)- .text-warning
+(v)- .text-info
+(vi)- .text-light
+(vii)- .text-dark
+<div class="spinner-border text-primary">
+<span class="visually-hidden"> Loading... </span>
+</div>
+
+3. Bootstrap : Growing Spinner Classes
+<div class="spinner-grow">
+<span class="visually-hidden"> Loading... </span>
+</div>
+
+4. Bootstrap : Growing Spinner Color
+(i)- .text-primary
+(ii)- .text-success
+(iii)- .text-danger
+(iv)- .text-warning
+(v)- .text-info
+(vi)- .text-light
+(vii)- .text-dark
+<div class="spinner-grow text-primary">
+<span class="visually-hidden"> Loading... </span>
+</div>
+
+5. Bootstrap : Alignment Spinner Class
+<div class="spinner-border m-5">
+<span class="visually-hidden"> Loading... </span>
+</div>
+
+6. Bootstrap : Placement Spinner Class
+(i)- . justify-content-center
+(ii)- . justify-content-end
+
+<div class="d-flex justify-content">
+<div class="spinner-border">
+<span class="visually-hidden"> Loading... </span>
+</div>
+</div>
+
+7. Bootstrap : Spinner Size Classes
+(i). Inline CSS : style="width:3rem; height:3rem;"
+<div class="spinner-grow snipper-border-sm">
+<span class="visually-hidden"> Loading... </span>
+</div>
+
+8. Bootstrap : Button Spinner Classes
+<button class="btn btn-primary">
+<span class="spinner-border snipper-border-sm"> </span>
+<span class="visually-hidden"> Loading... </span>
+</button>
+
+Bootstrap Placeholder Classes		Chapter 42
+1. Bootstrap : Placeholders Classes
+<div class="card">
+<span class="placeholder"> </span>
+</div>
+
+2. Bootstrap : Placeholders Width Classes
+<span class="placeholder col-6"> </span>
+<span class="placeholder w-75"> </span>
+<span class="placeholder" style="width:25%;"> </span>
+
+3. Bootstrap : Placeholders Color Classes
+<span class="placeholder col-12 bg-primary"> </span>
+<span class="placeholder col-12 bg-primary"> </span>
+<span class="placeholder col-12 bg-primary"> </span>
+
+4. Bootstrap : Placeholders Sizing Classes
+<span class="placeholder col-12 placeholder-lg"> </span>
+<span class="placeholder col-12"> </span>
+<span class="placeholder col-12  placeholder-lg"> </span>
+<span class="placeholder col-12  placeholder-lg"> </span>
+
+5. Bootstrap : Placeholders Animation Classes
+<p class="placeholder-glow">
+<span class="placeholder col-12">
+</p>
+
+Bootstrap Tooltips Classes		Chapter 43
+1. Bootstrap : Tooltips Classes
+<button type="button" class="btn btn-secondary" data-bs-target="tooltip" data-bs-placement="top" title="Tooltip on top">
+Tooltip on top
+</button>
+
+Bootstrap Popovers Classes		Chapter 44
+1. Bootstrap : Popovers Classes
+<button type="button"
+class="btn btn-danger btn-lg"
+data-bs-toggle="popover"
+data-bs-placement="top"
+data-bs-content="and here's"
+title="Popovers title">
+Click to toggle popover
+</button>
+
+2. Bootstrap : Popovers Four Directions
+<button type="button"
+class="btn btn-primary"
+data-bs-container="body"
+data-bs-toggle="popover"
+data-bs-placement="top"
+data-bs-content="Right popover">
+Popover on top
+</button>
+
+3. Bootstrap : Dismissible Popovers
+<a tabindex="0"
+class="btn btn-primary btn-lg"
+data-bs-toggle="popover"
+data-bs-placement="top"
+data-bs-content="Right popover">
+Dismissible popover
+</a>
+
+
+Bootstrap Alerts Classes		Chapter 45
+1. Bootstrap : Alerts Classes
+(i)- .alert-primary
+(ii)- .alert-success
+(iii)- .alert-danger
+(iv)- .alert-warning
+(v)- .alert-info
+(vi)- .alert-light
+(vii)- .alert-dark
+(viii)- .alert-secondary
+<div class="alert alert-primary" role="alert"?
+A simple primary alert--check it out!
+</div>
+
+2. Bootstrap : Alert Box Classes
+<div id="liveAlertPlaceholder"> </div>
+<button type="button" class="btn btn-primary" id="liveAlertBtn">
+A simple primary alert--check it out
+</button>
+
+3. Bootstrap : Alert Link Color Classes
+<div class="alert alert-primary" role="alert">
+A simple primary alert with <a href="#" class="alert-link"> an example link</a>
+Give it a click if you like.
+</div>
+
+4. Bootstrap : Alert Additional Classes
+<div class="alert alert-success" role="alert">
+<h4 class="alert-heading"> Well done! </h4>
+<p> A simple primary alert with Example </p>
+<hr>
+<p> Whenever you need to. be sure to sure to use margin </p>
+</div>
+
+5. Bootstrap : Alert Icon Box Classes
+<div class="alert alert-success d-flex align-items-center" role="alert">
+<svg> <path/> </svg>
+<div> An example alert with an icon </div>
+</div>
+
+6. Bootstrap : Dismissing Alert Classes
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+<strong> Holy guacamole! </strong> you should check in on some.
+<button type="button" class="btn-close" data-bs-dismiss="alert"> </div>
+</div>
+
+Bootstrap Modal Classes		Chapter 46
+1. Bootstrap : Modal Classes
+(i)- .modal
+(ii)- .modal-dialog
+(iii)- .modal-content
+(iv)- .modal-header
+(v)- .modal-title
+(vi)- .modal-body
+(vii)- .btn-close
+(viii)- .modal-footer
+
+2. Bootstrap : Static Backdrop Classes
+ex. When backdrop is set to static, the modal will not close when clicking outside it.
+
+3. Bootstrap : Scrolling long Content Modal
+<div class="modal-dialog modal-dialog-scrollable">
+</div>
+
+4. Bootstrap : Vertically Centered Modal
+<div class="modal-dialog modal-dialog-centeted">
+</div>
+
+5. Bootstrap :Using The Grid Modal
+<div class="modal-body">
+</div>
+
+
+Bootstrap Accordion Classes		Chapter 47
+1. Bootstrap : Accordion Classes
+(i)- .accordion
+(ii)- .accordion-item
+(iii)- .accordion-header
+(iv)- .accordion-button
+(v)- .accordion-collapse
+(vi)- .collapse
+(vii)- .accordion-body
+
+2. Bootstrap : Accordion Flush Classes
+(i)- .accordion
+(ii)- .accordion-item
+(iii)- .accordion-header
+(iv)- .accordion-button
+(v)- .accordion-collapse
+(vi)- .collapse
+(vii)- .accordion-body
+(viii)- .accordion-flush
+
+3. Bootstrap : Accordion Always Open
+(i)- .accordion
+(ii)- .accordion-item
+(iii)- .accordion-header
+(iv)- .accordion-button
+(v)- .accordion-collapse
+(vi)- .collapse
+(vii)- .accordion-body
+(viii)- .show
+	
+
+Bootstrap Collapse Classes		Chapter 48
+1. Bootstrap : Collapse Classes
+<p>
+<a href="#collapseExample" role="button" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseExample">
+Link with href
+</a>
+</p>
+<div class="collapse" id="collapseExample">
+<div class="card card-body">
+</div>
+</div>
+
+2. Bootstrap : Horizontal Collapse Classes
+(i)- .collapse-horizontal
+(ii)- .inline-style : min-height:120px; (parent div)
+
+3. Bootstrap : Multiple Targets Collapse Classes
+(i)- .multi-collapse
+
+Bootstrap Carousel Classes		Chapter 49
+1. Bootstrap : Carousel Classes
+(i)- #carouselExampleSlidesOnly
+(ii)- .carousel
+(iii)- .slide
+(iv)- .carousel-inner
+(v)- .carousel-item
+(vi)- .active
+
+2. Bootstrap : Carousel With Controls
+(i)- #carouselExampleControls
+(ii)- .carousel
+(iii)- .slide
+(iv)- .carousel-inner
+(v)- .carousel-item
+(vi)- .active
+(vii)- .carousel-control-prev
+(viii)- .carousel-control-prev-icon
+(ix)- .carousel-control-next
+(x)- .carousel-control-next-icon
+
+3. Bootstrap : Carousel With Indicators
+(i)- #carouselExampleindicators
+(ii)- .carousel
+(iii)- .slide
+(iv)- .carousel-inner
+(v)- .carousel-item
+(vi)- .active
+(vii)- .carousel-control-prev
+(viii)- .carousel-control-prev-icon
+(ix)- .carousel-control-next
+(x)- .carousel-control-next-icon
+(xi)- .carousel-indicators
+
+3. Bootstrap : Carousel With Captions
+(i)- #carouselExampleCaptions
+(ii)- .carousel
+(iii)- .slide
+(iv)- .carousel-inner
+(v)- .carousel-item
+(vi)- .active
+(vii)- .carousel-control-prev
+(viii)- .carousel-control-prev-icon
+(ix)- .carousel-control-next
+(x)- .carousel-control-next-icon
+(xi)- .carousel-indicators
+(xii)- .carousel-caption
+
+4. Bootstrap : Carousel With Crossfade
+(i)- #carouselExampleFade
+(ii)- .carousel
+(iii)- .slide
+(iv)- .carousel-inner
+(v)- .carousel-item
+(vi)- .active
+(vii)- .carousel-control-prev
+(viii)- .carousel-control-prev-icon
+(ix)- .carousel-control-next
+(x)- .carousel-control-next-icon
+(xi)- .carousel-indicators
+(xii)- .carousel-caption
+(xiii)- .carousel-fade
+
+5. Bootstrap : Carousel With Interval
+(i)- #carouselExampleInterval
+(ii)- .carousel
+(iii)- .slide
+(iv)- .carousel-inner
+(v)- .carousel-item
+(vi)- .active
+(vii)- .carousel-control-prev
+(viii)- .carousel-control-prev-icon
+(ix)- .carousel-control-next
+(x)- .carousel-control-next-icon
+(xi)- .carousel-indicators
+(xii)- .data-bs-interval="10000"
+
+6. Bootstrap : Disable Touch Swiping
+(i)- #carouselExampleControlsNoTouching
+(ii)- .carousel
+(iii)- .slide
+(iv)- .carousel-inner
+(v)- .carousel-item
+(vi)- .active
+(vii)- .carousel-control-prev
+(viii)- .carousel-control-prev-icon
+(ix)- .carousel-control-next
+(x)- .carousel-control-next-icon
+(xi)- .carousel-indicators
+(xii)- .data-bs-interval="false"
+(xii)- .data-bs-touch="false"
+
+7. Bootstrap : Carousel Dark Varient
+(i)- #carouselExampleDark
+(ii)- .carousel
+(iii)- .slide
+(iv)- .carousel-inner
+(v)- .carousel-item
+(vi)- .active
+(vii)- .carousel-control-prev
+(viii)- .carousel-control-prev-icon
+(ix)- .carousel-control-next
+(x)- .carousel-control-next-icon
+(xi)- .carousel-indicators
+(xii)- .data-bs-interval="false"
+(xii)- .data-bs-touch="false"
+
+
+Bootstrap Scroll SPY Classes		Chapter 50
+1. Bootstrap : Scroll SPY Claases
+(i)- #navbar-example
+(ii)- .data-bs-spy="scroll"
+(iii)- .data-bs-target="#navbar-example"
+(vi)- .data-bs-offset="0"
+(v)- .scrollspy-example
+(vi)- .tabindex="0"
+
+2. Bootstrap : Scroll With Nested Nav
+(i)- #navbar-example
+(ii)- .data-bs-spy="scroll"
+(iii)- .data-bs-target="#navbar-example"
+(vi)- .data-bs-offset="0"
+(v)- .scrollspy-example
+(vi)- .tabindex="0"
+
+3. Bootstrap : Scroll With List Group
+(i)- #navbar-example
+(ii)- .data-bs-spy="scroll"
+(iii)- .data-bs-target="#navbar-example"
+(vi)- .data-bs-offset="0"
+(v)- .scrollspy-example
+(vi)- .tabindex="0"
+
+Bootstrap 5.3 : New Features		Chapter 51
+1. What's New?
+(i). Dark mode support
+(ii). Custom color modes support for themes beyond light and dark
+(iii). Extended color palette for theme color that adapt to color modes
+(iv). New link helper, link utilities, and focus,right helper
+(v). New nav underline variant
+(vi). Several new utilities, bug fixes, and much more!

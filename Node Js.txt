@@ -1,0 +1,240 @@
+------ Node JS -------
+What is Node JS
+1. Node.JS is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+Node.Js is a JavaScript runing on the server.
+
+History Of NodeJs
+1. In 2009 an idea came in the mind of Ryan Dahi (Google Engineer) That why
+not run JavaScript outside browser, so he took V8 engine and embedded in a C++
+program and called it Node.exe later on became Nodejs.
+
+JS-Server Fun Fact
+1. In 1995 Netscape written a program called Netscape Enterprise Server
+which allowed Developer to run JavaScript at server side.
+
+When to use Node JS
+1. Input/Output bound
+2. Data Streaming Applications
+3. Real time chat Applications
+			Disk
+	Node.js	------->	Network
+		<------	Database
+
+----- Install Node JS, NPM VS Code IDE -----
+(i) node -v
+(ii) npm -v
+(iii) index.js
+console.log("Welcome to my channel");
+(iv) node index.js
+
+----- Prerequisites For Node.JS ------
+1. Node JS Prerequisites
+(i) Javascript running on the Server
+(ii) Basic JavaScript (Advanced JS will be bouns)
+(iii) ES5 & ES6 | ECMAScript 6
+(iv) Client Server Model(optional)
+
+----- Complete REPL in NodeJS | READ, Eval Print & Loop ------
+1. Node JS REPL
+(i) The REPL feature of Node is very useful in experimenting with Node.js codes and to debug
+JavaScript Codes
+(ii) Read - Reads user's input,parses the input into JavaScript data-strucure, and stores in memory.
+(iii) Eval - Takes and evaluates the data structure
+(iv) Print - Prints the result
+(v) Loop - Loops the above command until the user presses ctrl-c twice
+
+REPL
+1. js Expression
+2. use Variables
+3. Multiline code / loops
+4. use (_) to get the last result
+5. we can use editor mode
+
+2. Practical
+> node
+> type nul > index.js		// file create
+> double tab
+> fs
+> .editor
+
+
+
+----- Mastering the NodeJS | Core Modules | File System Node.js ------
+1. Node.js Core Module
+(i) Consider modules to be the same as JavaScript libraies, A set of
+funtions you want to include in your application
+(ii) Node.js has a set of bulit-in modules which you can use without any further installation
+(iii) node filename
+
+----- CRUD Operations using FS Module in NodeJS ------
+1. Create a folder named it Thapa
+2. Create a file in it named bio.txt and data into it.
+3. Add more data into the file at the end of the existing data.
+4. Read the data without getting the buffer data at first
+5. Rename the file name to mybio.txt
+6. Now delete both the file and the folder
+	const fs = require('fs');
+
+----- Asynchronous File System Core Modules | Reading and Writing File Asynchronously ------
+
+---- Synchronous vs Asynchronous Programming in NODE JS-----
+1. Synchronous => Blocking Input/Output model
+2. Asynchronous => Non-blocking Input/Ouput model
+
+---- Asynchronous CRUD Operations using File System Modules in NodeJS ----
+1. Create a folder named it Thapa
+2. Create a file in it named bio.txt and data into it.
+3. Add more data into the file at the end of the existing data.
+4. Read the data without getting the buffer data at first
+5. Rename the file name to mybio.txt
+6. Now delete both the file and the folder
+	const fs = require('fs');
+
+---- Node.JS OS Module To Get Operating System Info ----
+const os = require('os');
+
+----- PATH Module In Node.JS -----
+const path = require('path');
+
+----- How to CREATE and EXPORT Our Own Modules in Node JS -----
+
+------ Import NPM Module in Node.JS----
+https://www.npmjs.com/
+> npm init 
+> npm install package
+> npm install chalk
+> npm install validator
+> npm uninstall package
+
+-----Nodemon in Node.JS | Import Global NPM Module----
+> npm i nodemon		// install
+> npm i nodemon -g 		// global install
+> npm update nodemon	// install
+> npm update nodemon -g	// global update
+> nodemon -v		// version check
+>  nodemon index.js		// run nodemon
+
+
+------ Module Wrapper Function in Node.JS -----
+
+----- Creating Our Own Web Server in Node.JS | HTTP Module in Node JS ----
+1. Node.js Web Server
+(i) To access web pages of any web application, you need a web server. the
+web server will handle all the http requests for the web application
+e.g IIS is a web server for ASP.NET web applications and Apache is a web
+server for PHP or Java web applications.
+
+(ii) Node.js provides capabilities to create your own web server which will handle HTTP
+requrest asynchronously. You can use IIS or Apache to run Node.js web applications
+but it is recommended to use Node.js web server.
+
+I. The http.createServer() method includes request and response parameters which is supplied by Node.js
+II. The request object can be used to get information about the current HTTP request
+III. e.g. url, request header, and data.
+IV. The response object can be used to send a response for a current HTTP request.
+V. If the response from the HTTP server is supposed to be displayed as HTML,
+VI. you should include an HTTP header with the correct content type:
+
+const http = require("http");
+
+const server = http.createServer((req, res) => {
+    res.end("Hello from the others sides by mohammad zeeshan");
+})
+
+server.listen(8000, "127.0.0.1", () =>{
+    console.log("Listening to port no 8000")
+});
+portno. --> any port no.				
+
+------ Node JS Routing | Handled HTTP Requests in Node.JS -----
+const http = require("http");
+const url = require('url');
+
+const server = http.createServer((req, res) => {
+    // console.log(req.rul);
+    if (req.url == "/"){
+        res.end("Hello form the home sides")
+    }
+    else if (req.url == "/about"){
+        res.end("Hello form the AboutUs sides")
+    }
+    else if (req.url == "/contact"){
+        res.end("Hello form the ContactUs sides")
+    }
+   
+    else {
+        res.writeHead(404, {"Content-type": "text.html"})
+        res.end(" <h1> 404 error pages. Page doesn't exist </h1>")
+        
+    }
+    // res.end("Hello from the others sides by mohammad zeeshan");
+})
+
+server.listen(8000, "127.0.0.1", () =>{
+    console.log("Listening to port no 8000")
+});
+
+
+------ Complete JSON in Node JS -------
+JSON stands for JavaScript Object Notation. 
+JSON is a lightweight
+format for storing and transporting data.
+JSON is often used when data is sent from  a server to a web page.
+(i) Object to convert -----> JSON.stringify()
+(ii) JSON to convert ------> JSON.parse() 		// JOSN to convert ---> object
+
+----- Create Simple API In Node JS -------
+API is the acronym for Application Programming Interface, Which is a software intermediary
+that allows two applications to talk to each other. Each time you use an app like Facebook
+send an instant message, or check the weather an your phone, you're using an API
+
+----- Events Module in Node.JS | Handling Events in Node.js with EventEmitter ------
+1. Events Module
+2. Node.js has a built-in module, called "Events",
+3. Where you can create-, fire-, and listen for- your own events.
+
+// Exam. 1 - Registering for the event to be fired only one time using once,
+// Exam. 2 - Create an event emitter instance and register a couple of callbacks
+// Exam. 3 - Registering for the event with callback parameters
+
+------ Streams and Buffer in Node JS with Example | Readable & Writable Streams in Node.JS -----
+1. Node.js Streams
+Stream are objects that let you read data from a source or write data to a
+ destination in continuous fashion. in Node.js, there are four types of streams -
+
+Streaming means listerning to music or watching video in 'real tume', instead of
+downloading a file to your computer and watching it later
+
+(i) Readable - Stream which is used for read operation.
+(ii) Writable - Stream which is used for write operation.
+(iii) Duplex - Stream which can be used for both read and write operations
+(iv) Transform - A type if duplex stream where the output is computed based on input.
+
+2 .Each type of Stream is an EventEmitter instance and throws several events at
+different instance of times, For example, some of the commonly used events are -
+(i) data - This event is fired when there is data is available to read.
+(ii) end - This event is fired when there is no more data to read
+(iii) error - This event is fired when there is any error receiving or writing data.
+(iv) finish - This event is fired when all the data has been flushed to underlying system.
+
+------ Stream Pipes in Node JS -------
+ Stream.pipe(), the method used to take a readable stream and connect it to a writeable stream
+const fs = require("fs")
+const http = require("http");
+
+const server = http.createServer();
+
+server.on("request", (req, res) => {
+    const rstream = fs.createReadStream("input.txt");
+    rstream.pipe(res);
+});
+server.listen(8000, "127.0.0.1");
+
+
+Send Emails with Nodemailer using Ethereal in Node.js
+package.json
+ "dev" : "nodemon app.js"
+
+npm run dev // Server start
+
+

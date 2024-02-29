@@ -1,0 +1,53 @@
+Figma Introduction & Installation
+1. What is Figma
+Figma is a cloud based real time collaboration design tools.
+
+2. Figma Features
+(i) Designing
+(ii) Prototyping
+(iii) Collaboration
+
+----- FIGMA ToolBar(TopBar) ------
+
+----- FIGMA Layers Panel(Left Bar) -----
+(i) ALT + DRAG to Copy
+
+------ FIGMA Alignment and Distribution Tools -----
+
+------  FIGMA Grid System, Constraints (Responsive Layout), Design Properties ------
+
+------ Figma Blend Modes (Layer Section) | Creating Own Colors in Figma --------
+
+------  Figma Fill Mode For Shapes -----
+
+------- Figma Typography | Text Tools & Fonts Properties In Figma ------
+
+------ Text Styles In Figma -------
+
+------  How to Add Images In FIGMA | Creating Image Overlay Effects -------
+
+------ Figma Effects (Shadows) & Stroke (Borders & Outlines) Properties ------
+
+------ How To Export CSS Code From Figma ------
+
+------ How to Export Your Figma Design as Image / PNG / JPG / SVG / PDF ------
+
+------ Adjust Figma's UI scale | Zoom In & Out Fimga User Interface  --------
+
+------ Figma Auto Layout Responsive | Design more, resize less, with Auto Layout ------
+
+------ Figma Components | Build reusable components in Figma ------
+
+------ FIGMA PROTOTYPE in Hindi | Animation & Transition in Figma -------
+
+------  How to Install FIGMA Plugins in Hindi | Unsplash Free Images in Figma ------
+
+------ How to Remove Background from Images in FIGMA -------
+
+
+
+
+
+
+
+

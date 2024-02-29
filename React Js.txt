@@ -1,0 +1,46 @@
+Introduction to React Js + Installation		Chapter 1
+(1) Node.js
+(2) VsCode Studio
+
+1. Node.js Software Install
+(i) go to : https://nodejs.org/en - Window Installer - Download - then Install
+(ii) node --version		---> Node Version Check
+(iii) npm --version		---> npm Version Check 
+(iv) React Developer Tools	---> Chrome extension download
+
+2. Visual Studio Code
+(i) go to : https://code.visualstudio.com/download - Windows - then Install
+(ii) Thunder clients extension 
+(iii) ES7 React/Redux extension
+(iv) Bracket Pair Colorizer extension
+(v) Auto rename Tag extension
+(vi) live server extension
+(vii) Prettier - Code extension
+(viii) VS Code Emmet Include Lanuage
+javascript	-----> javascriptreact
+
+Creating our first react app using create-react-app	Chapter 2
+1. go to : https://legacy.reactjs.org/		official site
+(i) npx create-react-app my-app
+(ii) npm install -g create-react-app my-app		-g --> Global
+(iii) npx create-react-app my-app
+(iv) npm start				// Start React App
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,63 @@
+----- Express JS Introduction, Setup, IDE & First Program in Express JS ------
+1. What is Express.js
+(i) Express.js is Node.js framework. it's the most popular framework as of now (the 
+most strarred on NPM)
+(ii) ExpressJS is a web application framework that provides you with a simple API to
+build websites, web apps and back ends.
+
+2. Why do we actuallay nedd Express.js How it is useful for us to use with Node.js
+(i) Try to write a small REST API server in plain Node.js (that is, using only core
+modules) and then in Express.js The latter will take you 5-10x less time and lines of code.
+> npm init -y
+> npm install express
+> node filename
+> nodemon filename
+localhost:8000 // type to google
+http://127.0.0.1:8000 // type to google
+
+The callback fuction has 2 parameters, request(req) and response(res).
+The request object(req) represents the HTTP request and
+has properties for the request query string, parameters, body,
+HTTP headers, etc.
+
+Similarly, the responce object represents the HTTP response
+that the Express app sends when it recevies an HTTP request.
+
+----- Express JS Routing & our First Challenge in Express JS ------
+
+----- How To Send HTML & JSON Data as a Response using Express JS  -----
+(i) The methods are identical when an object or array is passed,
+(ii) but res.json() will also convert non-objects,
+(iii) such as null and undefined, which are not valid JSON.
+
+----- Serve HTML CSS & JS Files in Express JS | Middleware in Express JS  ----
+(1) public Folder
+(i) index.html
+
+2. public folder ke ander css Folder
+(ii) style.css
+
+(3) src Folder
+(i) index.js
+
+
+------  Responsive 🎧 Website using HTML CSS & Express JS | Serve Static Website in Node JS(Express) ------
+
+------ Template Engines (Pug, hbs, EJS) in Node JS 😍 | Add Dynamic Content in Express JS -------
+> npm install ejs
+> npm install pug
+> npm i handlebars
+> npm install hbs
+
+(i) views Folder use only
+(ii) index.hbs
+
+------ Customizing the Views Directory in Express JS | Dynamic Data Folder in Express -----
+
+----- Using Partials 😍 in Express JS -------
+> nodemon src/index.js -e js,hbs
+
+----- Add 404 error page in Dynamic Website using Express JS -----
+
+-----  Adding Responsive Styles to Complete Dynamic Website using CSS in Express Website ------
+

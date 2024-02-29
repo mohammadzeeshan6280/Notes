@@ -1,0 +1,204 @@
+git --version					Git version check
+git config --global user.name "yourname"			Git username
+git config --global user.email "youremail "			Git useremail
+git config user.name					Git username check
+git config user.email					Git useremail check
+git config --list					Git config list check
+git status						check status
+git status --short					status check short
+git init						Git initialized
+git add --a	ya git add --all ya git add .			stayzing area
+git add filename					only single file stayging area
+git add -A						Git file staging area
+git reset filename					Git unstage
+git commit -m "massage"				Git commit
+git commit						Git commit editor open
+
+git log						show commit
+git log -p						Git commit add & remove
+git log --follow filename				Git one file all commit show
+git log -p -digitnumber				Git commit no. wise show
+git log --stat					Git shot status
+git log --pretty=oneline				Git log oneline
+git log --pretty=short					Git log short
+git log --pretty=full					Git log full
+git log --since=2.days					Git log days
+git log --since=2.weeks				Git log weeks 
+git log --since=2.months				Git log months
+git log --since=2.years				Git log years
+git log --pretty=format:"%h -- %an"	
+git commit --amend					Git editor
+
+rm -rf .git						Git repositry all folder & data delete
+.git						hidden directory folder all data .git folder may hota hai
+touch error.log					create file
+touch .gitignore					create file gitignore
+.gitingnore						.gitignore file hoti hai kisi bhi file & folder ko ignore kar sakhte hai
+error.log						one log file ignore
+*.log						only all log file ignore
+*						* lagane se kio se bhi file ho wo ignore ho jati hai
+dir/						folder ignore
+/dir/						outer folder ignore
+
+git diff						working directory to stayzing area compare
+git diff --staged					old commit to compare new stayging area
+git commit -a -m "commit message"			Git skip commit  [untrack file no commit]
+git show commitidnumber				Git show commit message
+git rm filename					Git file remove
+git mv oldfilename newfilename				Git rename file
+git rm --cached filename				Git ignore untrack file
+
+git restore --staged filename				Git unstaged no tracking file
+git restore filename					Git discard changes all new data change remove
+git checkout -- filename				Git restore file	
+git checkout -f					Git all modify change remove
+
+git checkout -b branch-name				Git new branch create & switch new branch
+git branch branch-name				Git new branch create
+git branch						Git branch show
+git checkout branch-name				Git branch switch to other branch
+git branch -D branch name				Git branch with merge delete
+git branch -d branch name				Git branch without delete
+git merge branch name				Git merge branch
+git branch -v					Git last branch commit show			
+git branch --merged					Git branch merged branch show
+git branch --no-merged				Git no merged branch show 
+git branch -a					Git branch list
+git rebase branch-name				current branch show
+git merge branch-name				Git merge
+
+git remote add origin https://github.com/			Git remote push
+mohammadzeeshan6280/m2zinfo.git
+git remote add origin urlpath				Git remote urlpath
+git remote						Git remote repo
+git remote -v					Git remote url show
+git push -u origin master				Git remote push repo 
+git push origin master					Git remote push repo 
+git remote rm origin					Git remote origin remove
+git remote rename origin name				Git remote origin name changed
+git push origin branchold:branchnew			branch old se branch new tracking now
+git remote remove origin				Git remote repo delete
+
+git config --global alias.st status				short name alias
+git pull						Git pull
+git fetch origin					Git fetch remote
+
+
+git stash						Git temporary commit
+git stash list					Git temporary commit list
+git stash pop					Git working stash staging
+git stash drop					Git change stash staging
+
+git clone url					Git repo download
+
+
+SSH KEY GENERATES
+ssh-keygen -t ed25519 -C "your_email@example.com"
+eval $(ssh-agent -s)
+ssh-add ~/.ssh/id_ed25519
+tail ~/.ssh/id_ed25519.pub
+
+
+$ git blame <file name>				Display the modification on each line of a file:
+
+Git stash
+Switch branches without committing the current branch. Stash current work:
+$ git stash
+Saving stashes with a message:
+$ git stash save ""
+Check the stored stashes:
+$ git stash list
+Re-apply the changes that you just stashed:
+$ git stash apply
+Track the stashes and their changes:
+$ git stash show
+Re-apply the previous commits:
+$ git stash pop
+Delete a most recent stash from the queue:
+$ git stash drop
+Delete all the available stashes at once:
+$ git stash clear
+Stash work on a separate branch:
+$ git stash branch
+Git cherry pic
+Apply the changes introduced by some existing commit:
+$ git cherry-pick
+
+8. Merging
+Git merge
+Merge the branches:
+$ git merge
+Merge the specified commit to currently active branch:
+$ git merge
+Git rebase
+Apply a sequence of commits from distinct branches into a final commit.
+$ git rebase
+Continue the rebasing process:
+$ git rebase -continue Abort the rebasing process:
+$ git rebase --skip
+Git interactive rebase
+Allow various operations like edit, rewrite, reorder, and more on existing commits.
+$ git rebase -i
+
+9. Git remote
+Check the configuration of the remote server:
+$ git remote -v
+Add a remote for the repository:
+$ git remote add Fetch the data from the remote server:
+$ git fetch
+Remove a remote connection from the repository:
+$ git remote rm
+Rename remote server:
+$ git remote rename
+Show additional information about a particular remote:
+$ git remote show
+Change remote:
+$ git remote set-url
+Git origin master
+Push data to the remote server:
+$ git push origin master Pull data from remote server:
+$ git pull origin master
+
+
+Git rebase
+Apply a sequence of commits from distinct branches into a final commit.
+$ git rebase
+Continue the rebasing process:
+$ git rebase -continue Abort the rebasing process:
+$ git rebase --skip
+Git interactive rebase
+Allow various operations like edit, rewrite, reorder, and more on existing commits.
+$ git rebase -i
+
+10. Pushing Updates
+Git push
+Transfer the commits from your local repository to a remote server. Push data to the remote server:
+$ git push origin master Force push data:
+$ git push -f
+Delete a remote branch by push command:
+$ git push origin -delete edited
+
+
+11. Pulling updates
+Git pull
+Pull the data from the server:
+$ git pull origin master
+Pull a remote branch:
+$ git pull	
+
+
+12. Undo changes
+Git revert
+Undo the changes:
+$ git revert
+Revert a particular commit:
+$ git revert
+Git reset
+Reset the changes:
+$ git reset -hard
+$ git reset -soft:
+$ git reset --mixed			
+
+		
+
+

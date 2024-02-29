@@ -1,0 +1,104 @@
+Introduction Angular Js
+1. Why Join this Course
+(i) We will cover all topics of angular
+(ii) We cover interview questions with every video and topic
+(iii) I will tell you the real use of very topic with examples
+(iv) At last, we will make a real project with angular
+(v) Code will be available on Github for every Video
+(vi) We will upload project on live Server.
+
+2. What is Angular
+(i) Angular front-end development framework
+(ii) For Develop Single Page Application
+(iii) Developed By Google.
+
+3. Intro
+(i) MVC Framework
+(ii) open Source
+(iii) Use NPM and command Line Interface(CLI)
+(iv) First Released in 14-sept-2016
+(v) The current Version is 12.0.0
+
+4. Angular Vs Angular.js
+(i) Angular js is Oldest Version not in use now
+(ii) Latest Version after version 2
+(iii) Angular is a Re-written version, Structure and upraded framework
+
+5. Why Angular 12
+(i) Everything is not new
+(ii) New Features
+(iii) Bug Fixes
+(iv) Speed and other improvements
+(v) Mostly features are some
+
+6. What to learn Here
+(i) How to install
+(ii) Structure
+(iii) Basic
+(iv) MCV
+(v) Advance
+(vi) Routing
+(vii) APi
+(viii) Forms
+(ix) Interview'
+(x) Project
+(xi) What is new in angular 12
+(xii) How to use CSS
+
+------- Angular Setup and install --------
+(i) How ti install Node and NPM
+(ii) How to install angular CLI
+(iii) Install First Anuglar app
+(iv) Interview Question
+
+https://nodejs.org/en
+https://angular.io/cli
+
+> npm install -g @angular/cli		// npm install angular
+> npm install -g @angular/cli/12.0.0	// npm install old version
+> ng new project-name		// project create
+> ng serve
+> ng version			// version check
+
+------- Files and Folder Structure --------
+(i) We will understand the file and folder structure of angular
+(ii) We understand code flow
+(iii) Interview Questions
+
+------- Make first change -------
+1. Apply First Change in App
+
+-------  what is Interpolation ------
+1.What is Interpolations {{ }}
+2. How to use it
+3. What we can do with Interpolation
+4. What we can not do with Interpolation
+
+------- Angular CLI & important Commands --------
+> ng help
+> ng generate component login	// component cmd
+> ng g c register		// shorthand component cmd
+> ng g m user-auth
+> ng g m user-auth/sign-in
+> ng generate class demo
+> ng g interface demoInterface
+> ng bulid
+
+------- Component -------
+1. What is Component
+2. How we can make a Component
+3. How to use Component
+
+> ng generate component user-list
+
+------- Component with Inline Style & Template -------
+> ng generate component user-list --inline-style
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,747 @@
+Install Wordpress on Local =>						Chapter 1
+1. Download first on xampp server
+(i) install xampp server
+(ii) create on first database 	// localhost/phpmyadmin/
+(iii) xampp server start
+
+2. Down load second wordpress file
+(i) download wordpress zip file to unzip
+(ii) unzip wordpress folder xampp server htdocs folder paste
+(iii) wordpress file rename now
+
+3. Install wordpress
+(i) first on localhost wordpress		// localhost/wordpress
+(ii) Database Name: m2zinfo		// Database Name
+(iii) username : root			// Username root
+(iv) password : 			// Password blank only
+(v) Database : localhost		// Database localhost\
+(vi) Submit
+
+4. Information Needed
+(i) Site Title : Whitehat		// Site Title : anyname
+(ii) username : admin			// username : admin
+(iii) password  : admin		// password : admin
+(iv) confirm password : admin		// confirm password : admin	
+(v) your email : ansari@gmail.com	// your email : email
+(vi) search engine visibility : no check
+(vii) Install WordPress
+
+5. Dashboard
+(i) username : admin
+(ii) password : admin@123
+(iii) http://localhost/wordpress/wp-admin/	// admin panel
+(iv) http://localhost/wordpress/		// site
+http://localhost/wordpress/wp-admin/
+http://localhost/wordpress/?login
+ansari ---> admin
+demo ----> demo
+
+How to insatll a Wordpress Theme on Localhost =>				Chapter 2
+1. Local Host Theme download
+(i) Appearnce - Theme - Add New - select - Install - Active
+
+2. Download Wordpress.org site theme
+(i) download theme
+(ii) download theme copy to open wordpress site htdocs
+(iii) open folder wp-content paste theme folder
+
+How to create Page in Wordpress =>					Chapter 3
+1. Page Create
+(i) Pages - All page
+(ii) page delete move to trash - Apply
+(iii) Add New Page - Home -> Publish
+(iv) Add New Page - About us -> Publish
+(v) Add New Page - Contact us -> Publish
+
+2. Menu
+(i) Appearance - Menu
+(ii) Menu Name : Top Menu	// menu name : anyname
+(iii) Create Menu
+(iv) Add menu item
+      Home -> Add to Menu
+      About -> Add to Menu
+      Contact us -> Add to Menu
+(v) Menu Setting
+Auto add pages - check
+Display location check
+(v) Save Menu
+
+3. Content Add
+(i) All Pages
+    Edit Home -> Content
+(ii) Image Add
+    Setting - Page - featured image - set featured images - Update
+
+How to Create and Publish Post in Wordpress =>				Chapter 4
+1. Post Create
+(I) Posts
+(i) All Posts
+(II) Add New Post
+(i) add title
+(ii) description add
+(iii) image add description
+(iv) Main Image Add
+Setting - Page - featured image - set featured images - Excerpt -> Update 	// Except short description
+
+How to Create Post & Add Categories in WordPress =>			Chapter 5
+1. Create Categories
+(I) Posts - Categories
+(i) Add new Tag - Name - Add New Categories
+(ii) All Posts - edit - document - categories - Uncategorized - uncheck
+select categories choies - Update
+
+2. Menu Categories Add
+(i) Appearance - Menus
+(ii) select Categories :- web developer - add to menu -> Save Menu
+
+3. SubCategories
+(i) Posts -> Categories
+(ii) Add new Categories
+Name : 
+(ii) Parent Categories
+select
+(iii) Add new Category
+(iv) All Posts -> one post edit
+(v) Categories -> Web Developer -> HTML Developer check -> Update 
+(vi) Appearance - Menus - Categories - Subcategories - Add to menu - categories right side -> Save Menu
+
+How to Limit Posts per Page in Wordpress =>				Chapter 6
+1. Limit Posts Page
+(i) Dashboard - Setting -> Reading -> Blog pages show at most : number  -> Save Changes
+
+
+How to Create a Separate Page for Blog Posts in WordPress =>			Chapter 7
+1. Create Separate Page
+(i) Pages - Add New -> Pagename -> Publish
+(ii) Appearance - Menus - Pages - check -> Add to Menu
+(iii) Settings - Reading - Your Homepage display - A Static page (select below) Check -> 
+      Posts page :- Select page - Save Changes
+
+How to Setup a Homepage in WordPress =>				Chapter 8
+1. Homepage Setup
+(i) Settings - Reading - Your Homepage display - A Static page (select below) Check ->
+     Homepage :- Select - Home - Save Changes
+
+2. Second Mehtod
+(i) Appearance - Customize - Homepage Settings - Publish
+
+How to Approve, Edit, or Delete Comments in WordPress Post =>		Chapter 9
+1. Comments
+(i) Goto site comments 
+(i) Dashboard - Comments - Approve
+
+2. Delete Comments
+(i) Trash
+(ii) Trash - Restore - Permantly Delete
+
+Learn How to Enable and Disable Comments In WordPress Pages & Posts =>	Chapter 10
+1. Comment Enable 
+(i) Pages - Home edit - Document - Disussion : Allow comments checks -> Update
+
+2. Comment Disabled 
+(i) Pages - Home edit - Document - Disussion : Allow comments checks remove -> Update
+
+3. Second Methods
+(I) Enable
+(i) Pages - Home - Quick Edit - Allow Comments check -> Update
+
+(II) Disabled
+(i) Pages - Home - Quick Edit - Allow Comments check remove -> Update
+
+
+WordPress Permalink Setting - How to Change Permalinks in WordPress => 		Chapter 11
+1. Permalink Change
+(i) Dashboard - Settings - Permalinks - Plain & Post name check -> Save Changes
+(ii) Dashboard -  Settings - Permalinks - Custom Structure -> Save Changes
+(iii) Dashboard - Settings - Permalinks - Category base - enter category name -> Save Changes
+
+2. Pages 
+
+
+How To Use The New WordPress Widgets Section =>				Chapter 12
+1. Widgets
+(i) Appearance - Widgets - select widgets - add & delele -> Update
+
+Learn How to Add Image Gallery in Wordpress (With OR Without Plugins) =>	Chapter 13
+1. Add Image Gallery
+(i). Pages - Add new - add title - content add gallery - select images -> Publish
+(ii) Appearance - Menus - add menu items - select - Add to menu -> Save Menu
+
+2. Add Image Gallery With Plugin
+(i) lightbox wordpress plugin		// site search
+(ii) Plugins - Add New Plugin - Responsive Lightbox & Gallery - Install now - Active
+(iii) Gallery - Add New - Add New Gallery - add title - Media library - select images - Use these items -> Publish
+      Config - columns - Gallery Code:- [rl_gallery id="56"] -> Update
+(iv) Pages - About us edit - Gallery code - Paste -> Update
+(v) Select layout - Full Width - Update
+
+Learn How to Change Logo and Title in Wordpress =>				Chapter 14
+1. Change Logo
+(i) Appearance - Customize - Site identity - Logo & Site Icon - Select Logo -> Publish
+(ii) Appearance - Customize - Site identity - Select site icon - Select Logo -> Publish		// site icon -> Fav Icon
+(iii) Appearance - Customize - Site identity - Site Title & Tagline - Display site title & Display site description show & hide check & uncheck -> Publish
+
+Explain Adding WordPress Mobile Menu using Free Plugin =>			Chapter 15
+1. Add WordPress Mobile Menu
+(i) Plugins - Add New Plugin - Responsive Menu - Install now - Active
+(ii) Responsive Menu - 
+
+
+How to Create Smart Slider in WordPress =>				Chapter 16
+1. Create Silder WordPress
+(i) Plugins - Add New Plugin - Smart Slider 3- Install now - Active
+(ii) Smart Slider - New Slider -  create - add slide - image - select image - Save
+(iii) Smart Slider - General - Shortcode copy - [smartslider3 slider="1"]
+(iv) Pages - All Pages - Home edit - Shortcode paste :- [smartslider3 slider="1"] -> Update
+(v) Smart Slider - General - PHP shortcode copy:-<?php echo do_shortcode('[smartslider3 slider="1"]');?>
+(vi) Appearance - Theme file editor - header.php file select - last line of paste -> Update File
+(vii) <?php
+if(is_front_page()){
+ echo do_shortcode('[smartslider3 slider="1"]');}?>  -> Update Files
+
+How To Change Block Editor To Classic Editor In WordPress =>			Chapter 17
+1. Install Classic Editor
+(i) Plugins - Add new Plugin - Classic Editor - Install now - Active
+(ii) Dashboard - Settings - Writting - Default editor for all user - Select Classic Editor -> Save Changes
+
+How To Show Recent Posts With Thumbnails In WordPress =>			Chapter 18
+1. Recent Posts Widget With Thumbnails
+(i) Plugins - Add new Plugin - Recent Posts Widget With Thumbnails - Install now - Active
+(ii) Appearance - widgets - Recent Posts Widget with Thumbnails - number of post show - number - 
+Categories -  show post categories check - Show postdate check - Save
+
+
+Learn How to Add RSS Feed on Your Wordpress =>				Chapter 19
+1. Add RSS Feed
+(i) search this site:- cricket rss feed url	// rss data
+(ii) Plugins - Add new Plugin - RSS Feed Retriever - Install now - Active
+(iii) RSS Feed Retriever - Shortcode copy :-
+   [wp_rss_retriever url="http://feeds.feedburner.com/TechCrunch/" items="10" excerpt="50" read_more="true" 
+   credits="true" new_window="true" thumbnail="200" cache="12 hours"]
+(iv) Pages - All Pages - Home edit - url paste - 
+    [wp_rss_retriever url="  " items="10" excerpt="50" read_more="true"
+   credits="true" new_window="true" thumbnail="100" cache="12 hours"] -> Update
+
+What are WP News and Scrolling Widgets =>				Chapter 20
+1. Vertical New Scrolling
+(i) Plugins - Add new Plugin - WP News and Scrolling Widgets - Install now - Active
+(ii) News - Create New Menu - Add New News Item - Add title - with content -> Publish
+(iii) Appearance - Widgets - Latest News Scrolling - Save
+
+Learn How to Add Testimonial Showcase Slider in WordPress 			Chapter 21
+1. Add Testimonial Showcase Slider
+(i) Plugins - Add new Plugin - Testimonial Showcase Slider - Install now - Active
+(ii) Testimonial Showcase - Add new - Add Testimonial - Add title - content - Testimonial Info - Role - Organization -> Publish
+(iii) Pages - Add new page - add title - select testimonial showcase - all value true - 
+
+How to Optimize and Compress WordPress Images using Smush Plugin		Chapter 22
+1. Smush Plugin
+(i) Plugins - Add new Plugin -Bulk Smush - Install now - Active
+(ii) Smush - dashboard - re-check images - Save Changes
+
+How to Move a WordPress Website from Localhost to a Live Server Using CPane 	Chapter 23
+1. htdocs - project - zip file create - ok
+2. CPanel - file mangaer - public html - upload - select file - upload - htdocs - project select  - Upload
+3. Reload - zip file right click - Extract
+4. project folder - select all - move - public_html - move
+5. MySQL Database Wizard - 
+(i) Create Database - name - next step
+(ii) Create Database Users - name - password - Create User - All Prevelegs - next step
+6. Cpanel - phpmyadmin - import - choice file - select - open
+7. CPanel - file mangaer - public_html - wp_config.php - edit - DB_Name :- demo - User_name :- demo - Passwor :- demo - Save Changes
+
+
+Xampp Server Local Host Data
+1. MyDatabase - Export - Go
+MyDatabase file open - http://localhost/demo -> Replace - http://demo.com - Replace All - Save -----> Hosting name
+2. Setting - Permalink - Plain - Save Changes
+3. Setting - Permalink - Post name - Save Changes
+
+
+How to Add Custom Links to WordPress Menus				Chapter 24
+1. Add Custom Links
+(i) Appearance - Menus - Custom Links - URL & # links & without links - Link Text - Add to Menu - Save Menu
+
+How to Add Social Media Icons to WordPress				Chapter 25
+1. Add Social Media Icons
+(i) Plugins - Add new Plugin - Simple Social Icons - Install now - Active
+(ii) Appearance - Wigdets - email - mailto:ansari@gmail.com & phone - tel:0123456789 - Update
+
+What is Post Type and How to Create Custom Post Type in WordPress		Chapter 26
+1. Create Custom Post Type
+(i) Plugins - Add new Plugin - Simple Custom Post Order - Install now - Active
+(ii) SCOrder - select - check to sort post types -> Update
+(iii) Posts - All Posts - move up & down
+
+How to Use WordPress Contact Form 7 Plugin On Your Website			Chapter 27
+1. Add Contact Form
+(i) Plugins - Add new Plugin - Contact Form 7 - Install Now - Active
+(ii) Contact - Add new - Add new Contact form - title - Form - your need form required-> Save
+(iii) Form shortcode copy - 
+(iv) Pages - add new page - title - content & form shortcode paste - Publish / Update
+(v) Contact - mail - to - your email id - Message body -
+Name : [your-name] [text-369]
+Email : [your-email]
+Subject : [your-subject]
+Message : [your-message]
+use HTML content type check box - Save
+
+How to Display Contact Form 7 Data in WordPress				Chapter 28	
+1. Display Contact Form 7 Data
+(i) Plugins - Add new Plugin - Contact Form 7 Database Addon - Install now - Active
+(ii) Form submit this site
+(iii) Contact Froms - show form count - 
+
+How To Redirect Your Contact Form 7 To A Thank You Page in WordPress		Chapter 29
+(i) Plugins - Add new Plugin - Successful Redirection for Contact Form 7 - Install now - Active
+(ii) Contact - Contact Forms - edit form - contactform 7 redirection settings - Select page redirect on successful form - Save
+
+
+How to Show popup message in Contact form 7 in WordPress			Chapter 30
+1. Popup Message for Contact Form 7
+(i) Plugins - Add new Plugin - Message Popup For Contact Form 7 - Install now - Active
+(ii) Contact - Contact forms - Popup Setting - message type - Save
+
+How to Add reCAPTCHA v3 in Contact Form 7 in WordPress			Chapter 31
+1. Add reCaptcha version 3 Contact Form 7
+(i) Contact - Intergration - reCAPTCHA - Setup Integration -
+(ii) go to google site : https://www.google.com/recaptcha/intro/v3.html?ref=techmoon - admin console
+     site:  https://www.google.com/recaptcha/admin/create
+- Register a new site - label : example.com & site name - reCAPTCHA type : Score based (v3) select -
+ Domains : Add a domain, e.g example.com & domain name type - accept candition check - Submit
+Copy Site Key :- 6LeTZBQpAAAAAKhO0QZSIu_vM6WASdJg0znISHSC
+Copy Secret Key :- 6LeTZBQpAAAAAGdyta-lLlsZlsEGwTeZFbOerQj0
+(iii) Configure reCAPTCHA - Setuo Integration - Site key paste - Secret Key Paste - Save Changes
+(iii) Contact - Integration - reCAPTCHA - Setup Integration - Remove Keys -
+
+How to Open Contact Form 7 in Popup Using Free Plugin			Chapter 32
+(i) Plugins - Add new Plugin - Popup Maker – Popup for opt-ins, lead gen, & more - Install now - Active
+(ii) Popup Marker- Create Popup - Create New Popup - Popup Name - Popup Title - Content shortcode paste -
+Display -  Publish
+(ii) Popup Marker - All Popups - contact form - CSS Classes copy - 
+(iii) Pages - All Pages - Course page edit 
+
+How to Install & Setup Easy WP SMTP in WordPress with contact form 7		Chapter 33
+1. Setup Wp SMTP Install & Setup
+(i) cPanel - Email - Email Accounts - Email Create -
+(ii) Connect Divices - Mail Client Manual Settings copy
+(iii) Plugins - Add new Plugin - Easy WP SMTP by SendLayer – WordPress SMTP and Email Log Plugin - Install now - Active
+(iv) Plugins - Install Plugins - find - Easy WP SMTP -
+
+How to add DatePicker in Contact Form 7 Using Free Plugin 			Chapter 34
+1. DatePicket Contact Form 7
+(i) Plugins - Add new Plugin - WP DatePicker - Install now - Active
+(ii) Plugins - Installed Plugins -  WP DatePicker - Setting - CSS Selector - .datepicker - Save
+(iii) Contact Form - contact form edit - <label> Date
+[text text-56 class:datepicker] </label> - Save
+
+How to Increase Maximum Execution Time in WordPress Website			Chapter 35
+1. Increade Maximum Executing Time
+(i) Xampp Folder - PHP Folder - php.ini file - max_execution_time find - xampp server - restart
+
+How to Add Google Translate in Wordpress Website				Chapter 36
+1. Google Translate Add
+(i) Plugins - Add new Plugin - GTranslate - Install now - Active
+(ii) Plugins - Installed Plugins - GTranslate - Setting - Show in Menu - Save Changes
+
+How to Add Google Map in Wordpress Website				Chapter 37
+1. Add Google Map Wordpress
+(i) Google Map search : search address - share - Embed a map iframe url copy
+(ii) Pages - All Pages - edit - text - iframe url paste - Update
+
+How to Add Google Analytics Code in Wordpress Website			Chapter 38
+1. Add Google Analytics Code	
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src = "http"//www.googletagmanager.com/gtag/js?id=UA=150393856-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-150393856-1');
+</script>
+(i) Appearance - Theme Editor - header.php - head tag code paste - Update File
+
+
+How do I Add a Pre-loader to my website?					Chapter 39
+1. Add  Preloader
+(i) Plugins - Add new Plugin - Preloader - Install now -Active
+(ii) Plugins - Installed Plugins - Preloader - Setting - Display Preloader select - Preloader Element Code copy -
+(iii) Appearance - Theme Editor - header.php - body tag - url paste - Update File
+
+How to Remove Sidebar in WordPress					Chapter 40
+1. Remove Sidebar
+(i) Pages - All Pages - Home page edit - select layout - Update
+(ii) Appearance - Theme Editor - page.php - // get_sidebar() - Update File
+
+How to Disable Automatic Updates in WordPress				Chapter 41
+1. Disable Automatic Update
+(i) Plugins - Add new Plugins - Easy Update Manager - Install now - Active
+(ii) Dashboard - Updates Options - Easy Updates Manager - Plugins check - Plugins Update off - Apply 
+(ii) Dashboard - Updates Options - Easy Updates Manager - Theme check - Theme Update off - Apply 
+
+How to Reset Password from phpMyAdmin					Chapter 42
+1. Wordpress Password Reset phpMyAdmin
+(i) goto http://localhost/phpmyadmin/ - database name - up_user find 
+ - edit -
+user-pass - select MD5 - password - go
+
+How To Disable Comments In WordPress					Chapter 43
+1. Disable Comment
+(i) Plugins - Add new Plugins - Disable Comments - Install now - Active
+(ii) Plugins - Installed Plugins - Disable Comments - Settings - Disable all comments - Save Changes
+
+How to Setup FAQ Section on Your WordPress Website			Chapter 44
+1. Setup FAQ Section
+(i) Plugins - Add new Plugins - Easy Accordion – Best Accordion FAQ Plugin for WordPress - Install now - Active
+(ii) Accordion FAQ - Add New Accordion - title - content - Add New Item - Shortcode copy - Publish
+(iii) Pages - All pages - title - content url shortcode paste - Publish
+(iv) Appearance - add menu items - select - Save Menu
+
+How to Add Social Share Buttons in WordPress				Chapter 45
+1. Add Social Share Buttons
+(i) Plugins - Add new Plugins - AddToAny Share Buttons - Install now - Active
+(ii) Plugins - Installed Plugins - AddToAny Share Buttons - Setting - Universal Button - none - Save Changes
+
+How to Change the WordPress Admin User-Name				Chapter 46
+1. Admin User-Name Change
+(i) goto http://localhost/phpmyadmin/ - database name - wp_user - user_login double click - username - save
+
+How to Add Custom Fonts in Wordpress					Chapter 47
+1. Add Custom Fonts
+(i) Plugins - Add new Plugins - Esay Google Fonts - intall now - Active
+(ii) Appearance - Customize - Typography click - Font & Style & Position - Publish 
+
+How to Change The Footer Copyright Credits in WordPress			Chapter 48
+1. Change The Footer Copyright 
+(i)Appearance - Theme File Editor - footer.php file - edit - Save File
+
+
+Learn How to Edit Text Editor with Elementor in WordPress			Chapter 49
+1. Elementor Editor
+(i) Plugins - Add new Plugins - Elementor Website Builder - Install now - Active
+(ii) Pages - All Pages - edit page - Edit with Elementor -  Update
+
+How to Create Column Layouts With Elementor in Hindi			Chapter 50
+1. Create Column Layout Elementor
+(i) Elementor - Settings - change - Save
+
+Learn How to Add Text Heading with Elementor in WordPress			Chapter 51
+1. Add Text Heading Elementor
+(i) Pages - All Pages - edit page - Edit with Elementor - plus -  drag & drop - Publish
+
+Learn How to Add Image with Elementor in WordPress 			Chapter 52
+1. Add Image Elementor
+(i) Pages - All Pages - edit page - Edit with Elementor - plus - drag & drop image - choose imgae - select Image - Publish
+
+Learn How to Add Video with Elementor in WordPress			Chapter 53
+1. Add Video Elementor
+(i) Pages - All Pages - edit page - Edit with Elementor - plus - drag & drop Video - choose Video - select Video - Publish
+
+
+Learn How to Add MAP with Elementor in WordPress				Chapter 54
+1. Add Map Elementor
+(i) Pages - All Pages - edit page - Edit with Elementor - plus - drag & drop Map - choose Map - select Map - Publish
+
+Learn How to Add TABS with Elementor in WordPress 			Chapter 55
+1. Add Tabs Elementor
+(i) Pages - All Pages - edit page - Edit with Elementor - plus - drag & drop Tabs - choose tabs - select tabs - Publish
+
+Learn How to Add Image Carousel Slider with Elementor in WordPress		Chapter 56
+1. Add Image Carousel Slider
+(i) Pages - All Pages - edit page - Edit with Elementor - plus - drag & drop image carousel - choose image carousel - select image - Publish
+
+Learn How to Add Progress Bar with Elementor in WordPress			Chapter 57
+1. Add Progress Bar Elementor
+(i) Pages - All Pages - edit page - Edit with Elementor - plus - drag & drop progressbar - choose progressbar - select  - Publish
+
+Learn How to Add Counter with Elementor in WordPress			Chapter 58
+1. Add Counter Elementor
+(i) Pages - All Pages - edit page - Edit with Elementor - plus - drag & drop Counter - choose counter - select  - Publish
+
+Learn How to Add Image Gallery with Elementor in WordPress			Chapter 59
+1. Add Image Gallery Elementor
+(i) Pages - All Pages - edit page - Edit with Elementor - plus - drag & drop basic gallery - choose add image - select  - Publish
+
+How to Redirect Non-WWW to WWW URL in WordPress			Chapter 60
+1. Redirect Non-WWW 
+(i) cPanel - File Manager - public html - httaccess file - edit - 
+RewriteCond %{HTTP_HOST} ^website name exam. ansari.com$ [NC]
+RewriteRule (.*) http://www.ansari.com/$1 [R=301, L] - paste - Save Changes
+(ii) Settings - General - site address URL - www.sitename - Save Changes
+
+
+Disable File Editing Option Using WP-Config File in WordPress Website		Chapter 61
+1. Disable WP-Config file Edit
+(i) cPanel - File Manager - public html - wp-config.php - edit - define("DISALLOW_FILE_EDIT",true); - Save Changes
+(i-)Appearance - Theme File Editor - remove
+
+How to Add New Users To Your WordPress Site				Chapter 62
+1. Add new users
+USER Role in Wordpress
+(I)- Administrator (slug: 'administrator') - somebody who has access to all the the administration features within a single site.
+(II)- Editor (slug: 'editor') - somebody who can publish and manage posts including the posts of other users.
+(III)- Author (slug : 'author') - somebody who can publish and manage their own posts
+(IV)- Contributor (slug: 'contributor') - somebody who can write and manage their own posts but cannot publish them.
+(V)- Subscriber (slug: subscriber') - somebody who can only manage their profile.
+2. Users - Add New User -  details fills - Add New User - ctrl + shift + n - localhost/wordpress/wp-admin
+
+Learn How to Add Call Now Button on WordPress				Chapter 63
+1. Add Call Button Now
+(i) Plugins - Add new Plugins - Call Now Button - intall now - Active
+(ii) Call now button - Button status check - Enable - phone number - Button Text - Save Changes
+
+Learn How to Add Scroll to Top Button on Wordpress Website			Chapter 64
+1. Add Scroll Top Button
+(i) Plugins - Add new Plugins - WPFront Scroll Top - intall now - Active
+(ii) Settings -  Scroll Top - Enable check - JavaScript Async check -
+Auto Hide check - Hide on WP-ADMIN check - Save Changes
+
+Learn How to create one page website on WordPress			 	Chapter 65
+1. How to create one page website
+(i) Plugins - Add new Plugins - Elementor Page Builder - Install now - Active
+
+
+Learn How to Hide Breadcrumbs in Wordpress One Page Website			Chapter 66
+1. How to Hide Breadcrumbs
+(i) 
+
+
+Add WhatsApp Chat to WordPress Website					Chapter 67
+1. Add WhatsApp Chat
+(i) Plugins - Add new Plugins - Click To Chat App - Install now - Active
+(ii) Click To Chat App -  Whatsapp number - Pre-Filled Message - Save Changes
+
+How To Change Wordpress Login URL | Change wp-admin URL			Chapter 68
+1. Admin URL Login Change
+(i) Plugins - Add new Plugins - WPS Hide Login - install now - Active
+(ii) Settings - WPS Hide Login - WPS Hide Login - Login url - Save Changes
+
+Learn How to Add Bing Maps to Wordpress Website				Chapter 69
+1. Add Bing Maps
+(i) go to Bing Maps - find location name - more - Embed a map - Generate code copy -
+(ii) Pages - All Pages - edit - content generate code paste - Update
+
+
+Twitter Feeds on Wordpress - How to Display Recent Tweets			Chapter 70
+1. Twitter Feeds Display Recent Tweets
+(i) twitter profile url page copy
+(ii) goto google - publish.twitter.com - enter a twitter url paste - Embedded timeline - set customize option - Update - copy Code
+(iii) Apperance - Widgets - custom HTML - title - content paste - Save
+
+2. Twitter page url copy - 
+(iii) Apperance - Widgets - Text - title - visual - content paste - Save
+
+How to Add Facebook Video in WordPress 					Chapter 71
+1. Add Facebook Video
+(i) goto facebook id - video url copy
+(ii) goto embedded facebook video - click website - Embedded video player configurator - 
+facebook video url paste - Get Code - Iframe code copy - 
+(iii) Pages - All Pages - edit - content paste - Update
+
+
+Learn How to Install WordPress in C-Panel (Softaculous Apps Installer)	 	Chapter 72
+1. How to Install Wordpress C-Panel
+
+Learn How to Make a Coming Soon & Maintenance Page in WordPress		Chapter 73
+1. How to Make a Coming Soon  Page
+(i) Templates - add New -  Choose Template Type - select - name your template - Create Template
+(ii) Elementor page Settings - Page Layout - Elementor Canvas -  Publish
+(iii) Widget here - Select coming soon template - template configure - save
+(v) Elementor - Tools - Maintenance Mode - Choose Mode - Select Coming Soon - Choose Template - Coming Soon - Save Changes
+
+2.  How to Make a  Maintenance Page  Page
+(i) Templates - add New -  Choose Template Type - select - name your template - Create Template
+(ii) Elementor page Settings - Page Layout - Elementor Canvas -  Publish
+(iii) Widget here - Select  template - template configure - save
+(v) Elementor - Tools - Maintenance Mode - Choose Mode - Select Maintenance - Choose Template - Maintenance mode - Save Changes
+
+
+Learn How to Create Duplicate Page or Post in Wordpres			Chapter 74
+1. How to Create Duplicate Page or Post
+(i) Plugins - Add new Plugins - Duplicate Page - install now - Active
+(ii) Pages -All Pages - duplicate this - quick edit - add title - update
+
+
+Learn How to Add Contact Form Using WPForm Plugin			Chapter 75
+1. How to Add Contact Form Using WPForm
+(i) Plugins - Add new Plugins - WPForm  - install now - Active
+(ii) WPForm - SMTP - Install WP Mail SMTP install - start setup
+(iii) CPanel - Email accounts - create - username  - password - connect device - 
+Secure SSL/TLS Settings (Recommended) details copy 
+(iv) From Email - example@gmail.com - Form Nmae - name - mailer - select - Other SMTP
+SMTP Host - Encryption SSL check - SMTP Username - SMTP Password - Save Settings
+(v) WPForm - add New form -  Setup - choice form select - details fill - Save
+(vi) WPForm - All Forms - Shortcode copy - 
+(vii) Pages - All Pages - select page edit - content shortcode paste - Update
+
+WordPress में Visitor Counter कैसे Add करे? 					Chapter 76
+(i) Plugins - Add new Plugins - WPS Visitor Counter - install now - Active
+(ii) Settings - WPS Visitor Counter - select counter - Save Changes
+(iii) WPS Visitor Counter - ShortCode url copy
+(iv) Appearance - Widgets - footer - visitor url paste - Save
+
+Best WordPress Gallery Plugin – FooGallery				Chapter 77
+(i) Plugins - Add new Plugins - FooGallery - install now - Active
+(ii) FooGallery - Gallers Add New - Add title - Add Media - Save Changes
+(iii) FooGallery - Shortcode url copy
+(iv) Pages - All Pages - edit - content Shortcode url paste - Update
+
+
+Adding Image Lightbox Using FooBox Plugin in WordPress			Chapter 78
+(i) Plugins - Add new Plugins - FooBox Image Lightbox - install now - Active
+(ii) FooGallery - General - Lightbox - select Foobox - Update
+
+How to Add Photo Gallery in WordPress					Chapter 79
+(i) Plugins - Add new Plugins - Photo Gallery by 10web - install now - Active
+(ii) Photo Gallery - Add Gallery/Images - Add new gallery - gallery tilte - add image select - Publish
+(iii) Pages - All Pages - add block - photo gallery - post - Update
+
+Schedule Your Posts in WordPress Website					Chapter 80
+(i) Posts - Add New - title - description - document - Imeditly - schedule time set - Publish
+
+How to Organize WordPress Files in Media Library Folders			Chapter 81
+(i) Plugins - Add new Plugins - Real Media Library - install now - Active
+(ii) Media - Folder create - drag to move image
+(iii) Pages - All Pages - edit - content add block - Gallery -  Media Labrary - Update
+
+MetaSlider Kya Hai & How to use MetaSlider in WordPress			Chapter 82
+(i) Plugins - Add new Plugins - Responsive Silder by MetaSilder - install now - Active
+(ii) MetaSlider - metaslider - create black slider - New Slidershow - Add Slider - image add - Shortcode url copy - Save
+(iii) Pages - All Pages - edit - content shortcode url paste - Publish
+
+How to Increase the Wordpress Maximum Upload File Size			Chapter 83
+(i) Media - Add Media - 
+php_value upload_max_filesize 128M
+php_value post_max_size 128M
+php_value memory_limit 256M
+php_value max_execution_time 300
+php_value max_input_time 300
+(ii) xampp folder - htdocs folder - blog-websiten - .htaccess file edit - last may paste </IfModule> - save
+
+
+Duplicate Page and Post						Chapter 84
+(i) Plugins - Add new Plugins - Yoast Duplicate Post - install now - Active
+(ii) Pages - All Pages - clone - status published - Update
+
+How to Embed PDF on Your WordPress Website				Chapter 85
+(i) Plugins - Add new Plugins - PDF Embedder - install now - Active
+(ii) Settings - PDF Embedder - 
+(iii) Media - Add new - select file
+(iv) Media - Library - file select url copy - 
+(v) Pages -  All Pages - edit - content add block - PDF Embedder select file & url paste -  Update
+
+WordPress Hacks 👉 Easily Hide Widget Title in WordPress			Chapter 86
+(i) Plugins - Add new Plugins - Widget Options - install now - Active
+(ii) Appearance - Widget -  Search - Setting icon - hide widget title check - Save
+
+How to Easily Create Tables in WordPress with TablePress Plugin			Chapter 87
+(i) Plugins - Add new Plugins - Table Press - install now - Active
+(ii) TablePress - Add New Table - Table Name - Add Table - Table Content - Save Change - Shortcode url copy
+(iii) Pages - All Pages - edit - content add block - shortcode url paste - Update
+
+Disable Right Click On WordPress Website using WordPress Plugin		Chapter 88
+(i) Plugins - Add new Plugins - Disable Right Click For WP - install now - Active
+(ii) Settings - Disable Right Click For WP - Show message on Disable Events - Yest - Save Changes
+
+How to Create a User Management System on WordPress Website			Chapter 89
+(i) Plugins - Add new Plugins - Ultimate Member - install now - Active
+
+How to Install WooCommerce Plugin on a WordPress Site			Chapter 90
+(i) Plugins - Add new Plugins - Woocommerce - install now - Active
+(ii) Woocommerce - Store details - Industry - Product types - Bussiness Details - Theme
+
+
+How to Install Qi Addons For Elementor on a WordPress Site			Chapter 91
+(i) Plugins - Add new Plugins - Qi Addons For Elementor - install now - Active
+
+How to Create Child/Sub Pages in WordPress?				Chapter 92
+(i) Pages - Add new page - add title - 
+(ii) Document - page attribute - parent page - select page - Publish
+(iii) Appearance - Menus - check sub page - Add to Menu - move to right side - Save Pages
+
+How to Add Categories in WordPress?					Chapter 93
+(i) Posts - Categories - Add new category - name - Add new Category
+(ii) All Posts - Add New - Add title - Document - Categories - check - Publish
+(iii) Appearance  - Menus - add new items - check -Add to Menu
+(iv) Appearance  - Menus - Categories - check categoreis - add to menu - drag to move - Save
+
+How to Create Sub\Child Category in WordPress?				Chapter 94
+(i) Posts -  Categories - Add new Categories - name - parent categories - select now - Add New Categories
+(ii) Posts - Add new post - Document - Categories - parent & sub categories check - Publish
+(iii) Appearance  - Menus - Categories - check categories - Add to menu - drag to move - Save
+
+How to Disable Gutenberg in Wordpress					Chapter 95
+(i) Plugins - Add New Plugins - Disable Gutenberg - Insatall - Active
+
+How to Advanced Custom Fields in Wordpress				Chapter 96
+(i) Plugins - Add New Plugins -Advanced Custom Fields - Insatall - Active
+
+How to GiveWp - Donation  in Wordpress					Chapter 97				
+(i) Plugins - Add New Plugins - GiveWp - Donation  - Insatall - Active
+
+WordPress Dashboard: WordPress में Login Page को कैसे Customize करें?		Chapter 98
+(i) Plugins - Add New Plugins -Erident Custom Login and Dashboard - Insatall - Active
+
+How to Add Instamojo for WooCommerce Payment Plugins 			Chapter 99
+(i) Plugins - Add New Plugins - Instamojo for WooCommerce - Insatall - Active
+
+How to Add Login/Signup Popup ( Inline Form + Woocommerce ) Plugin		Chapter 100
+(i)  Plugins - Add New Plugins - Login/Signup Popup ( Inline Form + Woocommerce ) - install - Active
+
+How to Add Ajax Search Lite Plugin					Chapter 101
+(i)  Plugins - Add New Plugins - Ajax Search Lite - install - Active
+
+How to add WooCommerce Products Add ShortCode in website
+(i) Shortcode - [products]
+(ii) Shortcode - [products category="women"]  
+(iii) Shortcode - [products category="women" limit="4"]
+(iv) Shortcode - [products category="men" limit="4"]
+
+How to install Woocommerce Smart COD in Wordpress			Chapter 102
+(i) Plugins - Add New Plugins - Woocommerce Smart COD - Insatall - Active
+
+How to install Razorpay Payment Links fir WooCoomerce in Wordpress		Chapter 103
+(i) Plugins - Add New Plugins - Razorpay Payment Links for WooCommerce - Insatall - Active
+ii) Plugins - Add New Plugins - Razorpay for WooCommerce - Insatall - Active
+
+api key id -- rzp_test_dc80M6T2kdzHRE
+secret key -- Bf0axDACImMxsk79xHqRS71k
+
+How to install WooCommerce Stripe Payment Gateway in Wordpress		Chapter 104
+(i) Plugins - Add New Plugins - WooCommerce Stripe Payment Gateway- Insatall - Active
+
+How to install Rank Math SEO in Wordpress		Chapter 104
+(i) Plugins - Add New Plugins - Rank Math SEO - Insatall - Active
+
+
+
+
+
+
+
+
+
+What is WooCommerce & How to Use WooCommerce Plugin in WordPress
+
+How to Install WooCommerce Plugin on a WordPress Site (Step By Step)
+(i) Plugins - Add new Plugins - Woo Coomerce - install - active
+(ii) Store Details - fill
+(iii) Industry - fill
+(iv) Product Type - fill
+(v) Business Details
+
+WooCommerce Plugin Installation & Setup with Storefront Theme - WordPress Tutorials
+(i) Appeariance - Themes - storefront theme - install - active
+
+How to Change the Default WooCommerce Pages - Beginner's Guide
+
+Complete WooCommerce Settings Tutorial For Beginners - WordPress Series
+
+How to Add Products to Your Woo-Commerce Website? | WooCommerce Product Addons (Complete Guide)
+(i) WooCommerce - Products - All Products - Add New - product name - description - price - short description - save
+
+Add Woocommerce Products and Categories to your Menu - WordPress Tutorials
+
+Add WooCommerce Product Filter Feature In Your eCommerce Website - WordPress Tutorials
+
+

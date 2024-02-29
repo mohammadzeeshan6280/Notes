@@ -1,0 +1,190 @@
+Introduction to Tailwind CSS & Utility first Workflow		Chapter 1
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>	// Play CDN
+</head>
+<body>
+  <h1 class="text-3xl font-bold underline">
+    Hello world!
+  </h1>
+</body>
+</html>
+
+Install Tailwind CSS
+Node js Must Install Now
+npm install -D tailwindcss postcss autoprefixer
+npm install vite
+npx tailwindcss init
+Tailwind CSS IntelliSense // Extension tailwind css
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["*"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+Our First Tailwind CSS Website 		Chapter 2
+(i) Vs Code Open Terminal 
+(ii) npm init
+(iii) npm install -D tailwindcss postcss autoprefixer
+(iv) npm install vite
+(v) npx tailwindcss init
+(vi) npm run start		// Server Start
+
+package.json
+Debug
+"scripts": {
+    "start": "vite"
+  }
+
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["*"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+Why use Tailwind CSS		Chapter 3
+1. Why Use Tailwind CSS
+(i) No reinventing of class names required
+(ii) You CSS doesn't grow with your html and designs
+(iii) When you make a change, no risk of breaking existing templates
+(iv) if you try to built the site from the last video using Pure CSS, you will
+get answers to a lot of questions you have about tailwind
+(v) Will this make sites slow ? Will it increase bundle size --> No
+(vi) What about responsiveness
+
+2. Setting Up Tailwind CSS
+To Setup tailwind css run these commands
+(i) npm init -y 	// This initializes the directory as a Node Js project
+(ii) npm install -D tailwindcss postcss autoprefixer vite 	// Install required packages
+(iii) npm install vite 
+(iv) npx tailwindcss init -p
+(v) Create a css file "input.css" . add it to your html and edit it with this content:
+	@tailwind base;
+	@tailwind components;
+	@tailwind utilities;
+
+(vi) In your tailwind.config.js file replace content[], with content["*"],
+(vii) Add "start" : "vite" to your scripts in package.json
+(viii) Run :- npm run start command to start dev server
+
+Fonts & Sizing : Tailwind		Chapter 4
+Typography
+1. Font Family
+(i) font-sans
+(ii) font-serif
+(iii) font-mono
+
+2. Font Size
+(i) text-xs	
+(ii) text-sm	
+(iii) text-base	
+(iv) text-lg	
+(v) text-xl	
+(vi) text-9xl 	// High font size
+
+3. Font Style
+(i) italic
+(ii) not-italic
+
+4. Font Weight
+(i) font-thin	
+(ii) font-extralight	
+(iii) font-light	
+(iv) font-normal	
+(v) font-medium	
+(vi) font-semibold	
+(vii) font-bold	
+(viii) font-extrabold	
+(ix) font-black	
+
+5. Letter Spacing
+tracking-tighter	letter-spacing: -0.05em;
+tracking-tight	letter-spacing: -0.025em;
+tracking-normal	letter-spacing: 0em;
+tracking-wide	letter-spacing: 0.025em;
+tracking-wider	letter-spacing: 0.05em;
+tracking-widest	letter-spacing: 0.1em;
+
+6. Line Height
+leading-3	line-height: .75rem; /* 12px */
+leading-4	line-height: 1rem; /* 16px */
+leading-5	line-height: 1.25rem; /* 20px */
+leading-6	line-height: 1.5rem; /* 24px */
+leading-7	line-height: 1.75rem; /* 28px */
+leading-8	line-height: 2rem; /* 32px */
+leading-9	line-height: 2.25rem; /* 36px */
+leading-10	line-height: 2.5rem; /* 40px */
+leading-none	line-height: 1;
+leading-tight	line-height: 1.25;
+leading-snug	line-height: 1.375;
+leading-normal	line-height: 1.5;
+leading-relaxed	line-height: 1.625;
+leading-loose	line-height: 2;
+
+7. List Style Image
+list-image-none	list-style-image: none;
+
+Margins, Borders & Padding in Tailwind CSS	Chapter 5
+
+
+Square Bracket Notation in Tailwind CSS		Chapter 6
+1. <h1 class="my-[3rem] py-[3rem] text-[100px]" 	// -[] Any square bracket
+​
+Creating Responsive Designs in Tailwind CSS	Chapter 7
+
+@apply directive in Tailwind CSS		Chapter 9
+ <button type="button" class="btn">Yellow</button>
+  <button type="button " class="btn bg-purple-700">Yellow</button>
+
+Style.css
+@tailwind base;
+@tailwind components;
+.btn{
+@apply all class ;
+}
+@tailwind utilities;
+
+@layer Directive in Tailwind:			Chapter 10
+
+
+Customizing Tailwind CSS using tailwind.config.js file		Chapter 11
+(i) npx tailwindcss init --full
+(ii) npx tailwindcss init ansari --full	// name --> ansari
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["*"],
+  theme: {
+    extend: {
+spacing : {
+13: '3.25rem'
+},
+fontSize: {
+'10xl': ['9rem', {lineHeight: '1.2' }]
+}
+},
+  },
+  plugins: [],
+}
+	
+Deploying a Tailwind Website to Production		Chapter 13
+package.json
+Debug
+"scripts": {
+    "start": "vite",
+    "build" : "vite build"
+  }
+
+(i)  npm run build
+

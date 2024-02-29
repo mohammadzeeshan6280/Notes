@@ -1,0 +1,1981 @@
+------PHP Introduction-------		Video 1
+1. Web based Scripting Language
+I) Client Side Script
+* VB Script
+* JavaScript
+
+II) Server Side Script
+* HTML
+(i) PHP
+(ii) .net
+(iii) Python
+
+2. What is PHP
+(i) PHP : Hyertext Preprocessor
+(ii) Create Dynamic Website with Database
+(iii) Web based Software Applications
+
+3. Why we learn PHP
+(i) Ease of use and learn
+(ii) Cost efficiency (open source)
+(iii) Object Oriented Programming
+(iv) Cross-platform cpmpatibility
+(v) Works with All servers Apache, IIS etc.
+(vi) Security
+(vii) Huge Community
+
+4. Uses of PHP in Web Development
+(i) CMS (Content Management System)
+(ii) E-commerce Website
+(iii) Mail server
+(iv) Chatting System
+(v) File Storage System
+(vi) ERP(Enterprise Resource Planning)
+(vii) CRM(Customer Relationship Management)
+
+5. Popular Websites in PHP
+(i) Facebook
+(ii) Yahoo
+(iii) Wikipedia
+(iv) Wordpress
+(v) MailChimp
+(vi) Flickr
+(vii) Flipkart
+
+6. Prior knowledge before Learning PHP
+(i) HTML
+(ii) CSS (Basics)
+(iii) JavaScript (Optional)
+
+7. Software Requirement for PHP
+(i) HTML Editor
+(ii) Web Browser
+(iii) Wamp or Xampp server
+
+8. Editor for PHP
+(i) Notepad
+(ii) Notepad++
+(iii) VS Code
+(iv) Sublime
+(v) Atom
+(vi) PhpStorm
+
+-----PHP Installing Xampp & Wamp Server----	Video 2
+1. How to run PHP Code
+(i) PHP
+(ii) MySQL 
+(iii) Apache Server
+
+* WampServer
+* XAMPP
+
+Goto google type to - Xampp Server - Download Xampp Server
+install Xampp Server - Open Xampp Server - Start Apache & MySQL
+C:Drive - Xampp folder - htdocs - create folder - create file.php
+
+Goto Google - localhost/foldername
+
+----- PHP Code Structure-------		Video 3
+1. PHP Code Syntax
+<?php
+PHP Code
+?>
+File Save : filename.php
+
+2. PHP Code Syntax in HTML Tags
+<html>
+<head>
+<title> Hello </title>
+</head>
+<body>
+	<?php
+	php code
+	?>
+</body>
+</html>
+File Save : filename.php
+
+------PHP Echo & Print Statement------	Video 4
+1. PHP Echo Statement
+I Print Message or Variable value
+(i) echo "Ansari";		echo 'Ansari';
+(ii) echo "white","Hat";
+(iii) echo "White"."Hat";
+(iv) echo "<b> White Hat</b>";
+(v) echo 502.52;
+(vi) ('White Hat')
+
+2. PHP Print Statement
+I Print Message or Variable value
+(i) print "White Hat";
+(ii) print "White". "Hat";
+(iii) print "<b> White Hat </b>";
+(iv) print 50.25;
+
+3. Difference between Echo & Print
+(i) echo "White", "Hat"		print "White","Hat";
+		echo is faster than print
+
+
+------PHP Variables------	Video 5
+1. What are Variables 
+(i) White Hat		White Hats
+echo "White Hat";		echo "White Hat";
+echo "White Hat";
+
+2. How to make Variables
+A = "White Hat"
+echo A;
+echo A;
+echo A;
+
+3. PHP Variables
+$a = "White Hat";
+echo $a;
+
+$num = 25.65;
+echo $num;
+
+4. How to write a Variable Name
+     Write Way				Wrong Way
+(i) $firstname				$first name
+(ii) $_firstname				$99firstname
+(iii) $first_name				$first%name
+(iv) $first-name
+(v) $firstName
+(vi) $firstname99
+		$age 	$AGE
+		      Not Same
+
+-----PHP Data Types-----		Video 6
+1. What are Data Types
+$a = "Hello World";		Type of Value is Data Type
+
+2. What are Variables
+(i) $a = "White Hat";			String
+(ii) $a = 25;			Integer
+(iii) $a = 30.50;			Float
+(iv) $a = true;			Boolean
+(v) $a = array("HTML","CSS","JS");	Array
+(vi) $a = new MyClass();		Object
+(vii) $a = null;			Null
+
+
+------PHP Comments------		Video 7
+1. What is Comment
+<?php
+$a = "White Hat";
+echo $a;			Purpose
+?>
+
+2. Two Type of Comments
+I. Single Line Comment
+II. Multiple Line Comment
+
+I. Single Line Comment
+<?php
+$a = "White Hat";	// here is comment
+echo $a;		# here is another comment
+?>
+
+II. Multiple Line Comment
+<?php
+$a = "White Hat";	/* here is comment
+echo $a;		 which can be on multiple lines */
+?>
+
+-----PHP Constant Variable-----		Video 8
+1. PHP Variables
+$x = 500;
+$x = 60;
+echo $x;
+$x = "White Hat";
+echo $x;
+
+2. PHP Constant Variables
+(i) define(name,value,case-insensitive)
+define(num,500) & define(num,500,true)
+
+echo num;	& echo NUM;
+
+3. PHP Constant Variables
+(i) define(num,500,true);
+(ii) define(_num,500,true);
+Can't use $ sign with constant variable name.
+Constant Variables are Global Variables.
+
+-----PHP Arithmetic Operators-----		Video 9
+1. Arithmetic Operators
+	Operator		Description
+(i)	+		Addition
+(ii)	-		Subtraction
+(iii)	*		Multiplication
+(iv)	**		Exponentiation
+(v)	/		Divison
+(vi)	%		Modulus (Remainder)
+(vii)	++		Increment Operator
+(viii)	--		Decrement Operator
+
+
+-----PHP Assignment Operators-----		Video 10
+1. Assignment Operators
+	Operator		Example		Same As
+(i)	=		x = y		x = y
+(ii)	+=		x += y		x = x + y
+(ii)	-=		x -= y		x = x - y
+(iii)	*=		x *= y		x = x * y
+(iv)	/=		x /= y		x = x / y
+(v)	%=		x %= y		x = x % y
+(vi)	**=		x **= y		x = x ** y
+
+-----PHP Comparison Operators-----		Video 11
+1. Comparison Operators
+$a = 15;
+$b = 25;
+
+		True / False
+		"1"     "  "
+	$a > $b; ---> False
+
+	Operator	Description
+(i)	==	Equal to				$x == $y
+(ii)	===	Equal to value and equal type		$x === $y
+(iii)	!=	Not equal				$x != $y
+(iv)	<>	Not equal				$x <> $y
+(v)	!==	Not equal value or not equal type	$x !== $y
+(vi)	>	Greater than			$x > $y
+(vii)	<	Less than				$x < $y
+(viii)	>=	Greater than or equal to		$x >= $y
+(ix)	<=	Less than or equal to			$x <= $y
+(x)	<=>	Spaceship				$x <=> $y
+it returns -1 , 0 or 1 respectively less than, equal to, or greater than
+
+-------PHP If Statement-------		Video 12
+1. What is if Statement
+if------> Conditions ---------> False ---------> Out
+	  |
+	True
+	  |
+	False
+
+	 if
+	  |
+Today is Monday ---------> False ---------> Out
+	  |
+	True
+	  |
+	Print "Mon"
+
+2. If Statement in PHP Syntax
+(i) if(Condition True){
+        Statement
+}
+
+(ii) if(Condition True):
+
+endif;
+
+exam.
+$a = 15;
+if($a > 10){
+echo "a is Greater";
+}
+
+-----PHP Logical Operators------		Video 13
+1. What are Logical Operators
+(i) if------> Conditions 1 -----> False
+				-----> Out
+	Condtitons 2 -----> False
+	        |
+	        |
+	      True
+	        |
+	        |
+	 Statement
+
+2. Different Type of Logical Operators
+	Operator		Name
+(i)	&&		Logical AND
+(ii)	| |		Logical OR
+(iii)	!		Logical NOT
+(iv)	and		Logical AND
+(v)	or		Logical OR
+(vi)	xor		Exclusive OR		
+
+3. If Statement with Logical AND
+if(Condition 1 && Conditon 2){
+	Statement
+}
+Run only when both conditions must be TRUE
+
+4. If Statement with Logical OR
+if(Condition 1 | | Conditon 2){
+	Statement
+}
+Run only when either one condition must be TRUE
+
+5. If Statement with Logical NOT
+if !(Condition){
+       |           |
+       |           |
+}   True     False
+       |           |
+       |           |
+     False	True
+
+6. If Statement with Exclusive OR
+(i) if(Condition 1 xor Condition 2 ){
+           |		    |
+           |		    |
+       True 		   True           
+ }
+
+	False
+
+(ii) if(Condition 1 xor Condition 2 ){
+            |		     |
+            |		     |
+        False		   False
+}
+
+	False
+
+(iii) if(Condition 1 xor Condition 2 ){
+            |		      |
+            |		      |
+        True 		   False
+}
+
+	True 
+
+------PHP If Else Statement------		Video 13
+1. What is If Else Statement
+if------> Conditions ---------> False ---------> Statement 2 
+	    |
+	  True
+	     |
+	Statement
+
+2. If Else Statement in PHP Syntax
+(i) if (Condition True){
+        Statement for True
+} else {
+        Statement for False
+}
+exam.
+$a = 15;
+if($a > 20){
+echo "A is Greater";
+} else {
+echo "A is Smaller";
+}
+
+-----PHP if Elseif Statement------		Video 14
+1. if Elseif Stament in PHP Syntax
+(i) if (Condition 1){
+        Statement 1
+} elseif  (Condition 2) {
+        Statement 2
+} else {
+       Default Statement
+}
+
+(ii) if (Condition 1):
+elseif (Condition 2):
+
+else:
+
+endif;
+
+Exam.
+Percentage		Grade
+80 - 100%		Merit 
+60 - 79%		Ist Divison 
+45 - 59%		IInd Division 
+33 - 44%		IIIrd Divison 
+Less than 33%	Fail 
+
+------PHP Switch Statement-------	Video 16
+1. Switch Statement in PHP
+(i) switch (expression) {
+case condition 1 : statement(s)
+break;
+
+case condition 2 : statement(s)
+break;
+
+case condition 3 : statement(s)
+break;
+
+default: statement(s)
+}
+
+(ii) switch (expression) :
+case condition 1 : statement(s)
+break;
+
+case condition 2 : statement(s)
+break;
+
+case condition 3 : statement(s)
+break;
+
+default: statement(s)
+endswitch;
+
+-----PHP Conditional Ternary Operator------		Video 17
+1. What is Ternary Operator
+(i) Conditions-------> False -------> Statement 2
+         |
+         |
+       True
+         |
+         |
+    Statement
+
+2. Conditional Ternary Operator Syntax
+(i) (Condition) ? True Statement : False Statement
+
+exam.
+$a = 15;
+($a > 10) ? $z = "True" : $z = "False";
+echo $z;
+
+-------PHP String Operator-------		Video 18
+1. String Operator
+(i) $a = "Hello";
+$b = $a . "World";
+echo $b;
+Hello World
+
+(ii) $a = "Hello";
+$a .= "this is";
+$a .= "my world.";
+echo $a;
+Hello this is my world
+
+------PHP While Loop------		Video 19
+1. What is Loop
+echo "Hello White Hat";
+echo "Hello White Hat";
+echo "Hello White Hat";	
+echo "Hello White Hat";	
+echo "Hello White Hat";	
+
+Loop(5 Times){
+echo "Hello White Hat";
+}
+
+2. Loop is Divided in 3 Parts
+	Initialization
+	         |
+|----------->	Condition False --------> Out of Loop
+|	       True
+|	         |
+|	  Statement
+|	         |
+------------> Increment / Decrement
+
+3. Type of Loops in PHP
+(i) while loop
+(ii) do/while loop
+(iii) for loop
+(iv) forEach
+
+(i) Exam.
+$a = 1;	<-------------------- Initialization
+while($a <= 10){ <------------ Condition
+echo "White Hat";
+$a = $a + 1; <------------------- Increment
+}
+
+------PHP Do / While Loop-----------	Video 20
+1. Loop is Divided in 3 Parts
+
+	Initialization
+	         |
+|----------->	Condition False --------> Out of Loop
+|	       True
+|	         |
+|	  Statement
+|	         |
+------------ Increment / Decrement
+
+2. Do While Loop in PHP
+$a = 1;
+do{
+echo "White Hat";
+$a = $a + 1;
+}while($a <= 10);
+
+-----------PHP For Loop----------		Video 21
+1. For Loop Syntax in PHP
+for (Initialization; Condition; Increment / Decrement){
+	Statement
+}
+
+Exam
+for ($a = 1; $a <= 10; $a++){
+echo $a;
+}
+        |	       |	    |
+Initialization 
+	       |	Increment / Decrement
+	Condition
+
+
+---------PHP Nested Loop---------		Video 22
+1. Nested Loop Syntax in PHP
+for ($a = 1; $a <= 10; $a++){
+for ($b = 1; $b <= 10; $b++){
+	Statement
+	}
+}
+
+--------PHP Break & Continue Statement-------	Video 23
+1. Continue Statement in PHP
+for ($a = 1; $a <= 10; $a++){
+if ($a == 3){
+continue;
+}
+echo $a;
+}
+
+1. Break Statement in PHP
+for ($a = 1; $a <= 10; $a++){
+if ($a == 3){
+break;
+}
+echo $a;
+}
+
+-------PHP Goto Statement-------		Video 24
+1. Goto Statement in PHP
+for ($a = 1; $a <= 10; $a++){
+if ($a == 3){
+goto abc;	<------------ Label
+}
+echo $a;
+}
+echo "Hello";
+abc:
+echo "This is new code";
+
+----------PHP Functions-----------		Video 25
+echo "Hello";
+echo "How are you";
+
+echo "Hello";
+echo "How are you";
+
+echo "Hello";
+echo "How are you";
+
+function abc(){
+echo "Hello";
+echo "How are you";
+}
+
+abc();
+
+abc();
+
+abc();
+
+1. Function Syntax in PHP
+function functionName(){ <------------ Function Definition
+	Statement
+}
+
+functionName(); <----------- Calling a Function
+
+------PHP Functions with Parameters-------		Video 26
+function sum($a, $b){
+echo $a + $b;
+}
+sum(10,20);
+sum(20,10);
+
+1. Functions with Parameters in PHP Syntax
+function functionName(parameter1, parameter2){
+Statement
+}
+
+functionName(argument1,argument2);
+
+------PHP Functions with Return Value-------	Video 27
+function sum($a, $b){
+echo $a + $b;
+}
+sum(10,20);
+sum(20,10);
+
+1. Functions with Return Value in PHP Syntax
+function functionName(parameter1, parameter2){
+Statements
+return value;
+}
+
+$a = functionName(argument1,argument2);
+
+------PHP Functions Arguments by Reference-------		Video 28
+1. Different Function Argument in PHP :
+(i) Passing Arguments by Value
+function wow($a){
+$a = "Hey";
+}
+$str = "Hello";
+wow($str);
+echo $str; ----> Hello
+
+(ii) Passing Arguments by Reference
+function wow(&$a){
+$a = "Hey";
+}
+$str = "Hello";
+wow($str);
+echo $str; -----> Hey
+
+-----PHP Variable Fuctions------		Video 29
+1. Variable Fuction in PHP
+function wow(){
+Statement
+}
+
+$func = "wow";
+$func();
+
+-----PHP Recursive Fuctions------		Video 30
+1. Recursive Function in PHP
+function test(){
+Statement
+test();
+}
+test();
+
+2. Factorial Number
+5 5x4x3x2x1 = 120
+3 3x2x1 = 6
+
+f(n) = n x f(n-1)
+f(5) = 5 x f(5-1) = 5 x f(4)
+	 5 x 4 x f(4-1) = 20 x f(3);
+	20 x 3 x f(3-1) = 60 x f(2)
+	60 x 2 x f(2-1) = 120 x f(1)
+	120 x 1 x f(1-1) = 120 x f(0)
+	120 x 1 = 120
+	
+-----PHP Global & Local Variable------		Video31
+1. Variable Scope in PHP
+(i) function test(){
+$a = 10; <------------- Local Variable
+}
+test();
+echo $a;
+
+(ii) $a = 10; ---------- Global Variable
+function test(){
+$a = 10;
+}
+test();
+echo $a;
+
+-----PHP Array ------		Video 32
+1. What is Array
+$a = 10;
+$a = 10,20,30;	----> Error
+$a = "10,20,30";	-----> String
+$a = array(10,20,30);	------> Array
+
+2. How Array Stores Value
+$a = array(10,20,30);
+	0    1   2	<------- Index
+	Indexed arrays
+
+
+-----PHP Associative Array ------		Video 33
+1. What is Associative Array
+$a = array(10,20,30);
+	0    1   2	<------- Index
+$a = array("Bill"=>10, "Joe"=>20, "Peter"=>30);
+
+2. PHP : Associative Array
+$a = array(
+Key -----> "Bill"=>10, <-------- Value
+	"Joe"=>20,
+	"Peter"=>30
+);
+
+-----PHP Foreach Loop ------		Video 34
+1. Type of Array in PHP
+(i) Indexed Array
+$colors = array(
+"red",
+"blue",
+"green"
+);
+
+(ii) Associative Array
+$age = array(
+"Bill" => 10,
+"Joe" => 15,
+"Peter => 30
+);
+
+2. Foreach Loop Syntax in PHP
+foreach ($array as $Value){
+	Statement
+}
+
+3. Foreach Loop for Indexed Array in PHP
+$array = array(10,20,30);
+
+foreach($array as $avalue){
+	echo $value;
+}
+
+-----PHP Multidimensional Array ------		Video 35
+1. Multidimensional Array or Nested Array
+$emp = array(
+	array(1,"Ansari","Manager",25500),
+	array(2,"Hacker","Developer",19000),
+	array(3,"HTML","Officer",21000),
+	array(4,"Programmer","Engineer",5000)
+);
+
+2. Multidimensional Array in PHP
+$emp = [	 0      1	        2	    3
+0	[1,"Ansari","Manager",25500],
+1	[2,"Hacker","Developer",19000],
+2	[3,"HTML","Officer",21000],
+3	[4,"Programmer","Engineer",5000]
+];
+echo $emp[1][1];
+
+-----Multidimensional Associative Array ------		Video 36
+1. Multidimensional Associative Array
+$marks = array(
+"Ansari" => array("Math" => 85, "Hindi" =>76, "Urdu" => 79),
+"White" => array("Math" => 65, "Hindi" =>56, "Urdu" => 88),
+"Zeeshan" => array("Math" => 81, "Hindi" =>58, "Urdu" => 95),
+);
+
+$marks = [
+"Ansari" => [
+	"Math" => 85, 
+	"Hindi" =>76,
+	"Urdu" => 79
+	],
+
+"White" => [
+	"Math" => 65,
+	"Hindi" =>60,
+	"Urdu" => 86
+	],
+
+"Zeeshan" => [
+	"Math" => 90,
+	"Hindi" =>77,
+	"Urdu" => 81
+	]
+];
+
+-----Multidimensional  Array with List() ------	Video 37
+1. Foreach Loop Syntax with List() in PHP
+foreach($array as list()){
+	Statement
+}
+
+Example
+$array = [
+	[1,2],		1	2
+	[30,40]		30	40
+	];
+
+foreach($array as list($a,$b)){
+echo $a . $b;
+}
+
+-----PHP Count() & Sizeof() ------	Video 38
+1. PHP Array : Count() & Sizeof()
+(i) count()		(ii) sizeof()
+
+-----PHP in_array() & array_search() ------	Video 39
+1. PHP Array : in_array() & array_search()
+$a = ["Sanjay","Aman", "Rehman", "Karan"];
+		
+		Aman
+in_array()			array_search()
+    |			         |
+    |			         |
+  1/0			index / key
+
+
+-----PHP array_replace() & array_replace_recursive() ------	Video 40
+1. PHP Array Replace Fuctions
+$a = ["Sanjay","Aman", "Rehman", "Karan"];
+$b = ["Gagan", "Salman"];
+(i) array_replace()
+	|
+	|
+index or Associative Array
+
+(ii) array_replace_recursive()
+	|
+	|
+Multidemensional Associative Array
+
+
+
+-----PHP Array Pop() & Push()------		Video 41
+1. PHP Array - Pop() Function :
+(i) $a = ["Sanjay","Aman", "Rehman", "Karan"];
+array_pop($a);
+$a = ["Sanjay","Aman", "Rehman"];
+
+
+2. PHP Array Push() Function
+(i) $a = ["Sanjay","Aman", "Rehman", "Karan"];
+array_push($a, "WhiteHat");
+$a = ["Sanjay","Aman", "Rehman","Karan", "White];
+echo $a;
+
+-----PHP Array_Shift() & Array_Unshhift()------	Video 42
+1. PHP Array - Array_Shift() Function
+(i) $a = ["Sanjay","Aman", "Rehman", "Karan"];
+array_shift()
+
+2. PHP Array - Array_Unshift() Function
+(i) $a = ["Sanjay","Aman", "Rehman",];
+$a = ["White","Sanjay","Aman", "Rehman",];
+array_unshift()
+
+-----PHP Array_merge() & Array_combine()------	Video 43
+1. PHP Array - Merge & Combine Function
+(i) $a = ["Sanjay","Aman", "Rehman", "Karan"];
+$b = ["White"];
+["Sanjay","Aman", "Rehman", "Karan","White"];
+
+(i) array_merge()	Index or Associative Array
+(ii) array_merge_recursive() 	Multidimensional Associative Array
+(iii) array_combine()	Index Array
+
+-----PHP Array_Slice()------		Video 44
+1. PHP Array - Array_Slice() Function
+(i) $a = ["Sanjay","Aman", "Rehman", "Karan"];
+	0	1	2	3
+	["Rehman","Aman" ]
+
+(i) array_slice(array, staart, length)
+
+-----PHP Array_Splice()------		Video 45
+1. PHP Array - Array_Splice() Function
+(i) $a = ["Sanjay","Aman", "Rehman", "Karan"];
+	0	1	2	3
+$b = ["Baba","Danish"];
+
+ $a = ["Sanjay","Baba","Danish", "Karan"];
+array_splice(array , start, length, array-II);
+
+-----PHP Array : Key Functions------	Video 46
+1. PHP Array - Key Functions :
+(i) array_keys()
+(ii) array_key_first()		PHP Version 7.3.0
+(iii) array_key_last()		PHP Version 7.3.0
+(iv) array_key_exists()
+(v) key_exists()
+
+-----PHP Array : Intersect Functions------	Video 47
+1. PHP Array : Intersect Functions
+(i) array_intersect
+(ii) array_intersect_key
+(iii) array_intersect_assoc
+(iv) array_intersect_uassoc
+(v) array_intersect_ukey
+(vi) array_uintersect
+(vii) array_uintersect_assoc
+(viii) array_uintersect_uassoc
+
+		Match Keys
+$a = ["a" => "Sanjay", "b" => "Aman","c" => "Mohan"];
+$b = ["a" => "Sanjay", "d" => "Mohan"];
+		array_intersect_key
+
+		Match Both Values and keys
+$a = ["a" => "Sanjay", "b" => "Aman","c" => "Mohan"];
+$b = ["a" => "Sanjay", "d" => "Mohan"];
+		array_intersect_assoc
+
+		Match Both Values and keys
+$a = ["a" => "Sanjay", "b" => "Aman","c" => "Mohan"];
+$b = ["a" => "Sanjay", "d" => "Mohan"];
+	array_intersect_uassoc($a,$b,"compareFunction")
+	
+
+-----PHP Array : Diff Functions------	Video 48
+1. PHP Array : Difference Functions
+(i) array_diff
+(ii) array_diff_key
+(iii) array_diff_assoc
+(iv) array_diff_uassoc
+(v) array_diff_ukey
+(vi) array_udiff_assoc
+(vii) array_udiff_uassoc
+(viii) array_udiff
+
+		Different Values
+$a = ["a" => "Sanjay", "b" => "Aman","c" => "Mohan"];
+$b = ["a" => "Sanjay", "d" => "Mohan"];
+		array_diff
+
+		Compare Both Values and Keys
+$a = ["a" => "Sanjay", "b" => "Aman","c" => "Mohan"];
+$b = ["a" => "Sanjay", "d" => "Mohan"];
+		array_diff_assoc
+
+		Compare Both Values and Keys
+$a = ["a" => "Sanjay", "b" => "Aman","c" => "Mohan"];
+$b = ["a" => "Sanjay", "d" => "Mohan"];
+	array_diff_uassoc($a,$b,"compareFunction")
+
+
+-----PHP Array_values & Array_unique Functions------		Video 49
+1. PHP Array Values Function
+$a = ["a" => "Sanjay", "b" => "Aman","c" => "Mohan"];
+	["Sanjay","Aman", "Mohan"];
+
+		array_values
+
+1. PHP Array Unique Function
+$a = ["a" => "Sanjay", "b" => "Aman","c" => "Mohan"];
+
+	["a" => "Sanjay", "b" => "Aman"];
+	
+		array_unique
+
+-----PHP Array_column & Array_chunk Functions------		Video 50
+$a = array(
+	array(
+		'id' => 2201,
+		'first_name'=>  'Anil',
+		'last_name' => 'Kapoor',
+
+	),
+	array(
+		'id' => 2202,
+		'first_name'=> 'White',
+		'last_name' => 'Hat',
+
+	),
+	array(
+		'id' => 2203,
+		'first_name'=> 'Salman',
+		'last_name' => 'Khan',
+
+	)
+);
+
+	array_column
+
+(ii) $a = ["Red", "Green", "Blue", "Yellow", "Orange"];
+Array
+(
+	[0] => Array(
+		[0] => Red
+		[1] => Green
+		),
+	[1] => Array(
+		[2] => Blue
+		[3] => Orange
+		),
+	[2] => Array(
+		[4] => Green
+		)
+	)
+
+array_chunk(array, size)
+
+-----PHP Array_flip & Array_change_key_case------		Video 51
+1.PHP Array - Array_Flip() Function :
+(i) $a = array(
+	"Bill" => 10,
+	"Joe" => 20,
+	"Peter" => 30
+	);
+
+$a = array(
+	 10  => "Bill",
+	20 => "Joe",
+	 30 => "Peter"
+	);
+	array_flip(array)		
+
+2. PHP Array - Array_change_key_case Function :
+(i) $a = array(
+	"Bill" => 10,
+	"Joe" => 20,
+	"Peter" => 30
+	);
+
+$a = array(
+	"BILL" => 10,
+	"JOE" => 20,
+	"PETER" => 30
+	);
+	array_change_key_case(array, case)		
+
+-----PHP Array_sum & Array_product------		Video 52
+1. PHP Array_Sum() Function
+$a = [10,20,30,40,50,60];
+	10+20+30+40+50+60 = 210;
+	array_sum(array)
+
+2. PHP Array_Product() Function
+$a = [10,20,30,40,50,60];
+	10x20x30x40x50 = 12000000;
+	array_product(array)
+
+-----PHP Array_rand & Shuffle() ------		Video 53
+1. PHP Array_Rand() Function : 
+$a = ["Red", "Green", "Blue", "Brown", "Orange"];
+	Red
+	Blue
+	Brown
+
+	array_rand(array, number)
+
+2. PHP Shuffle() Function : 
+$a = ["Red", "Green", "Blue", "Brown", "Orange"];
+        ["Orange", "Brown", "Blue", "Green", "Red"]
+
+	shuffle(array)
+
+-----PHP Array_fill & Array_fill_keys ------		Video 54
+1. PHP Array_fill_keys() Function
+$a= ["a", "b", "c", "d"];
+	array(
+	"a" => "test",
+	"b" => "test",
+	"c" => "test",
+	"c" => "test"
+	);
+	array_fill_keys(array,value)
+
+2. PHP Array_fill() Function
+Array(
+	[0] => "test",
+	[1] => "test",
+	[2] => "test",
+	[3] => "test"
+);
+
+Array(
+	[3] => "test",
+	[4] => "test",
+	[5] => "test",
+	[6] => "test"
+);
+
+
+	array_fill(array, number, value)
+
+	
+-----PHP Array_walk & Array_walk_recursive ------		Video 55
+1. PHP Array - Array_Walk() Function :
+(i) $a = array(
+	"Bill" => 10,	function myFunction(){
+	"Joe" => 20, ------>	
+	"Peter" => 30	}
+	);
+	
+	array_walk(array, function, parameter)
+
+2. PHP Array - Array_Walk_Recursive() Function :
+$a = array(
+	"Bill" => array(
+		
+			"rollno" => 12,
+			"age" => 30,
+		),
+	"Joe" => 20,
+	"Peter" => 30
+	);
+
+function myFunction(){
+
+}
+
+array_walk_recursive(array, function, parameter)
+
+-----PHP Array_map() ------		Video 56
+1. PHP Array - Array_Map() Function : 
+(i) $a = array(
+	"Bill" => 10,
+	"Joe" => 20,
+	"Peter" => 30
+	);
+
+function myFunction(){
+
+}
+
+	Return Array
+
+array_map(function, array, array2, array3 ...)
+
+-----PHP Array_reduce() ------		Video 57
+1. PHP Array - Array_Reduce() Function : 
+$a = array(
+	10,
+	20,
+	30
+);
+
+function myFunction(){
+
+}
+
+	Return Single Value
+
+array_reduce(array, function, initial)
+
+-----PHP Array : Sorting Functions ------		Video 58
+1. PHP Array Sorting
+(i) $a = ["Sanjay","Aman", "Rehman", "Karan"];
+	Aman , Karan , Rehman , Sanjay ----> Ascending Order
+	Sanjay, Rehman, Karan, Aman -------> Descending Order
+	Karan , Rehman, Aman, Sanjay ------> Reverse Order
+
+2. PHP Array : Sorting Functions
+(i) sort
+(ii) rsort
+(iii) arsort
+(iv) asort
+(v) krsort
+(vi) ksort
+(vii) natcasesort
+(viii) natsort
+(ix) array_multisort
+(x) array_reverse
+
+-----PHP Array : Traversing Functions ------		Video 59
+1. PHP Array : Traversing Functions
+(i) next
+(ii) prev
+(iii) end
+(iv) each
+(v) pos
+(vi) current
+(vii) key
+(viii) reset
+
+1. PHP Array Traversing
+(i) $a = ["Sanjay","Aman", "Rehman", "Karan"];
+(i) next($a)
+(ii) prev($a)
+(iii) end($a)
+(iv) current()
+(v) key()
+(vi) pos()
+(vii) reset
+(viii) each()
+
+-----PHP Array : List() ------		Video 60
+1. PHP Array : List() Function
+$color = ["red",      "green",   "blue"];
+
+	$a	$b	$c
+
+$a = $color[0];
+$a = $color[1];	list()
+$a = $color[2];
+
+Index Array
+Associative Array with Numeric Key
+
+-----PHP Array : Extract() & Compact() ------		Video 61
+1. PHP Array : Extract() Functio
+$color = array("a" => "red", "b" => "green","c" => "yellow");
+	
+	        $a	           $b		 $c
+	
+	extract(array, extract_rules, prefix)
+
+2. PHP Array : Extract Rules		
+	extract(array, extract_rules, prefix)
+(i) EXTR_OVERWRITE
+(ii) EXTR_SKIP
+(iii) EXTR_PREFIX_SAME
+(iv) EXTR_PREFIX_ALL
+	
+3. PHP Array : Compact Function
+$first = "red";
+$second = "green";
+$third = "blue";
+
+Array(
+	$first = "red",
+	$second = "green",
+	$third = "blue"
+	)
+compact(var1,var2,var3.....)
+
+-----PHP Array : Range() ------			Video 62
+1. PHP Array : Range() Function
+	1	5
+array(1,2,3,4,5)
+range(start,end,step)
+
+-----PHP String : Explode() & Implode() ------	Video 63
+1. PHP Array : Explode Function
+$a = "Hello how are you";
+array(
+	[0] => Hello,
+	[1] => how,
+	[2] => are,
+	[3] => you,
+);
+	explode(separator, string, limit)
+
+2. PHP Array : Implode Function
+$a = ["Hello",  "is", "an", "example"];
+	This ia an example
+
+	implode(separator, array)
+
+-----PHP String Str_split & Chunk_split Function ------	Video 64
+1. PHP String : Str_split() Function
+$a = "Hello";
+
+array(
+	[0] => H,
+	[1] => e,
+	[2] => l,
+	[3] => l,
+	[4] => o,
+	);
+str_split(string, length)
+
+2. PHP String : Chunk_split() Function
+$a = "Hello";
+	He..ll..o
+
+chunk_split(string, length, end)
+
+-----PHP String UpperCase $ LowerCase Function ------	Video 65
+1. PHP String Functions
+(i) strtolower
+(ii) strtoupper
+(iii) ucfirst
+(iv) ucwords
+(v) lcfirst
+
+-----PHP String Length & Count Function ------	Video 66
+1. PHP String Length & Count Functions
+$a = "Hello World";	--------> 11
+strlen(string)
+
+$a = "Hello World";	--------> 2
+str_word_count(string, return)
+
+$a = "Hello World";	--------> World
+substr_count(string,  substring, start, length)
+
+-----PHP String Find Positions Function ------	Video 67
+1. PHP String : Find Position Functions
+(i) strpos
+(ii) strrpos
+(iii) stripos
+(iv) strripos
+
+$a = "I love php, I love php too!";
+strpos(string, find, start) -------->	7
+strrpos(string, find, start) -------->	19
+
+case-sensitive	php	Php
+
+
+stripos(string, find, start) -------->	7
+strripos(string, find, start) -------->	19
+
+	case-sensitive	PHP
+
+$a = "I love php, I love php too!";
+
+
+-----PHP String Search Function ------	Video 68
+1. PHP String Search Function
+(i) strstr
+(ii) stristr
+(iii) strchr		Return String
+(iv) strrchr
+(v) strpbrk	
+
+$a = "I love php, I love php too!";
+(i) strstr(string, search, before_search) ----> I love php too!
+(ii) strchr(string, search, before_search)
+
+(iii) strrchr(string, search)	---->	too !
+
+	case-sensitive	php	PHP
+
+(iv) stristr(string, search, before_search)
+
+	case-sensitive
+
+$a = "I love php, I love php too!";
+	PHP
+
+(v) strpbrk(string, charlist)
+$a = "I love php, I love php too!";
+	o
+
+-----PHP String Substr() Function ------	Video 69
+1. PHP String Substr() Function 
+$a = "I love php, I love php too!";
+	php, I love
+
+substr(string, start, length)
+
+-----PHP String Replace Function ------	Video 70
+1. PHP String Replace Function
+(i) str_replace
+(ii) str_ireplace
+(iii) substr_replace
+(iv) strtr
+
+2. PHP String : Str_replace() Function
+$a = "I love php, I love php too!";
+I love python, I love python too!
+
+str_replace(find, replace, string)		case-sensitive
+	PHP
+str_ireplace(find, replace, string)
+
+3. PHP String : Substr_replace() Function
+$a = "I love php, I love php too!";
+	python and
+I love python and php too!
+
+substr_replace(string, replacement, start, length)
+
+4. PHP String : Strtr() Function
+$a = "I love php, I love php too!";
+	oe ---> ik
+strtr(string, from, to)
+
+strtr(string, array)
+
+-----PHP String Compare Function ------	Video 71
+1. PHP String : Compare Function
+(i) strcmp
+(ii) strncmp
+(iii) strcasecmp
+(iv) strncasecmp
+(v) strnatcmp
+(vi) strnatcasecmp
+(vii) substr_compare
+(viii) similar_text
+
+2. PHP String : Compare
+	  S1	  S2
+	hello	Hello
+	    Compare
+	  0 --------> Equal
+	<0 -------> S1 is less than s2
+	>0
+
+3. PHP String : Compare Functions
+	hello	Hello
+
+strcmp(string1, string2)	case-sensitive
+strncmp(string1, string2, length)
+
+strcasecmp(string1, string2)	case-sensitive
+strcasecmp(string1, string2, length)
+
+4. PHP String : Sub String Compare Functions
+	Hello world	Hello WORLD
+
+substr_compare(string1,string2, start, length, case)
+			 5	False/ True	
+
+5. PHP String : Similar Text Functions
+	Hello world	HEllo earth
+
+similar_text(string1, string2, percent)
+
+-----PHP Strrev & Str_shuffle ------	Video 72
+1. PHP String Reverse Funtions
+	hello	olleh
+	strrev(string)
+
+2. PHP String Shuffle Funtions
+	hello ---->	llohe
+		eohll
+		lhelo
+	str_shuffle(string)
+
+-----PHP Str_pad & Str_repeat ------	Video 73
+1. PHP String Pad Function
+	hello -----> hello.....
+
+str_pad(string, length, pad_string, pad_type)
+			  STR_PAD_BOTH
+			  STR_PAD_LEFT
+			  STR_PAD_RIGHT
+
+2. PHP String Repeat Function
+	WoW -----> WoWWoWWoW
+	str_repeat(string, repeat)
+
+-----PHP Trim Functions ------	Video 74
+1. PHP String : Trim Function
+	hello -----> ell
+	ho
+	trim(string, charlist)
+	rtrim(string, charlist)
+	ltrim(string, charlist)
+	chop(string, charlist)
+
+----- PHP Addslashes & Stripslashes ------	Video 75
+1. PHP String : Addslashes & Stripslashes Function
+	I am 'White Hat'	------->  SQL injection
+			save
+	addslashes(string)
+	
+	I am \'White Hat\' ---------->	Database
+	stripslashes(string)
+
+2. PHP String : Addcslashes & Stripcslashes Function
+	I am White Hat	I am White \Hat
+			save
+	addcslashes(string, characters)
+	
+	stripcslashes(string)
+
+----- PHP htmlentities & htmlspecialchars ------	Video 76
+1. PHP String :  htmlentities Function
+<a href="https://www.whitehat.com"> White Hat</a>		SQL injection
+					save
+	htmlentities(string, flags)
+&lt;a href=&quot;https;//www.whitehat.com&quot;gt;		Database
+White Hat Website&lt;/a&gt;
+	
+	html_entity_decode(string, flags)
+
+(ii) htmlentities(string, flags)
+		  ENT_COMPAT	Default. Encodes only-double quotes
+		  ENT_QUOTES	Encode double and single quotes
+		  ENT_NOQUOTES	Does not encode any quotes
+
+htmlspecialchars(string, flags)
+htmlspecialchar_decode(string, flags)
+
+2. PHP String : Html Entities
+(i) &	&amp;
+(ii) "	&quot;
+(iii) '	&#039;
+(iv) <	&lt;
+(v) >	&gt;
+
+get_html_translation_table(function, flags)
+
+			HTML_ENTITIES
+			HTML_SPECIALCHARS
+	
+----- PHP md5 & sha1 ------	Video 77
+1. PHP String : md5 Function
+	password	hello
+		Login
+			Database
+				Username	Password
+				admin	hello
+				user	wow
+	MD5 Message-Digest Algorithm
+	md5(string, raw)
+	8b1a9953c4611296a827abf8c47
+	
+	TRUE Raw 16 character binary format
+	raw	??S?a??'???x?
+	FALSE Default, 32 character hex number
+
+2. PHP String : sha1 Function
+	US Secure Hash Algorithm 1
+	sha1(string, raw)
+		    |
+ 		  TRUE Raw 20 characters binary format
+		  FALSE Default 40 character hex number
+
+----- PHP convert_uuencode & convert_uudecode ------	Video 78
+1.  PHP String : convert_uuencode Function
+	$a = "Hello World";
+	uuencode algorithm
+
+	convert_uuencode(string)
+	+2&5L;&\@V]R;&0``
+
+ 2. PHP String : convert_uudecode Function
+	convert_uudecode(string)
+
+----- PHP bin2hex &hex2bin ------	Video 79
+1. PHP String : bin2hex & hex2bin Function
+		$a = "Hello World";
+	Convert ASCII characters to hexadecimal values
+
+	bin2hex(string)
+	48656c6c6f2057f726c64
+
+	hex2bin(string)
+----- PHP chr() & ord() ------	Video 80
+1. PHP String : chr() Function
+	ASCII Value
+	
+	chr(ascii) ------> Character
+
+2. PHP String : chr() Function
+	Hello
+	
+	ord(string) ------> ASCII Value of first Character
+
+----- PHP Strip_tags() & Wordwrap() ------	Video 81
+1. PHP String : strip_tags() Function
+$a = "Hello<b>World</b>, Hello <i> Earth </i>";
+	Hello World, Hello Earth
+
+	strip_tags(string,allow)
+
+2. PHP String : wordwrap() Function
+	$a = "This world is beautiful";
+		This
+		worl
+		d is
+		beau
+		tifu
+		l.
+	
+	wordwrap(string, width, break, cut)
+				|
+				TRUE - Wrap
+				FALSE - No-wrap
+
+
+
+----- PHP Math Min & Max Functions ------	Video 82
+1. PHP Math : min() & max() Function
+	Minimum		Maximum
+min(value1,value2,...)		max(value1,value2,...)
+min(array_values)		max(array_values)
+
+----- PHP Math abs(), ceil() floor() & round() ------	Video 83
+1. PHP Math Function
+	        abs()		       floor()
+	-6.2	6.2	4.3	4.8
+	          6.2		         4
+	
+	       ceil()		     round()
+	4.3	4.8	4.3	4.8
+	          5		4	5
+
+----- PHP Math intdiv(), pow() sqrt() ------	Video 84
+1. PHP Math : intdiv() Function
+	4/8 -----> 2
+	   8 = 0
+	intdiv(dividend, divisor)
+
+2. PHP Math : Pow() Function
+	pow(base, exp)
+	(4)3 = 4*4*4 = 64
+
+3. PHP Math : Sqrt() Function
+	√4 = 2
+	sqrt(number)
+
+
+----- PHP Math Random Number Functions ------	Video 85
+1. PHP Math : Random Value Functions
+(i)    rand(min,  max)
+	10     20
+
+Mersenne Twister algorithm
+(ii) mt_rand(min,max)
+4 Times faster than rand() function
+
+(iii) lcg_value()
+        0      1
+
+----- PHP Date() Functions ------	Video 86
+1. PHP String : date() Function
+	25/03/2023	date(format)
+Day		Month		Year	Week
+d (01 to 31)	F (January)	Y (2013)	D (Mon)
+j (01 to 31)	m (01)		y (19)	l (Monday)
+s (st,nd,rd or th)	M (Jan)			N (1)
+		n (1)			w (1)
+
+
+----- PHP Time() Function ------	Video 87
+1. PHP Show Time
+	25/03/2023	date(format)
+Hour		Minutes		Seconds		Meridiem
+h (01 to 12)	i (00 to  59)	s (00 to 59)	a (am or pm)
+H (00 to 23)					A (AM or PM)
+g (1 to 12)					
+G (0 to 23)
+
+----- PHP mktime() & gmmktime Function ------	Video 88				
+1. PHP : Date & Time Functions
+	date()	-------> 	Current Date & Time
+	date(format, timestamp)
+
+mktime(hour, minute, second, month, day, year)
+gmmktime(hour, minute, second, month, day, year)
+     |
+GMT date (Greenwich Mean Time)
+
+----- PHP date_create() & date_format() Function ------	Video 89
+1. PHP : Date Create Functions
+(i) mktime()		timestamp
+(ii) date_create(time, timezone)
+(iii) date_format(object, format)
+
+----- PHP checkdate() & date_diff() ------	Video 90
+1. PHP : Check Date Function
+	15-02-2013
+	35-02-2013
+	checkdate(month, day, year)
+
+2. PHP : Date Difference Function
+	2013-03-15	2013-12-12
+		      272 Days
+date_diff(datetime1, datetime2, absolute)
+			TRUE
+			FALSE
+
+----- PHP date_add(), date_sub() & date_modify() ------	Video 91
+1. PHP Date Add  & Sub Functions
+	15-03-2013 + 30 Days = 14-04-2013
+	date_add(object, interval)
+
+	15-03-2013 - 10 Days = 05-03-2013
+	date_sub(object, interval)
+	date_modify(object, modify)
+
+----- PHP getdate(), localtime() & gettimeofday() ------	Video 92
+ 1. PHP Getdate() Function
+	getdate(timestamp)
+(i) [seconds]	-----> seconds
+(ii) [minutes]	-----> minutes
+(iii) [hours]	-----> hours
+(iv) [mday]	-----> day of the month
+(v) [wday]		-----> day of the week (0=Sunday, 1=Monday,...)
+(vi) [mon]		-----> month
+(vii) [year]		-----> year
+(viii) [yday]	-----> day of the year
+(ix) [weekday]	-----> name of the weekday
+(x) [month]	-----> name of the month
+(xi) [0]		-----> seconds since Unix Epoch
+
+2. PHP Gettimeofday() Functions
+	gettimeofday(return_float)
+		         TRUE
+		          FALSE Return Array
+
+(i) [sec] -- seconds since the Unix Epoch
+(ii) [usec] -- microseconds
+(iii) [minuteswest] -- minutes west of Greenwich
+(iv) [dsttime] -- type of dst correction
+
+3. PHP Localtime() Function
+	localtime(timestamp, is_assoc)
+		time()	  TRUE
+			  FALSE Indexed array
+(i) [tm_sec] - seconds
+(ii) [tm_min] - mintues
+(iii) [tm_hour] - hour
+(iv) [tm_mday] - day of the month
+(v) [tm_mon] - month of the year (January=0)
+(vi) [tm_year] - Years since 1900
+(vii) [tm_wday] - Day of the week (Sunday=0)
+(viii) [tm_yday] - Day ot the year
+(ix) [tm_isdst] - Is daylight savings time in effect
+
+----- PHP date_parse() ------	Video 93
+1. PHP Date_parse() Function
+	date_parse(date)
+(i) [seconds] - seconds
+(ii) [minutes] - minutes
+(iii) [hours] - hours
+(iv) [month] - month
+(v) [year] - year
+(vi) [month] - name of the month
+(vii) [day] - day of the month
+
+2. PHP Date_parse_from_format() Function
+	date_parse_from_format(format, date)
+(i) [seconds] - seconds
+(ii) [minutes] - minutes
+(iii) [hours] - hours
+(iv) [month] - month
+(v) [year] - year
+(vi) [month] - name of the month
+(vii) [day] - day of the month
+
+----- PHP strtotime() & strftime() ------	Video 94
+1. PHP String to Time Function
+	now
+	next Monday
+	+1 week
+	First day of last month
+	
+	strtotime(time)
+
+2. PHP String Format  Time Function
+(i) %a - abbreviated weekday name
+(ii) %A - full weeksay name
+(iii) %b - abbreviated month name
+(iv) %B - full month name
+(v) %c - preferred date and time representation
+(vi) %C - century number (the year divided by 100, range 00 to 99)
+(vii) %d - day of the month (01 to 31)
+(viii) %D - same as %m/%d/5y
+(ix) %e - day ot the month (1 to 31)
+(x) %g - like %G, but without the century
+(xi) %G - 4-digit year cirresponding to the ISO week number (see %V)
+(xii) %h - same as %b
+(xiii) %H - hour, using a 24-hour clock (00 to 23)
+(xiv) %i - hour, using a 12-hour clock (01 to 12)
+(xv) %j - day of the year(001 to 366)
+(xvi) %m - month (01 to 12)
+(xvii) %M - minute
+(xviii) %n - newline character
+(xix) %p - either am or pm according to the given time value
+(xx) %r - time in a.m. and p.m. notation
+(xxi) %R - time in 24 hour notation
+(xxii) %S - second
+(xxiii) %t - tab character
+(xxiv) %T - current time, equal to %H:%M:%S
+(xxv) %u - weekday as a number (1 to 7), Monday=1, Warning: In Sun Solaris Sunday=1
+(xxvi) %U  -week number of the current year, starting with the first Sunday as the first day of the first week
+(xxvii) %V - The ISO 8601 week number of the current year (01 to 53), where week 1 is the first week that has
+	at least 4 days in the current year, and with Monday as the first day of week
+(xxviii) %W - week number of the current year, starting with the first Monday as the first day of the week
+(xxix) %w - day of the week as a decimal, Sunday=0
+(xxx) %x - preferred time representation without the time
+(xxxi) %X - preferred time representation without the date
+(xxxii) %y - year without a century (range 00 to 99)
+(xxxiii) %Y - year including the century
+(xxxiv) %Z or %z - time zone or name or abbreviation
+(xxxv) %% - a literal % character
+
+----- PHP date_time_set() ------	Video 95
+1. PHP Date Time Set Function
+	Date		Time
+	2015-05-15	3:30
+date_time_set(object, hour, minute, second, microseconds)
+
+----- PHP TimeZone Functions ------	Video 96
+1. PHP TimeZone Functions
+(i) date_default_timezone_get()
+(ii) date_default_timezone_set()
+(iii) timezone_open()
+(iv) timezone_name_get()
+(v) timezone_location_get()
+(vi) timezone_identifiers_list()
+
+----- PHP Include & Require ------	Video 97
+1. PHP Include & Require Statements
+(i) header.php
+(ii) footer.php
+(iii) sidebar.php
+		header.php
+include 'filename'			sidebar.php
+
+require 'filename'		
+		footer.php
+		
+		home.php
+<?php include 'header.php'; ?> 
+<?php require 'headers.php'; ?>
+<?php include 'headers.php'; ?> 
+
+
+----- PHP Include_once & Require_once ------	Video 98
+1. PHP Include_once & Require_onece Statements
+(i) header.php
+(ii) footer.php
+(iii) sidebar.php
+			header.php
+include_once 'filename'			sidebar.php
+
+require_once 'filename'		
+			footer.php
+
+<?php include_once 'header.php'; ?>
+<?php include_once 'header.php'; ?>
+<?php include_once 'header.php'; ?>
+
+<?php require_once 'headers.php'; ?>
+<?php require_once 'header.php'; ?>
+<?php require_once 'header.php'; ?>
+
+<?php include_once 'headers.php'; ?>
+<?php include_once 'headers.php'; ?>
+<?php include_once 'headers.php'; ?>
+
+----- PHP $_GET & $_POST $_REQUEST Variables ------	Video 99
+1. PHP Super Global Variables >
+	$a = 10;		echo $a;
+	File1.php		File2.php
+(i) $_GET
+(ii) $_POST
+(iii) $_REQUEST
+(iv) $_SERVER
+(v) $_SESSION
+(vi) $_COOKIE
+(vii) $_FILES
+
+2. PHP $_GET & $_POST
+	Name			Database
+	Age			Print	
+	Gender Male Female		Conditional Page Content
+		Submit		
+	File1.php			File2.php
+
+	ctrl + F5 ----> refresh page
+
+----- PHP $_SERVER Variables ------ 	Video 100
+1. PHP Super Global Variables >
+(i) $_GET
+(ii) $_POST
+(iii) $_REQUEST
+(iv) $_SERVER
+(v) $_SESSION
+(vi) $_COOKIE
+(vii) $_FILES
+
+2. PHP $_SERVER
+(i) HTTP Connection
+(ii) SERVER Information
+(iii) HOST Information
+(iv) URL Information
+
+	Name			Database
+	Age			Print	
+	Gender Male Female		Conditional Page Content
+		Submit		
+	File1.php
+
+----- PHP $_COOKIE Variable ------ 	Video 101
+1. PHP Super Global Variables >
+(i) $_GET
+(ii) $_POST
+(iii) $_REQUEST
+(iv) $_SERVER
+(v) $_SESSION
+(vi) $_COOKIE
+
+2. PHP $_COOKIE
+COOKIES
+	Temporary information in visitor computer
+
+(1) Create Cookie
+			      www.abc.com -> test.abc.com
+			         |		
+setcookie(name, value, expire, path, domain, secure, httponly)
+			|	      |
+		         / Some-path   	True / false
+(2) View Cookie Value
+$_COOKIE[name]
+
+----- PHP $_SESSION Variable ------ 	Video 102
+1. PHP Super Global Variables >
+(i) $_GET
+(ii) $_POST
+(iii) $_REQUEST
+(iv) $_SERVER
+(v) $_SESSION
+(vi) $_COOKIE
+
+2. PHP $_SESSION
+		Server		Session Store
+			Set Info
+computer	 -----> 		----->
+	<------		<-----	
+		User Login Form
+
+3. PHP Three Steps to Set & Get SESSION Value
+Step 1. 	session_start()
+Step 2.	$_SESSION[name] = value;	Set Session name & value
+Step 3.	echo $_SESSION[name];	Get Session value
+
+Delete Session
+Step 1. 	session_unset();	Remove all session variables
+Step 2.	session_destory();	Destroy the session
+
+----- PHP $_FILES Variable ------ 	Video 103	
+1. PHP Super Global Variables >
+(i) $_GET
+(ii) $_POST
+(iii) $_REQUEST
+(iv) $_SERVER
+(v) $_SESSION
+(vi) $_COOKIE
+(v) $_FILES
+
+2. PHP How File Upload Works
+				SERVER
+Name	|	$_FILES	
+Age	|	------------>
+Photo	|	
+	
+	Submit			     |
+			           Folder on Server
+
+3. PHP $_FILES
+		<input type="file" name="image"/>
+$_FILES['image']
+	|
+	name
+	size
+	tmp_name
+	type JPG / PNG / GIF
+	
+	move_uploaded_file(file, dest)
+
+
+----- PHP die() & exit() ------ 	Video 104
+1. PHP die()
+// echo "1. Some Message <br>";
+// echo "2. Some Message <br>";
+// echo "3. Some Message <br>";
+// // die();
+// die("Here is some error!!!");
+// echo "4. Some Message <br>";
+// echo "5. Some Message <br>";
+
+2. PHP exit()
+echo "1. Some Message <br>";
+echo "2. Some Message <br>";
+echo "3. Some Message <br>";
+// exit();
+exit("Here is some error!!!");
+echo "4. Some Message <br>";
+echo "5. Some Message <br>";
+echo "6. Some Message <br>";
+echo "7. Some Message <br>";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

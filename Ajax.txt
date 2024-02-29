@@ -1,0 +1,35 @@
+------- PHP & Ajax --------		Chapter 1
+1. What is Ajax
+			AJAX
+Asynchronous	JavaScript 		and	XML
+AJAX is a technique for creating fast and dynamic web pages.
+
+2. When we uses Ajax
+
+3. How Server Programming works without Ajax
+(i)	Name				PHP file
+	Age				PHP & MySQL Code
+	Gender	Male	Female		|
+			Submit		Database
+
+(ii)	JavaScript Ajax Code
+PHP File	PHP & MySQL Code
+	      |
+	Database
+
+4. Prior knowledge before Learning Ajax
+(i) PHP & MySQL
+(ii) JavaScript / jQuery
+(iii) Basic CSS
+
+5. PHP Ajax with jQuery
+(i)	$.ajax({
+		url : "file.php"	--------->	Read / Insert / Update / Delete
+		type : "POST",
+		data : String / Array / Object,
+		success : function(data){
+
+			}
+		});
+
+

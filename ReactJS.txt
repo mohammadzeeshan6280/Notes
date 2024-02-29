@@ -1,0 +1,28 @@
+------ Introduction to React -------
+React
+(i) A Javascript library for building user interfaces
+(ii) The user interface (UI) is the point of human-computer interaction
+and communication in a device. This can include display screens, keyboard,
+a mouse and the appearance of a desktop
+
+Is React JS Library of Framework
+(i) React is not a framework, React is a Javascript library for building user
+interfaces
+(ii) It is also known as ReactJS and React.js, so don't get confused if you read
+different notation in different places
+(iii) React known only one thing that is to create on awesome UI.
+
+React History
+React was first designed by Jorden Walke, a software engineer at Facebook it was
+deployed for Facebook News feed around 2011.
+in 2013, React was open sourced at JS conference
+
+About React
+(i) Component based Approach
+(ii) uses a Declarative Approach
+(iii) A Component is one of the core building blocks of React,
+In other words, we can say that every application you will
+develop in React will be mode up of pieces called components.
+Components make the task of building UIs mush easier
+
+
