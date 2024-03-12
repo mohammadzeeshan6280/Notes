@@ -1,0 +1,11 @@
+1. Firebase
+2. GitHub Pages
+3. Heroku
+4. Netlify
+5. Vercel
+6. Render
+7. Surge
+8. Static Server
+9. AWS Amplify
+10. Azure
+11. Railway

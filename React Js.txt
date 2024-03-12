@@ -26,9 +26,51 @@ Creating our first react app using create-react-app	Chapter 2
 (iii) npx create-react-app my-app
 (iv) npm start				// Start React App
 
+----- React Router Setup + Usage ------
+https://v5.reactrouter.com/web/guides/quick-start	// site source
+npm install react-router-dom			// install package
+import React from "react";
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+<Router>
+	<Routes>
+		component={Product}
+		<Route path= "/" > <Home/> </Route>
+		<Route path= "/about" > <About/> </Route>
+		<Route path= '/' component={contact}> </Route>
+		<Route exact path= '/services' > <Service/> </Route>	// Exist path
+	</Routes>
+
+</Router>
+
+filename :- Navbar.js
+	import { Link } from 'react-router-dom';
+	<nav>
+          	<ul>
+            <li> <Link to="/">Home</Link> </li>	// Change :- a -> Link
+            <li> <Link to="/about">About</Link> </li>     // Change :- href -> to
+            <li> <Link to="/users">Users</Link> </li>          
+          	</ul>
+        	</nav>
+
+// React js Not Page Reload
 
 
+----- Building + Hosting React App For free on Github Pages ----
+https://create-react-app.dev/docs/deployment/	// site source
 
+firststep :- open package.json file
+add to top :- "homepage": "https://myusername.github.io/my-app", //  
+	:- "https://mohammadzeeshan6280.github.io/react-app",
+secondstep :- npm install --save gh-pages		// install npm package
+thirdstep:- "scripts" : {
+	  "scripts": {
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
+		}
+forthstep :- npm run deploy			// run npm 
+goto github repo -> Setting -> Pages -> select branch -> gh-pages -> Save
+
+Notes:- on client-side routing with Github
 
 
 
