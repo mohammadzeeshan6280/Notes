@@ -1,0 +1,56 @@
+1. [Deprecated] Bracket Pair Colorizer 2
+2. Auto Close Tag
+3. Auto Rename Tag
+4. Babel JavaScript
+5. Beautify
+6. Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets
+7. Bootstrap 5 Quick Snippets
+8. Bootstrap v4 Snippets
+9. Bracket Pair Color DLW
+10. C/C++
+11. C/C++ Extension Pack
+12. C/C++ Themes
+13. CMake
+14. CMake Tools
+15. Code Runner
+16. Color Highlight
+17. Community Material Theme
+18. Dart
+19. Dotenv Official +Vault
+20. Error Lens
+21. ES7 React/Redux/GraphQL/React-Native snippets
+22. ES7+ React/Redux/React-Native snippets
+23. Flutter
+24. Format HTML in PHP
+25. GitHub CLI UI
+26. Highlight Matching Tag
+28. HTML CSS Support
+29. HTML Snippets
+30. Image preview
+31. IntelliSense for CSS class names in HTML
+32. isort
+33. JavaScript (ES6) code snippets
+34. JellyFish Theme
+35. jQuery Code Snippets
+36. Jupyter
+37. Jupyter Cell Tags
+38. Jupyter Keymap
+39. Jupyter Notebook Renderers
+40. Jupyter Slide Show
+41. Live Preview
+42. Live Sass Compiler
+43. Live Server
+44. Material Icon Theme
+45. Material Theme
+46.Material Theme Icons
+47. MongoDB for VS Code
+48. Prettier - Code formatter
+49. Pylance
+50. Python
+51. Python Debugger
+52. Tailwind CSS IntelliSense
+53. Thunder Client
+54.VS Color Picker
+55.vscode-icons
+56. Bracket Pair Colorizer
+

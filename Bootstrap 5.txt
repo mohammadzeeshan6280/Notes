@@ -582,7 +582,7 @@ Overflow Classes=>
 3- .overflow-visible
 4- .overflow-scroll
 
-Bootstrap Margin & Padding	 Video 19
+Bootstrap Margin & Padding	 Chapter19
 Padding Classes			
 1. Padding		.p-
 2. Padding-right	.pr-
