@@ -200,7 +200,28 @@ Git reset
 Reset the changes:
 $ git reset -hard
 $ git reset -soft:
-$ git reset --mixed			
+$ git reset --mixed	
+
+
+BitBucket SSH KEY Generate
+$ ssh-keygen
+$	
+
+
+BitBucket Account
+username - zeeshanansari347@gmail.com
+password :- Ansari62@
+user:- mohammadzeeshan6280	
+
+GitLab Account
+username ;- zeeshanansari347@gmail.com
+password :- Ansari62@
+user:- mohammadzeeshan6280
+
+GitHub Account
+username ;- zeeshanansari347@gmail.com
+password :- Ansari62@
+user:- mohammadzeeshan6280
 
 		
 

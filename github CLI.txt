@@ -1,0 +1,24 @@
+https://cli.github.com/	// install app
+> gh
+> gh auth login
+select:- Github.com
+> yes
+select:- HTTPS
+> GitHub credentials -----> Yes
+> authenticate Github CLI
+select :- Login with a web browser
+? First copy your one-time code :-
+Press Enter
+paste code with github authenticate ---> continue ---> Autorize github
+> gh repo new
+> Push an existing local repo to GitHub :- select
+> Path to local repository(.) :- .
+> Repository name :- 
+> Description :-
+> Visbility:- Public
+> Add a remote:- Yes
+> what should the name remote be called :- origin
+> Would you like to push commits from the current branch to origin :- Yes
+
+
+
