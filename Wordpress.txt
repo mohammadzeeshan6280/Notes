@@ -4,7 +4,7 @@ Install Wordpress on Local =>						Chapter 1
 (ii) create on first database 	// localhost/phpmyadmin/
 (iii) xampp server start
 
-2. Down load second wordpress file
+2. Download second wordpress file
 (i) download wordpress zip file to unzip
 (ii) unzip wordpress folder xampp server htdocs folder paste
 (iii) wordpress file rename now

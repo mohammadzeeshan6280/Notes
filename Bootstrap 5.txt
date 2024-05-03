@@ -1,3 +1,4 @@
+				Bootstrap	
 Bootstrap 5 : Overview		Chapter 1
 What is Bootstrap=>
 Quickly design and customize responsive mobile-first sites with Bootstrap. the
@@ -88,7 +89,7 @@ iii) Columns
 iv) Supports various screen resolutions like xs, sm, md, lg, xl, xxl	
 
 8. Bootstrap : Grid
-i) one col 12 grid only
+i) One col 12 grid only
 ii)	col-12
 iii)	col-4	col-8
 iv)	col-4	col-4	col-4
@@ -271,7 +272,7 @@ Margin  Classes for different Sides
 		0 - 5	5	3rem
 
 Margin  Classes for different Break Points
-		Margin	Margin-right  Margin-left  Margin-top 	Margin-bottom
+		Margin	Margin-right  Margin-left        Margin-top 	Margin-bottom
 1. Extra Extra Large	.m-xxl-n*	.ms-xxl-n*	     .me-xxl-n*       .mt-xxl-n*	.mb-xxl-n*		
 1. Extra Large	.m-xl-n*	.ms-xl-n*	     .me-xl-n*         .mt-xl-n*	.mb-xl-n*				 	
 2. Large		.m-lg-n*	.ms-lg-n*	     .me-lg-n*         .mt-lg-n*	.mb-lg-n*
