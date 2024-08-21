@@ -132,7 +132,7 @@ v)	col-3	col-3	col-3	col-3
 vi)	col-6	col-6
 
 Bootstrap Offset Class	 	Chapter 6
-Bootstap : Structure
+Bootstap : Structure :- Margin use only
 Bootstap Layout
 1. Container
 2. Row

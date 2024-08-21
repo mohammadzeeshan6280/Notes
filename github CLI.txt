@@ -1,3 +1,5 @@
+1. Installation:
+GitHub CLI ko apne system mein install karne ke liye, aap in instructions ko follow kar sakte hain: 
 https://cli.github.com/	// install app
 > gh
 > gh auth login
@@ -20,5 +22,51 @@ paste code with github authenticate ---> continue ---> Autorize github
 > what should the name remote be called :- origin
 > Would you like to push commits from the current branch to origin :- Yes
 
+
+
+1. Installation:
+GitHub CLI ko apne system mein install karne ke liye, aap in instructions ko follow kar sakte hain: GitHub CLI Installation
+
+2. Login:
+GitHub account se login karne ke liye, terminal mein gh auth login command ka use karein aur follow the instructions to authenticate.
+
+3. Create Repository:
+New repository create karne ke liye, terminal mein gh repo create command ka use karein:
+
+bash
+Copy code
+gh repo create <repository_name>
+4. Clone Repository:
+GitHub repository ko local machine par clone karne ke liye, terminal mein gh repo clone command ka use karein:
+
+bash
+Copy code
+gh repo clone <repository_name>
+5. Create Issue:
+New issue create karne ke liye, terminal mein gh issue create command ka use karein:
+
+bash
+Copy code
+gh issue create
+6. Create Pull Request:
+New pull request create karne ke liye, terminal mein gh pr create command ka use karein:
+
+bash
+Copy code
+gh pr create
+7. View Repository Details:
+Repository ke details dekhne ke liye, terminal mein gh repo view command ka use karein:
+
+bash
+Copy code
+gh repo view <repository_name>
+8. Manage Workflow:
+Apne workflow ko manage karne ke liye, terminal mein gh workflow commands ka use karein.
+
+9. View Notifications:
+GitHub notifications ko dekhne ke liye, terminal mein gh notification commands ka use karein.
+
+10. Code Review:
+Code review karte samay, terminal mein gh pr review commands ka use karein.
 
 

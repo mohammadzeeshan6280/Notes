@@ -695,7 +695,7 @@ How to add WooCommerce Products Add ShortCode in website
 (i) Shortcode - [products]
 (ii) Shortcode - [products category="women"]  
 (iii) Shortcode - [products category="women" limit="4"]
-(iv) Shortcode - [products category="men" limit="4"]
+(iv) Shortcode - [products category="men" limit="4" columns="6']
 
 How to install Woocommerce Smart COD in Wordpress			Chapter 102
 (i) Plugins - Add New Plugins - Woocommerce Smart COD - Insatall - Active
@@ -721,7 +721,7 @@ How to install Rank Math SEO in Wordpress		Chapter 104
 
 
 
-What is WooCommerce & How to Use WooCommerce Plugin in WordPress
+What is WooCommerce & How to Use WooCommerce Plugin in WordPress 	Chapter 105
 
 How to Install WooCommerce Plugin on a WordPress Site (Step By Step)
 (i) Plugins - Add new Plugins - Woo Coomerce - install - active
@@ -730,18 +730,19 @@ How to Install WooCommerce Plugin on a WordPress Site (Step By Step)
 (iv) Product Type - fill
 (v) Business Details
 
-WooCommerce Plugin Installation & Setup with Storefront Theme - WordPress Tutorials
+WooCommerce Plugin Installation & Setup with Storefront Theme - WordPress Tutorials	Chapter 106
 (i) Appeariance - Themes - storefront theme - install - active
 
-How to Change the Default WooCommerce Pages - Beginner's Guide
+How to Change the Default WooCommerce Pages - Beginner's Guide	Chapter 107
 
-Complete WooCommerce Settings Tutorial For Beginners - WordPress Series
+Complete WooCommerce Settings Tutorial For Beginners - WordPress Series		Chapter 108
 
-How to Add Products to Your Woo-Commerce Website? | WooCommerce Product Addons (Complete Guide)
+How to Add Products to Your Woo-Commerce Website? | WooCommerce Product Addons (Complete Guide)		Chapter 109
 (i) WooCommerce - Products - All Products - Add New - product name - description - price - short description - save
 
-Add Woocommerce Products and Categories to your Menu - WordPress Tutorials
+Add Woocommerce Products and Categories to your Menu - WordPress Tutorials	Chapter 110
 
-Add WooCommerce Product Filter Feature In Your eCommerce Website - WordPress Tutorials
+Add WooCommerce Product Filter Feature In Your eCommerce Website - WordPress Tutorials	Chapter 111
 
+How to Install Elementor Header & Footer Builder Custom 	Chapter 112
 
