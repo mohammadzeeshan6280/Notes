@@ -713,14 +713,6 @@ How to install WooCommerce Stripe Payment Gateway in Wordpress		Chapter 104
 How to install Rank Math SEO in Wordpress		Chapter 104
 (i) Plugins - Add New Plugins - Rank Math SEO - Insatall - Active
 
-
-
-
-
-
-
-
-
 What is WooCommerce & How to Use WooCommerce Plugin in WordPress 	Chapter 105
 
 How to Install WooCommerce Plugin on a WordPress Site (Step By Step)
@@ -746,3 +738,70 @@ Add WooCommerce Product Filter Feature In Your eCommerce Website - WordPress Tut
 
 How to Install Elementor Header & Footer Builder Custom 	Chapter 112
 
+1. WPBakery Page Builder
+2. Beaver Builder
+3. Divi Builder
+4.Thrive Architect
+5. Brizy
+6. Gutenberg Block Editor
+7. Oxygen Builder
+8. SiteOrigin Page Builder
+
+Simple Custom CSS and JS - यह plugin आपको custom CSS, JS, और HTML जोड़ने की अनुमति देता है।
+Simple Custom CSS - यह plugin सिर्फ CSS के लिए है और यह सुरक्षित रूप से आपकी custom CSS को manage करता है।
+
+1. Payment Gateways
+Stripe for WooCommerce: ऑनलाइन भुगतान स्वीकार करने के लिए Stripe integration।
+PayPal for WooCommerce: PayPal के माध्यम से भुगतान प्राप्त करने के लिए।
+Square for WooCommerce: Square से भुगतान और inventory sync के लिए।
+Razorpay for WooCommerce: India में उपयोग के लिए लोकप्रिय payment gateway plugin।
+
+2. Shipping Plugins
+WooCommerce Shipping: USPS और DHL के लिए shipping integration।
+Table Rate Shipping for WooCommerce: Table-based shipping rates set करने के लिए।
+ShipStation: Multiple carriers के साथ shipping management के लिए।
+Advanced Flat Rate Shipping: Complex shipping rules set करने के लिए।
+
+3. Marketing and Sales
+Mailchimp for WooCommerce: Email marketing के लिए WooCommerce और Mailchimp integration।
+WooCommerce Google Analytics Integration: Google Analytics के साथ advanced tracking के लिए।
+WooCommerce Subscriptions: Recurring payments और subscription products set करने के लिए।
+YITH WooCommerce Wishlist: Wishlist feature जोड़ने के लिए।
+WooCommerce Points and Rewards: Customer loyalty के लिए points और rewards system implement करने के लिए।
+
+4. Product Management
+WooCommerce Product Add-Ons: Custom options और extra charges जोड़ने के लिए।
+WooCommerce Bulk Editor and Products Manager: Products को bulk में edit करने के लिए।
+WooCommerce Product Variations Swatches: Product variations को बेहतर तरीके से दिखाने के लिए।
+WPC Product Bundles for WooCommerce: Product bundles बनाने के लिए।
+
+5. SEO and Performance
+Yoast WooCommerce SEO: WooCommerce products के लिए advanced SEO optimization।
+WP Rocket: Site performance और caching के लिए।
+Smush: Image optimization के लिए।
+Rank Math: SEO management और optimization के लिए।
+
+6. Customer Support
+LiveChat for WooCommerce: Real-time customer support और chat integration के लिए।
+WooCommerce Help Scout: Help desk और support tickets management के लिए।
+Tawk.To Live Chat: Free live chat plugin जो WooCommerce के साथ integrate होता है।
+
+7. Security and Backup
+Wordfence Security: Firewall और malware scan के लिए।
+UpdraftPlus: Automated backups के लिए।
+Sucuri Security: Website protection और malware cleanup के लिए।
+
+8. Customization and Design
+Elementor Pro: Page building और custom product pages design करने के लिए।
+WooCommerce Customizer: WooCommerce elements को customize करने के लिए।
+WooCommerce Product Table: Products को table format में दिखाने के लिए।
+
+9. Checkout and Cart
+WooCommerce Cart Abandonment Recovery: Abandoned carts को recover करने के लिए।
+Direct Checkout for WooCommerce: Checkout process को simplify करने के लिए।
+WooCommerce One Page Checkout: एक ही पेज पर product selection और checkout के लिए।
+
+10. Multi-Language and Currency
+WPML (WooCommerce Multilingual): Multi-language support के लिए।
+WooCommerce Currency Switcher: Multiple currencies में products बेचने के लिए।
+Polylang: Multilingual site बनाने के लिए, WooCommerce के साथ भी काम करता है।
