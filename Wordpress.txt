@@ -17,6 +17,7 @@ Install Wordpress on Local =>						Chapter 1
 (v) Database : localhost		// Database localhost\
 (vi) Submit
 
+
 4. Information Needed
 (i) Site Title : Whitehat		// Site Title : anyname
 (ii) username : admin			// username : admin
